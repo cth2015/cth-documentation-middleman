@@ -1,7 +1,7 @@
 ---
-layout: post
 title: item-2-sidebar
-item: 1
+date: 18-12-2015
+item: 2
 block: 4
 classes: block block-grey
 references: 

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: item-1-conclusion
+date: 18-12-2015
 item: item-header
 block: 1
 sidebar: false

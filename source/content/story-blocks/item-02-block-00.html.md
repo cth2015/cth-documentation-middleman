@@ -1,7 +1,8 @@
 ---
-layout: post
-item: 1
-block: 0
+title: item-2-conclusion
+date: 18-12-2015
+item: 2
+block: 1
 classes: block block-yellow
 ---
 # From Content to Context

@@ -45,5 +45,8 @@ end
 
 # Activate the blog gem
 activate :blog do |blog|
-  blog.sources = "content/story/:title.html"
+  blog.name = "blocks"
+  blog.prefix = "content/story-blocks"
+  blog.sources = "{title}.html"
+  blog.permalink = "{title}.html"
 end

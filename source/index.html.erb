@@ -2,7 +2,21 @@
 title: The Story of Coding the Humanities
 ---
 
+<%= blog.articles[4].title %>
+
 <main class="story">
+  <% blog.articles[0...5].each do |article| %>
+    <article>
+      <h1>
+        <a href="<%= article.url %>"><%= article.title %></a>
+        <time><%= article.date.strftime('%b %e %Y') %></time>
+      </h1>
+
+      <%= article.summary %>
+
+      <a href="<%= article.url %>">Read more</a>
+    </article>
+  <% end %>
 
   <p style="color: pink; width: 100%;">this is the story</p>
 

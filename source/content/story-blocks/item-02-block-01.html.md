@@ -1,7 +1,7 @@
 ---
-layout: post
 title: item-2-second
-item: 1
+date: 18-12-2015
+item: 2
 block: 2
 classes: block block-aquamarine
 ---

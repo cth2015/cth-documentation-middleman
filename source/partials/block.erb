@@ -1,0 +1,9 @@
+<div class="{{ block.classes }}">
+  <p style="color: pink;">this is a block</p>
+  <div>{{ block.content }}</div>
+  <div>
+    {% for reference in block.references %}
+      <%= partial "partials/reference" %>
+    {% endfor %}
+  </div>
+</div>

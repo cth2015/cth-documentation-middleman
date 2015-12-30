@@ -1,13 +1,37 @@
 ---
-title: Welcome to Middleman
+title: The Story of Coding the Humanities
 ---
 
-<div class="welcome">
-  <div class="logo">
-    <%= image_tag "middleman-logo.svg" %>
+<main class="story">
+
+  <p style="color: pink; width: 100%;">this is the story</p>
+
+  <div class="item item-header">
+    <p style="color: pink; width: 100%;">this is an item</p>
+    <div class="block block-red visualisation">
+      <p style="color: pink;">this is a block</p>
+    </div>
+    <div class="{{ site.blocks[0].classes }}">
+      <p style="color: pink;">this is a block</p>
+      <div>{{ site.blocks[0].content }}</div>
+    </div>
   </div>
-  <h1>Middleman is Running</h1>
-  <p class="doc">
-    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+
+  {% for num in (1...1) %}
+  <div class="item item-body"> 
+    <p style="color: pink; width: 100%;">this is a item</p>
+    <div class="column-left">
+    {% for block in site.blocks %}
+    {% if block.item == num and block.block != 3 %}
+      <%= partial "partials/block" %>
+    {% elsif block.item == num and block.block == 3%}
+    </div>
+    <div class="column-right">
+      {% include block.html %}
+    {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+
+</main>

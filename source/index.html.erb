@@ -23,11 +23,11 @@ title: The Story of Coding the Humanities
     <div class="column-left">
     <% blog('blocks').articles.each do |block| %>
     <% if block.data.item == item and block.data.block != 3 %>
-      <%= partial "partials/block" %>
+      <%= partial(:"partials/block", :locals => { :block => block })  %>
     <% elsif block.data.item == item and block.data.block == 3%>
     </div>
     <div class="column-right">
-      <%= partial(:"partials/block", :locals => {:block => "something"})  %>
+      <%= partial(:"partials/block", :locals => { :block => block })  %>
     <% end %>
     <% end %>
     </div>

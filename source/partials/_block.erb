@@ -2,8 +2,10 @@
   <p style="color: pink;">this is a block</p>
   <div><%= block.body %></div>
   <div>
+    <% if block.data.references %>
     <% for reference in block.data.references %>
-      <%= partial "partials/reference" %>
+      <%= partial(:"partials/reference", :locals => { :reference => reference })  %>
+    <% end %>
     <% end %>
   </div>
 </div>

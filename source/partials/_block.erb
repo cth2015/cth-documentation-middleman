@@ -1,9 +1,9 @@
-<div class="{{ block.classes }}">
+<div class="<%= block.data.classes %>">
   <p style="color: pink;">this is a block</p>
-  <div>{{ block.content }}</div>
+  <div><%= block.body %></div>
   <div>
-    {% for reference in block.references %}
+    <% for reference in block.data.references %>
       <%= partial "partials/reference" %>
-    {% endfor %}
+    <% end %>
   </div>
 </div>

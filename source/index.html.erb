@@ -2,21 +2,7 @@
 title: The Story of Coding the Humanities
 ---
 
-<%= blog.articles[4].title %>
-
 <main class="story">
-  <% blog.articles[0...5].each do |article| %>
-    <article>
-      <h1>
-        <a href="<%= article.url %>"><%= article.title %></a>
-        <time><%= article.date.strftime('%b %e %Y') %></time>
-      </h1>
-
-      <%= article.summary %>
-
-      <a href="<%= article.url %>">Read more</a>
-    </article>
-  <% end %>
 
   <p style="color: pink; width: 100%;">this is the story</p>
 
@@ -25,27 +11,27 @@ title: The Story of Coding the Humanities
     <div class="block block-red visualisation">
       <p style="color: pink;">this is a block</p>
     </div>
-    <div class="{{ site.blocks[0].classes }}">
+    <div class="<%= blog('blocks').articles[4].data.classes %>">
       <p style="color: pink;">this is a block</p>
-      <div>{{ site.blocks[0].content }}</div>
+      <div><%= blog('blocks').articles[4].body %></div>
     </div>
   </div>
 
-  {% for num in (1...1) %}
+  <% for item in 2..2 %>
   <div class="item item-body"> 
     <p style="color: pink; width: 100%;">this is a item</p>
     <div class="column-left">
-    {% for block in site.blocks %}
-    {% if block.item == num and block.block != 3 %}
+    <% blog('blocks').articles.each do |block| %>
+    <% if block.data.item == item and block.data.block != 3 %>
       <%= partial "partials/block" %>
-    {% elsif block.item == num and block.block == 3%}
+    <% elsif block.data.item == item and block.data.block == 3%>
     </div>
     <div class="column-right">
-      {% include block.html %}
-    {% endif %}
-    {% endfor %}
+      <%= partial(:"partials/block", :locals => {:block => "something"})  %>
+    <% end %>
+    <% end %>
     </div>
   </div>
-  {% endfor %}
+  <% end %>
 
 </main>

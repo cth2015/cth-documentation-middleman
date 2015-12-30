@@ -50,3 +50,10 @@ activate :blog do |blog|
   blog.sources = "{title}.html"
   blog.permalink = "{title}.html"
 end
+
+activate :blog do |blog|
+  blog.name = "artikelen"
+  blog.prefix = "content/articles"
+  blog.sources = "{title}.html"
+  blog.permalink = "{title}.html"
+end

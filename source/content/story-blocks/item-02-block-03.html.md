@@ -1,6 +1,7 @@
 ---
 title: item-2-sidebar
 date: 18-12-2015
+blog_name: blocks
 item: 2
 block: 4
 classes: block block-grey

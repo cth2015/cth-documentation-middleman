@@ -1,6 +1,7 @@
 ---
 title: item-1-conclusion
 date: 18-12-2015
+blog_name: blocks
 item: item-header
 block: 1
 sidebar: false

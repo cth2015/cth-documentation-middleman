@@ -1,6 +1,7 @@
 ---
 title: item-2-second
 date: 18-12-2015
+blog_name: blocks
 item: 2
 block: 2
 classes: block block-aquamarine

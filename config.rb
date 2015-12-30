@@ -42,3 +42,8 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+# Activate the blog gem
+activate :blog do |blog|
+  blog.sources = "content/story/:title.html"
+end

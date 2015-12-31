@@ -43,7 +43,8 @@ configure :build do
   # activate :minify_javascript
 end
 
-# Activate the blog gem
+# Activate the blog gems for both the story and the articles
+
 activate :blog do |blog|
   blog.name = "blocks"
   blog.prefix = "content/story-blocks"

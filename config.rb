@@ -41,6 +41,8 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+
+  :http_prefix = "/cth-documentation-middleman/"
 end
 
 # Activate the blog gems for both the story and the articles

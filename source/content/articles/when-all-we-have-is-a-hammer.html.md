@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: When All We Have Is A Hammer  
 date: 2013-12-11 21:57:27 +0100
 authors: 

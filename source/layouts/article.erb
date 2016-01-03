@@ -1,4 +1,9 @@
 <%= partial "partials/head" %>
 <%= partial "partials/navigation" %>
+
+<h1><%= current_page.title %></h1>
+<h4><%= current_page.authors %></h4>
 <%= yield %>
+
+
 <%= partial "partials/footer" %>

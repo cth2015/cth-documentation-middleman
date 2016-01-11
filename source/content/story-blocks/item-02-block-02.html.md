@@ -7,10 +7,12 @@ item: 2
 block: 3
 classes: block block-orange
 references:
-- slug: art-science-technology-i 
+- slug: art-science-technology-i
+  type: page
 - slug: coding-the-humanities-pilot
+  type: page
 ---
-## Alternative Rules: sImpatience, Laziness and Hubris
+## Alternative Rules: Impatience, Laziness and Hubris
 
 Coding the Humanities is the title of a course that teaches humanities students to code their own tools for research. Learning programming follows alternative rules. Be impatient, not patient. Be lazy, not diligent. Be bold, not modest. Don’t wait until you know everything, but take what people have learned before you and make something new, Google everything and show off what you learn, as early and as often as you can. 
 

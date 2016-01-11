@@ -1,4 +1,5 @@
 ---
+layout: story
 title: item-2-conclusion
 date: 30-12-2015
 blog_name: blocks

@@ -1,4 +1,5 @@
 ---
+layout: story
 title: item-2-sidebar
 date: 27-12-2015
 blog_name: blocks

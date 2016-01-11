@@ -49,14 +49,12 @@ end
 
 activate :blog do |blog|
   blog.name = "blocks"
-  blog.prefix = "content/story-blocks"
-  blog.sources = "{title}.html"
-  blog.permalink = "{title}.html"
+  blog.sources = "content/story-blocks/{title}.html"
+  blog.permalink = "story/{title}.html"
 end
 
 activate :blog do |blog|
   blog.name = "articles"
-  blog.prefix = "content/articles"
-  blog.sources = "{title}.html"
-  blog.permalink = "{title}.html"
+  blog.sources = "content/articles/{title}.html"
+  blog.permalink = "articles/{title}.html"
 end

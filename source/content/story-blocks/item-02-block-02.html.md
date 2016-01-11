@@ -7,7 +7,7 @@ item: 2
 block: 3
 classes: block block-orange
 references:
-- slug: art-science-technology-i
+- slug: art-science-and-technology-i
   type: page
 - slug: coding-the-humanities-pilot
   type: page

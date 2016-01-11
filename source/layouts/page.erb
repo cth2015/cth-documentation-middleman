@@ -1,8 +1,10 @@
 <%= partial "partials/head" %>
 <%= partial "partials/navigation" %>
 
-<h1><%= current_resource.title %></h1>
+<main class="main page">
+  <h1><%= current_resource.title %></h1>
+  <%= yield %>
+</main>
 
-<%= yield %>
 
 <%= partial "partials/footer" %>

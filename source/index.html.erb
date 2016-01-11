@@ -2,31 +2,27 @@
 title: The Story of Coding the Humanities
 layout: story
 ---
-
-<main class="story">
-
-  <div class="item item-header">
-    <div class="block block-red visualisation">
-    </div>
-    <div class="<%= blog('blocks').articles[0].data.classes %>">
-      <div><%= blog('blocks').articles[0].body %></div>
-    </div>
+<div class="item item-header">
+  <div class="block block-red visualisation">
   </div>
-
-  <% for item in 2..2 %>
-  <div class="item item-body"> 
-    <div class="column-left">
-    <% blog('blocks').articles.each do |block| %>
-    <% if block.data.item == item and block.data.block != 4 %>
-      <%= partial(:"partials/story-block", :locals => { :block => block })  %>
-    <% elsif block.data.item == item and block.data.block == 4 %>
-    </div>
-    <div class="column-right">
-      <%= partial(:"partials/story-block", :locals => { :block => block })  %>
-    <% end %>
-    <% end %>
-    </div>
+  <div class="<%= blog('blocks').articles[0].data.classes %>">
+    <div><%= blog('blocks').articles[0].body %></div>
   </div>
+</div>
+
+<% for item in 2..2 %>
+<div class="item item-body"> 
+  <div class="column-left">
+  <% blog('blocks').articles.each do |block| %>
+  <% if block.data.item == item and block.data.block != 4 %>
+    <%= partial(:"partials/story-block", :locals => { :block => block })  %>
+  <% elsif block.data.item == item and block.data.block == 4 %>
+  </div>
+  <div class="column-right">
+    <%= partial(:"partials/story-block", :locals => { :block => block })  %>
   <% end %>
+  <% end %>
+  </div>
+</div>
+<% end %>
 
-</main>

@@ -1,0 +1,61 @@
+*, *:before, *:after {
+  font-family: $baseFont;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h2, h3, h4 ,h5, h6, .title {
+  font-family: $titleFont;
+}
+
+em {
+  font-family: $titleFont;
+  font-style: normal;
+}
+
+p, li, textarea {
+  font-size: rem-calc(16);
+  line-height: rem-calc(20);
+}
+
+p {
+  margin-bottom: 1rem;
+
+  &:last-of-type {
+    margin-bottom: 0rem;
+  }
+}
+
+button:focus {
+  outline: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  font-family: NittiBold;
+  font-weight: 500;
+  font-size: rem-calc(28);
+  line-height: rem-calc(30);
+}
+
+input, textarea {
+  border: rem-calc(1px) solid $curateColor;
+}
+
+textarea {
+  width: 100%;
+}
+
+.placeholder {
+  background-color: $learnColor;
+  height: 100%;
+}

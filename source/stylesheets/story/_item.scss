@@ -6,15 +6,7 @@
 	width: 100%;
 	min-height: 80%;
 	padding: 15px;
-	border-bottom: black solid 20px;
 	@include clearfix;
-}
-
-.item-body {
-	flex-direction: column;
-	@media (min-width: 750px) {
-		flex-direction: row;
-	}
 }
 
 .item.item-header .visualisation {

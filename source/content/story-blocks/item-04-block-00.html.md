@@ -9,4 +9,4 @@ classes: block block-yellow
 ---
 # From Curation to Facilitation
 
-Schools and universities don’t leverage students’ knowledge and existing (online) information. They waste resources, and degrees become increasingly expensive.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed repellat libero harum natus beatae vitae ipsa, veniam, tempore nihil numquam cum minus tempora. Vel voluptas possimus eum, cupiditate hic dolor.

@@ -6,9 +6,14 @@ blog_name: blocks
 item: 4
 block: 2
 classes: block block-aquamarine
+references:
+- slug: coding-the-humanities-ii
+  type: page
+- slug: user-research-study
+  type: page
 ---
-## The Alternative Classroom
+## How Online Resources Can Support Education
 
-Imagine two classrooms. In the first classroom, you see a teacher surrounded by students. The teacher teaches, the students learn. The students’ knowledge is wasted. In the second classroom, you see people. People who are teaching and learning from each other. Knowledge is leveraged and shared. Traditional education is modelled after the first classroom. Resources are wasted, and degrees become more and more expensive. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas modi aliquam doloribus alias consectetur. Praesentium blanditiis laboriosam libero voluptas nesciunt quidem iste, est. Accusamus incidunt beatae nisi, soluta voluptas ipsam?
 
-Marijn Koolen and Jan Hein Hoogstad envisioned the second classroom: an alternative space to leverage the classroom’s resources by searching, sorting and sharing the knowledge of each person in the group. With a grant from the University of Amsterdam, they founded Coding the Humanities.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem accusantium qui, assumenda itaque autem impedit at possimus voluptate sequi facere excepturi explicabo rem alias ipsum earum sunt amet odit illum.

@@ -6,9 +6,20 @@ blog_name: blocks
 item: 3
 block: 2
 classes: block block-aquamarine
+references:
+- slug: art-science-and-technology-ii
+  type: page
+- slug: coding-the-Humanities-i
+  type: page
+- slug: staff-crash-course
+  type: page
+- slug: from-object-to-data-i-ii
+  type: page
+- slug: internships
+  type: page
 ---
-## The Alternative Classroom
+## Almost Anything You’d Want to Learn is Out There
 
-Imagine two classrooms. In the first classroom, you see a teacher surrounded by students. The teacher teaches, the students learn. The students’ knowledge is wasted. In the second classroom, you see people. People who are teaching and learning from each other. Knowledge is leveraged and shared. Traditional education is modelled after the first classroom. Resources are wasted, and degrees become more and more expensive. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nulla nihil modi pariatur omnis officia laborum, tempore reiciendis suscipit aut sequi itaque voluptatibus voluptate delectus, similique dolores nisi totam ab.
 
-Marijn Koolen and Jan Hein Hoogstad envisioned the second classroom: an alternative space to leverage the classroom’s resources by searching, sorting and sharing the knowledge of each person in the group. With a grant from the University of Amsterdam, they founded Coding the Humanities.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat deleniti ad tempore nemo quia expedita, optio veniam hic nostrum consectetur, id odio quidem magnam quo ducimus accusantium ea labore omnis?

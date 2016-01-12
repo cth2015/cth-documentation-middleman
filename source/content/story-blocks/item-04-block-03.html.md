@@ -7,11 +7,9 @@ item: 4
 block: 4
 classes: block block-grey
 references: 
-- slug: when-all-we-have-is-a-hammer
+- slug: saturns-ears
   type: article
-- slug: blurred-lines 
-  type: article
-- slug: sugar-coating-tools
+- slug: constructing-criticism
   type: article
 ---
 ## Project and Publications

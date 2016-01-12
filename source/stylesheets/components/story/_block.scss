@@ -1,13 +1,19 @@
 .block {
   width: 100%;
   padding: $baseUnit;
-  margin: $baseUnit;
+  margin: $baseUnit $baseUnit $baseUnit 0;
   @include clearfix;
 }
 
 .block.entities {
   display: flex;
   flex-wrap: wrap;
+}
+
+.block.visualisation {
+  height: $baseUnit * 13;
+  margin-left: $baseUnit;
+  border: 1px solid black;
 }
 
 .block-red {

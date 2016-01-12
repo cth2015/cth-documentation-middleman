@@ -2,12 +2,22 @@
   width: 100%;
   padding: $baseUnit;
   margin: $baseUnit $baseUnit $baseUnit 0;
+  text-align: center;
   @include clearfix;
+}
+
+.column-left .block {
+  text-align: right;
+}
+
+.column-right .block {
+  text-align: left;
 }
 
 .block.entities {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .block.visualisation {

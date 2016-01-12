@@ -1,6 +1,6 @@
 ---
 layout: story
-title: item-5-people
+title: Partners
 date: 18-12-2015
 blog_name: blocks
 item: item-people
@@ -77,6 +77,4 @@ entities:
   description: development consultancy
   job: UX design mobile prototype
 ---
-# Partners
-
 Coding the Humanities is a collective of researchers, students, developers and private partners who builds a set of teaching practices and tools that make education accessible, shared and usable again. Read more about who they are and what they do below:

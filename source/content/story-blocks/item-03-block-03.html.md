@@ -1,6 +1,6 @@
 ---
 layout: story
-title: item-2-sidebar
+title: Project and Publications
 date: 23-12-2015
 blog_name: blocks
 item: 3
@@ -14,4 +14,3 @@ references:
 - slug: presentation
   type: article
 ---
-## Project and Publications

@@ -1,0 +1,14 @@
+.dashboard {
+    padding: $baseUnit;
+    padding-top: 0;
+}
+
+.dashboard-section {
+    margin-bottom: $halfUnit;
+}
+
+.dashboard-section .title {
+    font-size: rem-calc(15);
+    font-family: $titleFont;
+    margin-bottom: rem-calc(5);
+}

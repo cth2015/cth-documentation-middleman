@@ -1,6 +1,6 @@
 ---
 layout: story
-title: item-2-sidebar
+title: Project and Publications
 date: 19-12-2015
 blog_name: blocks
 item: 4
@@ -12,4 +12,3 @@ references:
 - slug: constructing-criticism
   type: article
 ---
-## Project and Publications

@@ -1,6 +1,6 @@
 ---
 layout: story
-title: item-2-third
+title: Be Lazy, Impatient and Bold
 date: 28-12-2015
 blog_name: blocks
 item: 2
@@ -12,8 +12,6 @@ references:
 - slug: coding-the-humanities-pilot
   type: page
 ---
-## Be Lazy, Impatient and Bold
-
 In May 2013, Coding the Humanities created its first alternative classroom to create an environment to involve students in their own teaching practice. Students were encouraged to be: 
 
 - Lazy and use the work of others

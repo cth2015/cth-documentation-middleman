@@ -1,6 +1,6 @@
 ---
 layout: story
-title: item-2-second
+title: How Online Resources Can Support Education
 date: 21-12-2015
 blog_name: blocks
 item: 4
@@ -12,8 +12,6 @@ references:
 - slug: user-research-study
   type: page
 ---
-## How Online Resources Can Support Education
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas modi aliquam doloribus alias consectetur. Praesentium blanditiis laboriosam libero voluptas nesciunt quidem iste, est. Accusamus incidunt beatae nisi, soluta voluptas ipsam?
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem accusantium qui, assumenda itaque autem impedit at possimus voluptate sequi facere excepturi explicabo rem alias ipsum earum sunt amet odit illum.

@@ -1,0 +1,12 @@
+.logo, .introduction, .placeholder {
+  padding: $baseUnit;
+  user-select: none;
+  transition: background-color 0.4s ease;
+}
+
+
+.logo:hover .textbar {
+    background-color: $inverseColor;
+    color: $baseColor;
+}
+    

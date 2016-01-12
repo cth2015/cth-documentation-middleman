@@ -21,6 +21,11 @@ $imageHeight: ($cardWidth / 12) * 7;
 @import 'global/mediaqueries';
 @import 'global/layout';
 
+@import 'global/components/textbar';
+@import 'global/components/tags';
+@import 'global/components/logo';
+@import 'global/components/buttons';
+
 @import 'components/nav';
 @import 'components/footer';
 @import 'components/story/item';

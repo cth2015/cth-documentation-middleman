@@ -1,6 +1,6 @@
 ---
 layout: story
-title: item-2-sidebar
+title: Project and Publications
 date: 27-12-2015
 blog_name: blocks
 item: 2
@@ -14,4 +14,3 @@ references:
 - slug: sugar-coating-tools
   type: article
 ---
-## Project and Publications

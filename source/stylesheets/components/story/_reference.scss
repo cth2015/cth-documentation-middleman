@@ -1,9 +1,10 @@
 .reference {
   border: 1px solid black;
   padding: $baseUnit;
-  margin: $baseUnit;
+  margin: $baseUnit 0;
 }
 
 .block-orange .reference {
   float: right;
+  margin: $baseUnit;
 }

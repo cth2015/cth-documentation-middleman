@@ -3,14 +3,12 @@
 	justify-content: center;
 	align-items: stretch;
 	flex-wrap: wrap;
-	width: 100%;
-	min-height: 80%;
-	padding: 15px;
+	padding: $baseUnit;
 	@include clearfix;
 }
 
 .item.item-header .visualisation {
-	height: 400px;
+	height: $baseUnit * 15;
 }
 
 .item .column-left {

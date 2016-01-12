@@ -1,6 +1,6 @@
 ---
 layout: article
-title: When All We Have Is A Hammer  
+title: Blurred Lines  
 date: 2013-12-11 21:57:27 +0100
 authors: Jan Hein Hoogstad
 images:

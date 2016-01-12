@@ -16,22 +16,15 @@
   border: 1px solid black;
 }
 
-.block-red {
-  // background: red;
+.block.about-contents {
+  display: flex;
 }
 
-.block-yellow {
-  // background: yellow;
+.about-contents-ul {
+  display: block;
+  width: 50%;
 }
 
-.block-aquamarine {
-  // background: aquamarine;
-}
-
-.block-orange {
-  // background: orange;
-}
-
-.block-grey {
-  // background: grey;
+.about-contents-ul.left {
+  float: right;
 }

@@ -42,4 +42,18 @@ layout: story
   <div class="<%= blog('blocks').articles[14].data.classes %>">
     <div><%= blog('blocks').articles[14].body %></div>
   </div>
+  <div class="block about-contents">
+    <ul class="about-contents-ul left">
+      <h2>Articles</h2>
+      <% blog('articles').articles.each do |article| %>
+       <li><%= article.title %></li>
+      <% end %>
+    </ul>
+    <ul class="about-contents-ul">
+      <h2>Projects</h2>
+      <% blog('pages').articles.each do |page| %>
+       <li><%= page.title %></li>
+      <% end %>
+    </ul>
+  </div>
 </div>

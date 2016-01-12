@@ -1,0 +1,13 @@
+.about-contents {
+  display: flex;
+}
+
+.about-contents-ul {
+  display: block;
+  width: 50%;
+  margin: $baseUnit;
+}
+
+.about-contents-ul.left {
+  text-align: right;
+}

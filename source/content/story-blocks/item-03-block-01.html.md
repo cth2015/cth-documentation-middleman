@@ -13,7 +13,7 @@ references:
   type: page
 - slug: staff-crash-course
   type: page
-- slug: from-object-to-data-i-ii
+- slug: from-object-to-data-i-and-ii
   type: page
 - slug: internships
   type: page

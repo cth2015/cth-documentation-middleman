@@ -5,6 +5,11 @@
   @include clearfix;
 }
 
+.block.entities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .block-red {
   // background: red;
 }

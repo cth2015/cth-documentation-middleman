@@ -28,16 +28,17 @@ layout: story
 <% end %>
 
 <div class="item item-people">
-  <div class="block block-red visualisation">
-  </div>
   <div class="<%= blog('blocks').articles[13].data.classes %>">
     <div><%= blog('blocks').articles[13].body %></div>
   </div>
+  <div class="block entities">
+    <% for entity in blog('blocks').articles[13].data.entities %>
+      <%= partial(:"partials/story-entity", :locals => { :entity => entity })  %>
+    <% end %>
+  </div>
 </div>
 
-<div class="item item-people">
-  <div class="block block-red visualisation">
-  </div>
+<div class="item item-about">
   <div class="<%= blog('blocks').articles[14].data.classes %>">
     <div><%= blog('blocks').articles[14].body %></div>
   </div>

@@ -11,7 +11,7 @@ layout: story
   </div>
 </div>
 
-<% for item in 2..3 %>
+<% for item in 2..4 %>
 <div class="item item-body">
   <div class="column-left">
   <% blog('blocks').articles.each do |block| %>
@@ -27,3 +27,18 @@ layout: story
 </div>
 <% end %>
 
+<div class="item item-people">
+  <div class="block block-red visualisation">
+  </div>
+  <div class="<%= blog('blocks').articles[13].data.classes %>">
+    <div><%= blog('blocks').articles[13].body %></div>
+  </div>
+</div>
+
+<div class="item item-people">
+  <div class="block block-red visualisation">
+  </div>
+  <div class="<%= blog('blocks').articles[14].data.classes %>">
+    <div><%= blog('blocks').articles[14].body %></div>
+  </div>
+</div>

@@ -1,9 +1,9 @@
 ---
 layout: story
 title: item-2-third
-date: 24-12-2015
+date: 20-12-2015
 blog_name: blocks
-item: 3
+item: 4
 block: 3
 classes: block block-orange
 references:

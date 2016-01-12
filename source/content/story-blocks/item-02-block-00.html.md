@@ -9,4 +9,4 @@ classes: block block-yellow
 ---
 # From Content to Context
 
-Schools and universities don’t leverage students’ knowledge and existing (online) information. They waste resources, and degrees become increasingly expensive.
+Everybody possesses a piece of knowledge or a skill that is worthy to share with others, but in traditional education, what students know is left out. 

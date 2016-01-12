@@ -9,6 +9,6 @@ classes: block block-aquamarine
 ---
 ## The Alternative Classroom
 
-Imagine two classrooms. In the first classroom, you see a teacher surrounded by students. The teacher teaches, the students learn. The students’ knowledge is wasted. In the second classroom, you see people. People who are teaching and learning from each other. Knowledge is leveraged and shared. Traditional education is modelled after the first classroom. Resources are wasted, and degrees become more and more expensive. 
+Imagine two classrooms. In the first, you see a teacher who teaches a group of students. The students’ knowledge is wasted. In the second classroom, you see a group of people who share what they know. They are teaching each other. Yet, traditional education – and many online learning solutions – are still modelled after the first classroom. 
 
-Marijn Koolen and Jan Hein Hoogstad envisioned the second classroom: an alternative space to leverage the classroom’s resources by searching, sorting and sharing the knowledge of each person in the group. With a grant from the University of Amsterdam, they founded Coding the Humanities.
+While the educational system is wasting most of its in-house knowledge, degrees become more and more expensive. 

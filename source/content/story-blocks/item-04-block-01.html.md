@@ -1,9 +1,9 @@
 ---
 layout: story
 title: item-2-second
-date: 25-12-2015
+date: 21-12-2015
 blog_name: blocks
-item: 3
+item: 4
 block: 2
 classes: block block-aquamarine
 ---

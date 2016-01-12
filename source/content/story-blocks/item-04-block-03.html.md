@@ -1,9 +1,9 @@
 ---
 layout: story
 title: item-2-sidebar
-date: 23-12-2015
+date: 19-12-2015
 blog_name: blocks
-item: 3
+item: 4
 block: 4
 classes: block block-grey
 references: 

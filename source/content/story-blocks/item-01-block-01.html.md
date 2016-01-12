@@ -5,9 +5,8 @@ date: 31-12-2015
 blog_name: blocks
 item: item-header
 block: 1
-sidebar: false
 classes: block block-red
 ---
 # Coding the Humanities
 
-Coding the Humanities is a collective of professors, researchers, students and private partners, who build a tool that helps teachers leverage the knowledge of students and existing (online) information and to facilitate a new way of learning.
+Universities are wasting resources – teachers teach and students study. The knowledge of students isn’t leveraged and their learning isn’t shared. Most people still see a classroom as one teacher and a group of students. Coding the Humanities sees a classroom as a group of potential teachers. While degrees become more and more expensive, Coding the Humanities builds a set of teaching practices and tools that make education accessible, shared and usable again. 

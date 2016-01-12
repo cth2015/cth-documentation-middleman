@@ -1,7 +1,7 @@
 <%= partial "partials/head" %>
 <%= partial "partials/navigation" %>
 
-<main class="main article">
+<main class="main <%= page_classes %>">
   <h1><%= current_resource.title %></h1>
   <h1><%= current_resource.data.authors %> </h1>
   <%= yield %>

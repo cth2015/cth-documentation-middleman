@@ -7,6 +7,6 @@ item: 3
 block: 1
 classes: block block-yellow
 ---
-# From Content to Context
+# From Context to Curation
 
 Schools and universities don’t leverage students’ knowledge and existing (online) information. They waste resources, and degrees become increasingly expensive.

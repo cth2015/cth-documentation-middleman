@@ -1,12 +1,14 @@
-.logo, .introduction, .placeholder {
+.logo {
   padding: $baseUnit;
   user-select: none;
   transition: background-color 0.4s ease;
 }
-
 
 .logo:hover .textbar {
     background-color: $inverseColor;
     color: $baseColor;
 }
     
+.main-logo {
+  // font-size: rem-calc(28);
+}

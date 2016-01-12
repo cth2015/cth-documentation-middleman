@@ -15,16 +15,3 @@
   margin-left: $baseUnit;
   border: 1px solid black;
 }
-
-.block.about-contents {
-  display: flex;
-}
-
-.about-contents-ul {
-  display: block;
-  width: 50%;
-}
-
-.about-contents-ul.left {
-  float: right;
-}

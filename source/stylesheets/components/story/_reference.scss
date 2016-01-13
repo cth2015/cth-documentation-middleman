@@ -1,14 +1,4 @@
 .reference {
-  padding: $baseUnit 0;
-  margin: $baseUnit 0;
-}
-
-.block-orange .reference {
-  float: right;
-  margin: $baseUnit;
-}
-
-.block-aquamarine .reference {
-  float: right;
-  margin: $baseUnit;
+  padding: $baseUnit $baseUnit $baseUnit 0;
+  float: left;
 }

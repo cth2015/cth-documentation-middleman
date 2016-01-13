@@ -3,3 +3,10 @@
   margin: $halfUnit $halfUnit $halfUnit 0;
   padding: $halfUnit;
 }
+
+.entity, .entity p {
+  @media (min-width: 800px){
+    font-size: rem-calc(8); //16
+    line-height: rem-calc(10); //20
+  }
+}

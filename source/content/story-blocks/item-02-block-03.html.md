@@ -1,6 +1,6 @@
 ---
 layout: story
-title: Project and Publications
+title:
 date: 27-12-2015
 blog_name: blocks
 item: 2

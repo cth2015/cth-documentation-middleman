@@ -1,6 +1,6 @@
 .block {
   width: 100%;
-  padding: $baseUnit;
+  padding: $thirdUnit $baseUnit;
   @include clearfix;
 }
 
@@ -23,5 +23,6 @@
 
 .block ul {
   list-style: disc;
+  list-style-position: inside;
   margin-bottom: 1rem;
 }

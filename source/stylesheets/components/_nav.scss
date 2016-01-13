@@ -2,5 +2,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-  padding: $baseUnit;
+  padding: $halfUnit $baseUnit;
+}
+
+.nav-link.textbar a {
+  color: white;
 }

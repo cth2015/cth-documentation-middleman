@@ -7,10 +7,6 @@ item: 2
 block: 3
 classes: block block-orange
 references:
-- slug: art-science-and-technology-i
-  type: page
-- slug: coding-the-humanities-pilot
-  type: page
 ---
 In May 2013, Coding the Humanities created its first alternative classroom to create an environment to involve students in their own teaching practice. Students were encouraged to be: 
 

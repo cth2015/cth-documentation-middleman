@@ -7,12 +7,6 @@ item: 4
 block: 3
 classes: block block-orange
 references:
-- slug: desktop-prototype
-  type: page
-- slug: mobile-prototype
-  type: page
-- slug: usability-tests
-  type: page
 ---
 With the results of earlier prototypes and the research in mind, the current digital space co-designed by Lifely, is an environment that helps students and teachers to organise, track and share learning resources and exercises. The tool facilitates stealing, making in sharing. On the platform you can:
 

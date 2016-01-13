@@ -7,12 +7,6 @@ item: 3
 block: 3
 classes: block block-orange
 references:
-- slug: paper-prototype
-  type: page
-- slug: desktop-prototype
-  type: page
-- slug: usability-tests
-  type: page
 ---
 From Coding the Humanities emerged the need for a tool that would support this type of content curation for learning. The students developed a paper prototype of a tool that helped them structure series of learning resources in meaningful paths.
 

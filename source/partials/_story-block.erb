@@ -1,14 +1,23 @@
-<div class="<%= block.data.classes %><% if block.data.block != 1 %> block-small-typography <% end %>">
+<div class="<%= block.data.classes %>">
   <% if block.data.block == 1 %>
   <h1 class="textbar title"><%= block.title %></h1>
   <% elsif %>
   <h1 class="textbar textbar-inverse title sub-title"><%= block.title %></h4>
   <% end %>
   <div><%= block.body %></div>
-  <div>
+  <div class="reference-container">
     <% if block.data.references %>
+    <p>Pages:</p>
     <% for reference in block.data.references %>
+    <% if reference.type == "page" %>
       <%= partial(:"partials/story-reference", :locals => { :reference => reference })  %>
+    <% end %>
+    <% end %>
+    <p>Articles:</p>
+    <% for reference in block.data.references %>
+    <% if reference.type == "page" %>
+      <%= partial(:"partials/story-reference", :locals => { :reference => reference })  %>
+    <% end %>
     <% end %>
     <% end %>
   </div>

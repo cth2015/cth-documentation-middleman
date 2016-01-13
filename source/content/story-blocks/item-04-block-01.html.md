@@ -7,10 +7,6 @@ item: 4
 block: 2
 classes: block block-aquamarine
 references:
-- slug: coding-the-humanities-ii
-  type: page
-- slug: user-research-study
-  type: page
 ---
 Students use all kinds of different tools to store resources. Teachers use all kinds of different tools to share resources. Almost none of these tools are designed to facilitate the learning process. In the autumn of 2015, we surveyed and interviewed 9 Coding the Humanities students. The results showed that students:
 

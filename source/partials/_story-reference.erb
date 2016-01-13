@@ -1,6 +1,6 @@
 <div class="reference">
   <a href="<%= (defined? reference.type) ? reference.type : reference.data.type %>/<%= (defined? reference.slug) ? reference.slug : 'nooo' %>.html">
-    <h3><%= (defined? reference.data) ? reference.data.title : reference.slug %></h3>
+    <p><%= (defined? reference.data) ? reference.data.title : reference.slug %></p>
     <p><%= (defined? reference.data) ? reference.summary : "" %></p>
   </a>
 </div> 

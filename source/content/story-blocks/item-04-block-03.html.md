@@ -11,4 +11,14 @@ references:
   type: article
 - slug: constructing-criticism
   type: article
+- slug: coding-the-humanities-ii
+  type: page
+- slug: user-research-study
+  type: page
+- slug: desktop-prototype
+  type: page
+- slug: mobile-prototype
+  type: page
+- slug: usability-tests
+  type: page
 ---

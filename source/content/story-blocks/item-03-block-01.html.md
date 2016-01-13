@@ -7,16 +7,6 @@ item: 3
 block: 2
 classes: block block-aquamarine
 references:
-- slug: art-science-and-technology-ii
-  type: page
-- slug: coding-the-Humanities-i
-  type: page
-- slug: staff-crash-course
-  type: page
-- slug: from-object-to-data-i-and-ii
-  type: page
-- slug: internships
-  type: page
 ---
 Back in the days, if you wanted to study linguistics from Umberto Eco, you’d have to travel to Bologna. Today, people can do this from behind their computer. 
 

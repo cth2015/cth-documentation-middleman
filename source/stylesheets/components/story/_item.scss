@@ -1,9 +1,13 @@
 .item {
 	display: flex;
-	align-items: stretch;
+	align-items: center;
 	flex-wrap: wrap;
 	margin: 0 0 ($baseUnit * 10) 0;
 	@include clearfix;
+}
+
+.item-header {
+	min-height: calc(100vh - #{rem-calc(30)} - #{$halfUnit});
 }
 
 .item .column-left {

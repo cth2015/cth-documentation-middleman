@@ -5,6 +5,15 @@
   padding: $halfUnit $baseUnit;
 }
 
+.nav-top li {
+  flex-shrink: 0;
+  margin: 0 $thirdUnit;
+}
+
+.nav-top li:first-child {
+  flex-shrink: 1;
+}
+
 .nav-link.textbar a {
   color: white;
 }

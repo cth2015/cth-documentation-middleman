@@ -8,3 +8,9 @@
 .nav-link.textbar a {
   color: white;
 }
+
+.nav-link {
+  @media (max-width: 800px){
+    display: none;
+  }
+}

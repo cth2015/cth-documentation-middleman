@@ -1,6 +1,6 @@
 .item {
 	display: flex;
-	justify-content: center;
+	// justify-content: center;
 	align-items: stretch;
 	flex-wrap: wrap;
 	margin: 0 0 ($baseUnit * 10) 0;
@@ -13,7 +13,7 @@
 	flex-wrap: wrap;
 	width: 100%;
 	@media (min-width: 1024px) {
-		width: 70%;
+		width: 60%;
 	}
 }
 

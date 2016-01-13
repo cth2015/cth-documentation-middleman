@@ -33,9 +33,11 @@ layout: story
 <% end %>
 
 <div id="item-partners" class="item item-partners">
-  <div class="<%= blog('blocks').articles[13].data.classes %> block-indent">
-    <h1 class="title textbar"><%= blog('blocks').articles[13].data.title %></h1>
-    <div ><%= blog('blocks').articles[13].body %></div>
+  <div class="column-left">
+    <div class="<%= blog('blocks').articles[13].data.classes %>">
+      <h1 class="title textbar"><%= blog('blocks').articles[13].data.title %></h1>
+      <div class="block-small-typography"><%= blog('blocks').articles[13].body %></div>
+    </div>
   </div>
   <div class="block entities">
     <% for entity in blog('blocks').articles[13].data.entities %>
@@ -44,11 +46,13 @@ layout: story
   </div>
 </div>
 
-<div id="item-about" class="item item-about">
-  <div class="<%= blog('blocks').articles[14].data.classes %> block-indent">
-    <h1 class="title textbar"><%= blog('blocks').articles[14].data.title %></h1>
-    <div><%= blog('blocks').articles[14].body %></div>
-  </div>
+<div id="item-about" class="item item-about">   
+  <div class="column-left">
+    <div class="<%= blog('blocks').articles[14].data.classes %>">
+      <h1 class="title textbar"><%= blog('blocks').articles[14].data.title %></h1>
+      <div class="block-small-typography"><%= blog('blocks').articles[14].body %></div>
+    </div>
+  </div> 
   <!--<div class="block about-contents">
     <div class="about-contents-ul left">
       <h2>Articles</h2>

@@ -9,17 +9,17 @@
   flex-wrap: wrap;
 }
 
-.block.visualisation {
-  height: 60vh;
-  margin: 0 $baseUnit;
-}
+// .block-small-typography p, .block li {
+//   @media (min-width: 800px){
+//     font-size: rem-calc(12); //16
+//     line-height: rem-calc(16); //20
+//   }
+// }
 
-.block-indent p, .block li {
-  @media (min-width: 800px){
-    font-size: rem-calc(12); //16
-    line-height: rem-calc(16); //20
-  }
-}
+// .block-small-typography h1 {
+//   font-size: rem-calc(18);
+//   line-height: rem-calc(20);
+// }
 
 .block ul {
   list-style: disc;

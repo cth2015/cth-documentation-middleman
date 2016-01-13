@@ -6,7 +6,11 @@
 
 .entity, .entity p {
   @media (min-width: 800px){
-    font-size: rem-calc(8); //16
-    line-height: rem-calc(10); //20
+    font-size: rem-calc(10); //16
+    line-height: rem-calc(12); //20
   }
+}
+
+.entity p {
+  margin: 0;
 }

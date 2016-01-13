@@ -2,18 +2,19 @@
   <% if block.data.block == 1 %>
   <h1 class="textbar title"><%= block.title %></h1>
   <% elsif %>
-  <h1 class="textbar textbar-inverse title sub-title"><%= block.title %></h4>
+  <h2><%= block.title %></h2>
   <% end %>
   <div><%= block.body %></div>
   <div class="reference-container">
     <% if block.data.references %>
-    <p>Pages:</p>
+    <div class="reference-line"></div>
+    <h3>Activities:</h3>
     <% for reference in block.data.references %>
     <% if reference.type == "page" %>
       <%= partial(:"partials/story-reference", :locals => { :reference => reference })  %>
     <% end %>
     <% end %>
-    <p>Articles:</p>
+    <h3>Articles:</h3>
     <% for reference in block.data.references %>
     <% if reference.type == "page" %>
       <%= partial(:"partials/story-reference", :locals => { :reference => reference })  %>

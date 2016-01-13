@@ -1,4 +1,8 @@
 .reference {
   padding: $baseUnit $baseUnit $baseUnit 0;
   float: left;
+  @media (min-width: 800px){
+    font-size: rem-calc(12); //16
+    line-height: rem-calc(16); //20
+  }
 }

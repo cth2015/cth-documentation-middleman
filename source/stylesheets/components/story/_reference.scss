@@ -1,6 +1,8 @@
 .reference {
-  padding: $baseUnit $baseUnit $baseUnit 0;
+  padding: $halfUnit $halfUnit $halfUnit $halfUnit;
+  margin: $halfUnit $halfUnit $halfUnit 0;
   float: left;
+  border: 1px solid black;
   @media (min-width: 800px){
     font-size: rem-calc(12); //16
     line-height: rem-calc(16); //20

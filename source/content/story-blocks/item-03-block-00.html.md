@@ -7,4 +7,4 @@ item: 3
 block: 1
 classes: block block-yellow
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eveniet, ipsa aut ullam itaque, minima rem alias, impedit tenetur autem dolores hic quas doloremque aperiam atque dolor odio ipsum distinctio!
+Today, almost anything you want to learn is accessible online. Creating new online learning materials is a waste of time – use what’s already there instead.

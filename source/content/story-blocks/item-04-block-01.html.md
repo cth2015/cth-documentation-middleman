@@ -1,6 +1,6 @@
 ---
 layout: story
-title: How Online Resources Can Support Education
+title: Different Tools for Different Means
 date: 21-12-2015
 blog_name: blocks
 item: 4
@@ -12,6 +12,9 @@ references:
 - slug: user-research-study
   type: page
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas modi aliquam doloribus alias consectetur. Praesentium blanditiis laboriosam libero voluptas nesciunt quidem iste, est. Accusamus incidunt beatae nisi, soluta voluptas ipsam?
+Students use all kinds of different tools to store resources. Teachers use all kinds of different tools to share resources. Almost none of these tools are designed to facilitate the learning process. In the autumn of 2015, we surveyed and interviewed 9 Coding the Humanities students. The results showed that students:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem accusantium qui, assumenda itaque autem impedit at possimus voluptate sequi facere excepturi explicabo rem alias ipsum earum sunt amet odit illum.
+- Describe learning something as telling a story
+- Learn best with clear, personal goals in mind
+- Share little of what they learn and make 
+- Are often unaware of how they learn

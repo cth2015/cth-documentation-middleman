@@ -50,17 +50,17 @@ layout: story
     <div><%= blog('blocks').articles[14].body %></div>
   </div>
   <div class="block about-contents">
-    <ul class="about-contents-ul left">
+    <div class="about-contents-ul left">
       <h2>Articles</h2>
       <% blog('articles').articles.each do |article| %>
-       <li><%= article.title %></li>
+      <%= partial(:"partials/story-reference", :locals => { :reference => article })  %>
       <% end %>
-    </ul>
-    <ul class="about-contents-ul right">
+    </div>
+    <div class="about-contents-ul right">
       <h2>Projects</h2>
       <% blog('pages').articles.each do |page| %>
-       <li><%= page.title %></li>
+      <%= partial(:"partials/story-reference", :locals => { :reference => page })  %>
       <% end %>
-    </ul>
+    <div>
   </div>
 </div>

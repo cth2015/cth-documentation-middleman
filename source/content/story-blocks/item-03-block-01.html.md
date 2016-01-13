@@ -1,6 +1,6 @@
 ---
 layout: story
-title: Almost Anything You’d Want to Learn is Out There
+title: Steal + Make + Share = Curate
 date: 25-12-2015
 blog_name: blocks
 item: 3
@@ -18,6 +18,10 @@ references:
 - slug: internships
   type: page
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nulla nihil modi pariatur omnis officia laborum, tempore reiciendis suscipit aut sequi itaque voluptatibus voluptate delectus, similique dolores nisi totam ab.
+Back in the days, if you wanted to study linguistics from Umberto Eco, you’d have to travel to Bologna. Today, people can do this from behind their computer. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat deleniti ad tempore nemo quia expedita, optio veniam hic nostrum consectetur, id odio quidem magnam quo ducimus accusantium ea labore omnis?
+Almost anything people would want to learn exists online somewhere. Creating new materials for teaching is a waste of time. Instead:
+
+- Steal what’s already there
+- Make meaningful packets of knowledge
+- Share them with someone who wants to learn

@@ -16,7 +16,7 @@
     <% end %>
     <h3>Articles:</h3>
     <% for reference in block.data.references %>
-    <% if reference.type == "page" %>
+    <% if reference.type == "article" %>
       <%= partial(:"partials/story-reference", :locals => { :reference => reference })  %>
     <% end %>
     <% end %>

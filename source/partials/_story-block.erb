@@ -7,7 +7,9 @@
   <div><%= block.body %></div>
   <div>
     <% if block.data.references %>
-    
+    <% for reference in block.data.references %>
+      <%= partial(:"partials/story-reference", :locals => { :reference => reference })  %>
+    <% end %>
     <% end %>
   </div>
 </div>

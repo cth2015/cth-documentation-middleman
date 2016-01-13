@@ -52,6 +52,11 @@ ul {
   line-height: rem-calc(30);
 }
 
+.sub-title {
+  font-size: rem-calc(18);
+  line-height: rem-calc(20);
+}
+
 input, textarea {
   border: rem-calc(1px) solid $curateColor;
 }

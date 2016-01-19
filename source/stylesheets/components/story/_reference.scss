@@ -1,35 +1,30 @@
 .reference-container {
-  text-align: right;
   position: relative;
+  text-align: right;
 }
 
 .reference-container h3 {
-  margin:0 1rem 1rem 0;
+  margin: 0 $baseUnit $halfUnit 0;
 }
 
 .reference {
-  padding-right: 1rem;
-  border-right: 10px solid black;
-
-  @media (min-width: 800px){
-    font-size: rem-calc(12); //16
-    line-height: rem-calc(16); //20
-  }
-}
-
-.reference a {
-  font-weight: 100;
+  position: relative;
+  left: ($thirdUnit / 2);
+  padding-right: $baseUnit - ($thirdUnit / 2);
+  border-right: $thirdUnit solid black;
 }
 
 .reference-line {
   position: absolute;
-  top: 1rem;
+  top: $halfUnit;
   right: -$baseUnit;
+
+  width: calc(#{$baseUnit} - 1px);
+  height: 100%;
+
   border-left: 2px solid lighten($black, 50%);
   border-top: 2px solid lighten($black, 50%);
   border-bottom: 2px solid lighten($black, 50%);
 
-  width: calc(#{$baseUnit} + 4px);
-  height: 100%;
   z-index: -10;
 }

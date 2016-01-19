@@ -1,6 +1,6 @@
 .block {
   width: 100%;
-  padding: 1rem $baseUnit;
+  padding: $baseUnit;
   @include clearfix;
 }
 

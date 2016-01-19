@@ -18,8 +18,9 @@ page '/*.txt', layout: false
 
 # General configuration
 
-# Reload the browser automatically whenever files change
 configure :development do
+  set :relative_links, true
+  # Reload the browser automatically whenever files change
   activate :livereload
 end
 
@@ -41,7 +42,7 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
-
+  set :relative_links, true
   set :http_prefix, "/cth-documentation-middleman/"
 end
 

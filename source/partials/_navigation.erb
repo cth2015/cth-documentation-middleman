@@ -1,10 +1,10 @@
 <nav>
   <ul class="nav-top">
-    <li><a class="nav-link textbar title" href="/cth-documentation-middleman/">Coding</a> <a class="nav-link textbar title" href="/cth-documentation-middleman/">the</a> <a class="nav-link textbar title" href="/cth-documentation-middleman/">Humanities</a></li>
-    <li><a class="nav-link" href="/cth-documentation-middleman/#item-body-2">From Content to Context</a></li>
-    <li><a class="nav-link" href="/cth-documentation-middleman/#item-body-3">To Curation</a></li>
-    <li><a class="nav-link" href="/cth-documentation-middleman/#item-body-4">To Faciliation</a></li>
-    <li><a class="nav-link" href="/cth-documentation-middleman/#item-partners">Partners</a></li>
-    <li><a class="nav-link" href="/cth-documentation-middleman/#item-about">About</a></li>
+    <li><% link_to('/', {:class => 'nav-link'}) do %> --- <% end %></li>
+    <li><% link_to('/#item-body-2', {:class => 'nav-link'}) do %> From Content to Context <% end %></li>
+    <li><% link_to('/#item-body-3', {:class => 'nav-link'}) do %> To Curation <% end %></li>
+    <li><% link_to('/#item-body-4', {:class => 'nav-link'}) do %> To Faciliation <% end %></li>
+    <li><% link_to('/#item-partners', {:class => 'nav-link'}) do %> Partners <% end %></li>
+    <li><% link_to('/#item-about', {:class => 'nav-link'}) do %> About <% end %></li>
   </ul>
 </nav>

@@ -15,17 +15,17 @@
 
 .nav-story li:first-child {
   flex-shrink: 1;
-
   @media (max-width: 800px){
     display: block;
   }
 }
 
 .nav-story a {
-  color: $mediumgray;
+  color: $black;
 }
 
 
 .nav-story a.is-link-active {
-  color: $darkgray;
+  color: $black;
+  font-size: 2em;
 }

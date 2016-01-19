@@ -4,13 +4,18 @@ layout: story
 ---
 
 <div id="item-header" class="item item-header">
-  <div class="<%= blog('blocks').articles[0].data.classes %>">
-    <h1 class="logo main-logo title textbar textbar-big">Coding</h1>
-    <br>
-    <h1 class="logo main-logo title textbar textbar-big">The</h1>
-    <br>
-    <h1 class="logo main-logo title textbar textbar-big">Humanities</h1>
-    <div><%= blog('blocks').articles[0].body %></div>
+  <div class="column-left">
+    <div class="<%= blog('blocks').articles[0].data.classes %>">
+      <h1 class="logo main-logo title textbar textbar-big">Coding</h1>
+      <br>
+      <h1 class="logo main-logo title textbar textbar-big">The</h1>
+      <br>
+      <h1 class="logo main-logo title textbar textbar-big">Humanities</h1>
+      <div><%= blog('blocks').articles[0].body %></div>
+    </div>
+  </div>
+  <div class="column-right">
+    <img class="cog1" src="images/cog1.svg" alt="">
   </div>
 </div>
 
@@ -34,6 +39,7 @@ layout: story
 
 <a id="item-partners"></a>
 <%= partial("partials/navigation", :locals => { :which_is_link_active => 5 }) %>
+<img class="group-yellow-black" src="images/groupyellowblack.png" alt="">
 <div  class="item item-partners">
   <div class="column-left">
     <div class="<%= blog('blocks').articles[13].data.classes %>">
@@ -72,3 +78,5 @@ layout: story
     <div>
   </div> -->
 </div>
+
+<img class="hammer" src="./images/logo.svg" alt="">

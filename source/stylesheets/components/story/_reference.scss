@@ -9,7 +9,7 @@
 
 .reference {
   position: relative;
-  left: ($thirdUnit / 2);
+  left: $thirdUnit / 2;
   padding-right: $baseUnit - ($thirdUnit / 2);
   border-right: $thirdUnit solid black;
 }
@@ -19,12 +19,12 @@
   top: $halfUnit;
   right: -$baseUnit;
 
-  width: calc(#{$baseUnit} - 1px);
+  width: calc(#{$baseUnit} + 1px);
   height: 100%;
 
-  border-left: 2px solid lighten($black, 50%);
-  border-top: 2px solid lighten($black, 50%);
-  border-bottom: 2px solid lighten($black, 50%);
+  border-left: 2px solid $black;
+  border-top: 2px solid $black;
+  border-bottom: 2px solid $black;
 
   z-index: -10;
 }

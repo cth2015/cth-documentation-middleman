@@ -9,8 +9,20 @@
   flex-wrap: wrap;
 }
 
+.cog1 {
+  position: relative;
+  padding: $baseUnit 0;
+  right: -50%;
+  width: 100%;
+}
+
+.group-yellow-black {
+  width: 100%;
+  heigth: auto;
+}
+
 .block ul {
   list-style: square;
   list-style-position: inside;
-  margin-bottom: 1rem;
+  margin-bottom: $halfUnit;
 }

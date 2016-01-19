@@ -1,8 +1,8 @@
 .entity {
-  border-left: 1px solid $black;
-  border-bottom: 1px dashed $black;
+  width: $baseUnit * 5  ;
+  border-bottom: 1px solid $black;
 
-  margin: $halfUnit $halfUnit $halfUnit 0;
+  margin: 0 $baseUnit $baseUnit 0;
   padding: $halfUnit;
 }
 

@@ -1,5 +1,5 @@
 <%= partial "partials/head" %>
-<%= partial "partials/navigation" %>
+<%= partial("partials/navigation", :locals => { :which_is_link_active => '0' }) %>
 <main class="main story">
   <%= yield %>
 </main>

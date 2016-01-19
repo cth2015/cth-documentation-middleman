@@ -1,11 +1,11 @@
-.nav-top {
+.nav-story {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
   padding: $halfUnit $baseUnit;
 }
 
-.nav-top li {
+.nav-story li {
   flex-shrink: 0;
   margin: 0 $thirdUnit 0 0;
   @media (max-width: 800px){
@@ -13,14 +13,19 @@
   }
 }
 
-.nav-top li:first-child {
+.nav-story li:first-child {
   flex-shrink: 1;
+
   @media (max-width: 800px){
     display: block;
   }
 }
 
-.nav-link.textbar {
-  color: white;
-  margin-bottom: 0;
+.nav-story a {
+  color: $mediumgray;
+}
+
+
+.nav-story a.is-link-active {
+  color: $darkgray;
 }

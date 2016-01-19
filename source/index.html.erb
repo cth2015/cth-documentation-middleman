@@ -15,7 +15,9 @@ layout: story
 </div>
 
 <% for item in 2..4 %>
-<div id="item-body-<%= item %>" class="item item-body item-num-<%= item %>">
+<a id="item-body-<%= item %>"></a>
+<%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
+<div class="item item-body item-num-<%= item %>">
   <div class="column-left">
   <% blog('blocks').articles.each do |block| %>
   <% if block.data.item == item and block.data.block != 4 %>
@@ -30,7 +32,9 @@ layout: story
 </div>
 <% end %>
 
-<div id="item-partners" class="item item-partners">
+<a id="item-partners"></a>
+<%= partial("partials/navigation", :locals => { :which_is_link_active => 5 }) %>
+<div  class="item item-partners">
   <div class="column-left">
     <div class="<%= blog('blocks').articles[13].data.classes %>">
       <h1 class="title textbar"><%= blog('blocks').articles[13].data.title %></h1>
@@ -44,7 +48,9 @@ layout: story
   </div>
 </div>
 
-<div id="item-about" class="item item-about">   
+<a id="item-about"></a>
+<%= partial("partials/navigation", :locals => { :which_is_link_active => 6 }) %>
+<div class="item item-about">   
   <div class="column-left">
     <div class="<%= blog('blocks').articles[14].data.classes %>">
       <h1 class="title textbar"><%= blog('blocks').articles[14].data.title %></h1>

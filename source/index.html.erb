@@ -26,6 +26,7 @@ layout: story
 <% for item in 2..4 %>
 <a id="item-body-<%= item %>"></a>
 <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
+<img class="classrooms" src="./images/classrooms.svg" alt="">
 <div class="item item-body item-num-<%= item %>">
   <div class="column-left">
   <% blog('blocks').articles.each do |block| %>

@@ -1,7 +1,12 @@
 .block {
   width: 100%;
-  padding: $baseUnit;
+  padding: $baseUnit*2 $baseUnit;
   @include clearfix;
+}
+
+.item-header .block {
+  padding: $baseUnit $baseUnit;
+
 }
 
 .block.block-video {
@@ -21,6 +26,12 @@
   left: 50%;
   transform: rotate(45deg);
   padding: $baseUnit 0;
+}
+
+.classrooms {
+  width: 100%;
+  background: $yellow;
+  padding: $baseUnit*3 $baseUnit*3;
 }
 
 .group-yellow-black {

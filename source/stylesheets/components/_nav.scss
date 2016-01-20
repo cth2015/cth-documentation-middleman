@@ -22,10 +22,13 @@
 
 .nav-story a {
   color: $black;
+  opacity: 0.1;
 }
 
 
 .nav-story a.is-link-active {
   color: $black;
-  font-size: 2em;
+  opacity: 1;
+
+  // font-size: 2em;
 }

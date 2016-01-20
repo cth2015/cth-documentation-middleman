@@ -11,6 +11,10 @@
 	min-height: calc(100vh - #{rem-calc(30)} - #{$halfUnit});
 }
 
+.item-body {
+	background: $lightgray;
+}
+
 .item .column-left {
 	display: flex;
 	flex-wrap: wrap;

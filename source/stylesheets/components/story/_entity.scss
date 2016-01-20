@@ -1,9 +1,11 @@
 .entity {
   width: $baseUnit * 5  ;
-  border-bottom: 1px solid $black;
+  border-bottom: $thirdUnit solid $black;
 
   margin: 0 $baseUnit $baseUnit 0;
   padding: $halfUnit;
+
+  background: rgba($yellow, 1);
 }
 
 .entity, .entity p {

@@ -2,16 +2,23 @@
 	display: flex;
 	align-items: flex-end;
 	flex-wrap: wrap;
-	margin: 0 0 $baseUnit * 10 0;
 	@include clearfix;
 }
 
 .item-header {
-	align-items: center;
+	align-items: stretch;
 	min-height: calc(100vh - #{rem-calc(30)} - #{$halfUnit});
+	background: $yellow;
+}
+
+.item-video {
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
 }
 
 .item-body {
+	margin: 0 0 $baseUnit * 10 0;
 	background: $lightgray;
 }
 
@@ -32,4 +39,8 @@
 	@media (min-width: 1024px) {
 		width: 40%;
 	}
+}
+
+.item.item-about {
+	background: $yellow;
 }

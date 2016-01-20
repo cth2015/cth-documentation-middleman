@@ -4,20 +4,29 @@
   @include clearfix;
 }
 
+.block.block-video {
+  background: black;
+  height: 80%;
+  width: 80%;
+}
+
 .block.entities {
   display: flex;
   flex-wrap: wrap;
 }
 
-.cog1 {
+.hammer-header {
   position: relative;
+  width: 62.5%;
+  left: 50%;
+  transform: rotate(45deg);
   padding: $baseUnit 0;
-  right: -50%;
-  width: 100%;
 }
 
 .group-yellow-black {
   width: 100%;
+  background: $yellow;
+  border-bottom: $baseUnit * 2 solid $yellow;
   heigth: auto;
 }
 

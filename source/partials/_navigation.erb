@@ -1,7 +1,13 @@
 <nav>
   <ul class="nav-story">
+    <% if defined?which_is_link_active %>
+    <% if which_is_link_active == 1 %>
+    <li><% link_to('/', {:class => 'nav-link is-link-active'}) do %> --- <% end %></li>
+    <% else %>
     <li><% link_to('/', {:class => 'nav-link'}) do %> --- <% end %></li>
-
+    <% end %>
+    <% end %>
+    
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 2 %>
     <li><% link_to('/#item-body-2', {:class => 'nav-link is-link-active'}) do %> From Content to Context <% end %></li>

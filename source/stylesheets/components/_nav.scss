@@ -3,6 +3,13 @@
 	justify-content: space-between;
 	align-items: center;
   padding: $halfUnit $baseUnit;
+  background: $yellow;
+  border-top: $thirdUnit dashed black;
+}
+
+.main .nav-story {
+  border-top: $thirdUnit dashed black;
+  background: $yellow;
 }
 
 .nav-story li {
@@ -25,10 +32,11 @@
   opacity: 0.1;
 }
 
+.nav-story a:hover {
+  opacity: 1;
+}
 
 .nav-story a.is-link-active {
   color: $black;
   opacity: 1;
-
-  // font-size: 2em;
 }

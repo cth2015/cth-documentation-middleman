@@ -14,7 +14,11 @@
 .item-video {
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	min-height: 80vh;
+	padding: $baseUnit;
+	@media (min-width: 1024px) {
+		padding: $baseUnit * 2;
+	}
 }
 
 .item-body {

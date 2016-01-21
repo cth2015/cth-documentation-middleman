@@ -5,21 +5,25 @@
 }
 
 .item-header .block {
-  padding: $baseUnit $baseUnit;
+  padding: $baseUnit;
 
 }
 
 .block.block-video {
-  background: black;
-  height: 80%;
+  @include aspect-ratio(16, 9);
   width: 80%;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .block-video .playbutton {
+  position: absolute;
+  left: 40%;
+  top: 40%;
   width: 20%;
+  height: 20%;
 }
 
 .block.entities {

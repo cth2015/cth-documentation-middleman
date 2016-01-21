@@ -13,14 +13,12 @@
   padding-right: $baseUnit - ($thirdUnit / 2);
   
   border-right: $thirdUnit solid $black;
-  // border-left: $thirdUnit solid $black;
 
   background: $yellow;
 }
 
 .reference p {
   padding: $thirdUnit 0;
-  // margin-bottom: $thirdUnit;
 }
 
 .reference:hover {

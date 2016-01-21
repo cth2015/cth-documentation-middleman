@@ -6,9 +6,9 @@ layout: story
 <div id="item-header" class="item item-header">
   <div class="column-left">
     <div class="<%= blog('blocks').articles[0].data.classes %>">
-      <h1 class="logo main-logo title textbar textbar-big">Coding</h1>
+      <h1 class="logo main-logo title textbar textbar-big">Coding_</h1>
       <br>
-      <h1 class="logo main-logo title textbar textbar-big">The</h1>
+      <h1 class="logo main-logo title textbar textbar-big">the_</h1>
       <br>
       <h1 class="logo main-logo title textbar textbar-big">Humanities</h1>
       <div><%= blog('blocks').articles[0].body %></div>
@@ -28,7 +28,7 @@ layout: story
 <% for item in 2..4 %>
 <a id="item-body-<%= item %>"></a>
 <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
-<img class="classrooms" src="./images/item-body-<%= item %>.svg" alt="">
+<img class="item-body-image" src="./images/item-body-<%= item %>.svg" alt="">
 <div class="item item-body item-num-<%= item %>">
   <div class="column-left">
   <% blog('blocks').articles.each do |block| %>

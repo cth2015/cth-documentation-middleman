@@ -10,25 +10,25 @@
     
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 2 %>
-    <li><% link_to('#item-body-2', {:class => 'nav-link is-link-active'}) do %> From Content to Context <% end %></li>
+    <li><% link_to('#item-body-2', {:class => 'nav-link is-link-active'}) do %> <span class="hide-responsive">From Content to </span> Context <% end %></li>
     <% else %>
-    <li><% link_to('#item-body-2', {:class => 'nav-link'}) do %> From Content to Context <% end %></li>
+    <li><% link_to('#item-body-2', {:class => 'nav-link'}) do %> <span class="hide-responsive">From Content to </span>Context <% end %></li>
     <% end %>
     <% end %>
 
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 3 %>
-    <li><% link_to('#item-body-3', {:class => 'nav-link is-link-active'}) do %> To Curation <% end %></li>
+    <li><% link_to('#item-body-3', {:class => 'nav-link is-link-active'}) do %><span class="hide-responsive"> To </span>Curation <% end %></li>
     <% else %>
-    <li><% link_to('#item-body-3', {:class => 'nav-link'}) do %> To Curation <% end %></li>
+    <li><% link_to('#item-body-3', {:class => 'nav-link'}) do %><span class="hide-responsive"> To </span>Curation <% end %></li>
     <% end %>
     <% end %>
 
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 4 %>
-    <li><% link_to('#item-body-4', {:class => 'nav-link is-link-active'}) do %> To Faciliation <% end %></li>
+    <li><% link_to('#item-body-4', {:class => 'nav-link is-link-active'}) do %><span class="hide-responsive"> To </span>Faciliation <% end %></li>
     <% else %>
-    <li><% link_to('#item-body-4', {:class => 'nav-link'}) do %> To Faciliation <% end %></li>
+    <li><% link_to('#item-body-4', {:class => 'nav-link'}) do %><span class="hide-responsive"> To </span>Faciliation <% end %></li>
     <% end %>
     <% end %>
 

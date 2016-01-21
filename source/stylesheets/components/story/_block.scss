@@ -9,13 +9,20 @@
 
 }
 
+.main-logo {
+  @media (max-width: 500px) {
+    font-size: rem-calc(40);
+  }
+}
+
 .block.block-video {
   @include aspect-ratio(16, 9);
-  width: 80%;
+  width: 100%;
   background: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: $baseUnit;
 }
 
 .block-video .playbutton {

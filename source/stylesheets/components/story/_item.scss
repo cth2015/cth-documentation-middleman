@@ -15,10 +15,6 @@
 	align-items: center;
 	justify-content: center;
 	min-height: 80vh;
-	padding: $baseUnit;
-	@media (min-width: 1024px) {
-		padding: $baseUnit * 2;
-	}
 }
 
 .item-body {

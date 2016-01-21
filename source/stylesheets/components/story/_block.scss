@@ -13,6 +13,13 @@
   background: black;
   height: 80%;
   width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-video .playbutton {
+  width: 20%;
 }
 
 .block.entities {
@@ -22,7 +29,7 @@
 
 .hammer-header {
   position: relative;
-  width: 62.5%;
+  width: 65%;
   left: 50%;
   transform: rotate(45deg);
   padding: $baseUnit 0;
@@ -39,6 +46,14 @@
   background: $yellow;
   border-bottom: $baseUnit * 2 solid $yellow;
   heigth: auto;
+}
+
+.hammer-about {
+  position: relative;
+  top: 2px;
+  left: 35%;
+  width: 65%;
+  padding: $baseUnit*5 0 0 0;
 }
 
 .block ul {

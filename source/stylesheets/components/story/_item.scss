@@ -25,6 +25,7 @@
 .item .column-left {
 	display: flex;
 	flex-wrap: wrap;
+	align-self: flex-start;
 	width: 100%;
 	@media (min-width: 1024px) {
 		width: 60%;

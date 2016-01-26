@@ -44,6 +44,7 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
   set :base_url, '/cth-documentation-middleman/'
+  set :http_prefix, '/cth-documentation-middleman/'
   set :relative_links, true
 end
 

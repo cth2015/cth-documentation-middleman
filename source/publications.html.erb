@@ -3,10 +3,16 @@ title: Coding the Humanities
 layout: main
 type: publications
 ---
-<% blog('publications').articles.each do |block| %>
-<%= partial("partials/navigation", :locals => { :which_is_link_active => 0 }) %>
+<% blog('publications').articles.each do |post| %>
+<%= partial("partials/navigation", :locals => { :which_is_link_active => post.data.item }) %>
 <img class="" src="" alt="">
-<div class="item-body">
-  <h1>Hello</h1>
+<div class="item item-body">
+  <div class="column-left">
+    <div class="block">
+      <h1><%= post.title %></h1>
+      <h3><%= post.data.authors %></h3>
+      <p><%= post.body %></p>
+    </div>
+  </div>
 </div>
 <% end %>

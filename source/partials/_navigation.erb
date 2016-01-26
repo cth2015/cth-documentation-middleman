@@ -2,9 +2,9 @@
   <ul class="nav-story">
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 1 %>
-    <li><% link_to(config.http_prefix + '/', {:class => 'nav-link is-link-active'}) do %> <img src="images/cth-icon.svg" class="cth-icon" alt=""> <% end %></li>
+    <li><% link_to(config.http_prefix + '', {:class => 'nav-link is-link-active'}) do %> <img src="images/cth-icon.svg" class="cth-icon" alt=""> <% end %></li>
     <% else %>
-    <li><% link_to(config.http_prefix + '/', {:class => 'nav-link'}) do %><img src="images/cth-icon.svg" class="cth-icon" alt=""><% end %></li>
+    <li><% link_to(config.http_prefix + '', {:class => 'nav-link'}) do %><img src="images/cth-icon.svg" class="cth-icon" alt=""><% end %></li>
     <% end %>
     <% end %>
     

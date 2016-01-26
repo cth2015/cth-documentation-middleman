@@ -3,7 +3,8 @@ type: publications
 item: 2
 title: When All We Have Is A Hammer  
 date: 2013-12-11 21:57:27 +0100
-authors: Jan Hein Hoogstad
+authors: 
+- Jan Hein Hoogstad
 images:
 - url: ./images/nails.jpg 
 ---

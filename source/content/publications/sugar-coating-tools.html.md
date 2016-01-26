@@ -3,7 +3,8 @@ type: publications
 item: 2
 title: Sugar Coating Tools
 date: 2013-12-11 21:57:27 +0100
-authors: Marijn Koolen
+authors: 
+- Marijn Koolen
 ---
 # Sugar Coating Tools
 

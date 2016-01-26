@@ -49,3 +49,17 @@
 .item.item-post {
 	align-items: flex-start;
 }
+
+.item.item-post {
+	flex-direction: row-reverse;
+}
+
+.item.item-post-left {
+	flex-direction: row;
+}
+
+.item-post-image {
+	height: $baseUnit * 6;
+	width: 100%;
+	background: $blue;
+}

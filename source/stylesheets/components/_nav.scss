@@ -20,14 +20,14 @@
 }
 
 .nav-story .hide-responsive {
-  @media (max-width: 800px){
+  @media (max-width: $breakpoint-md){
     display: none;
   }
 }
 
 .nav-story li:first-child {
   flex-shrink: 1;
-  @media (max-width: 800px){
+  @media (max-width: $breakpoint-md){
     display: block;
   }
 }

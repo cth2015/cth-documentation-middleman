@@ -27,7 +27,7 @@
 	flex-wrap: wrap;
 	align-self: flex-start;
 	width: 100%;
-	@media (min-width: 1024px) {
+	@media (min-width: $breakpoint-lg) {
 		width: 60%;
 	}
 }
@@ -37,7 +37,7 @@
 	align-items: flex-start;
 	width: 100%;
 	height: 100%;
-	@media (min-width: 1024px) {
+	@media (min-width: $breakpoint-lg) {
 		width: 40%;
 	}
 }

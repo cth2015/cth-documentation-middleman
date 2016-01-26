@@ -1,47 +1,29 @@
+// General block-lvl styling
 .block {
   width: 100%;
   padding: $baseUnit  $baseUnit 0 $baseUnit;
   @include clearfix;
 }
 
-.item-header .block {
-  padding: $baseUnit;
-
+.block ul {
+  list-style: square;
+  list-style-position: inside;
+  margin-bottom: $halfUnit;
 }
 
-.main-logo {
-  @media (max-width: 500px) {
+
+// Specific block-lvl styling
+.item-header .block {
+  padding: $baseUnit;
+}
+
+.item-header .main-logo {
+  @media (max-width: $breakpoint-sm) {
     font-size: rem-calc(40);
   }
 }
 
-.block.block-video {
-  @include aspect-ratio(16, 9);
-  width: 100%;
-  background: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: $baseUnit 1;
-  @media (min-width: 800px) {
-    margin: $baseUnit * 3;
-  }
-}
-
-.block-video .playbutton {
-  position: absolute;
-  left: 40%;
-  top: 40%;
-  width: 20%;
-  height: 20%;
-}
-
-.block.entities {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.hammer-header {
+.item-header .hammer-header {
   position: relative;
   width: 65%;
   left: 50%;
@@ -49,29 +31,43 @@
   padding: $baseUnit 0;
 }
 
-.item-body-image {
+.item-video .block-video {
+  @include aspect-ratio(16, 9);
   width: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: $baseUnit * 1;
+  @media (min-width: $breakpoint-md) {
+    margin: $baseUnit * 3;
+  }
+}
+
+.item-video .block-video .playbutton {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  width: 20%;
+  height: 20%;
+}
+
+.item-body-image, .item-partners-image {
+  width: 100%;
+  heigth: auto;
   background: $yellow;
   padding: $baseUnit*3;
 }
 
-.group-yellow-black {
-  width: 100%;
-  background: $yellow;
-  border-bottom: $baseUnit * 2 solid $yellow;
-  heigth: auto;
+.block.entities {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.hammer-about {
+.item-about .hammer-about {
   position: relative;
   top: 2px;
   left: 35%;
   width: 65%;
   padding: $baseUnit*5 0 0 0;
-}
-
-.block ul {
-  list-style: square;
-  list-style-position: inside;
-  margin-bottom: $halfUnit;
 }

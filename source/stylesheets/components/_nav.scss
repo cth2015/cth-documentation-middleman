@@ -9,26 +9,9 @@
   border-top: $thirdUnit dashed black;
 }
 
-.main .nav-main {
-  border-top: $thirdUnit dashed black;
-  background: $yellow;
-}
-
-.nav-main li {
-  flex-shrink: 0;
-  margin: 0 $thirdUnit 0 0;
-}
-
 .nav-main .hide-responsive {
   @media (max-width: $breakpoint-md){
     display: none;
-  }
-}
-
-.nav-main li:first-child {
-  flex-shrink: 1;
-  @media (max-width: $breakpoint-md){
-    display: block;
   }
 }
 
@@ -37,7 +20,6 @@
 }
 
 .nav-main a {
-  color: $black;
   opacity: 0.1;
 }
 
@@ -46,6 +28,5 @@
 }
 
 .nav-main a.is-link-active {
-  color: $black;
   opacity: 1;
 }

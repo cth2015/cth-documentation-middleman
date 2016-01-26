@@ -1,11 +1,15 @@
 .entity {
-  width: $baseUnit * 5  ;
+  width: calc(((1/2) * 100%) - #{$baseUnit});
   border-bottom: $thirdUnit solid $black;
 
   margin: 0 $baseUnit $baseUnit 0;
   padding: $halfUnit;
 
   background: rgba($yellow, 1);
+
+  @media (min-width: $breakpoint-md){
+    width: calc(((1/4) * 100%) - #{$baseUnit});
+  }
 }
 
 .entity, .entity p {

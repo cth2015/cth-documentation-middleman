@@ -18,8 +18,8 @@
 
 .item-header .hammer-header {
   position: relative;
-  width: 26%;
-  left: 80%;
+  width: 50%;
+  left: 60%;
   transform: rotate(45deg);
   padding: $baseUnit 0;
   @media (min-width: $breakpoint-lg) {
@@ -56,6 +56,10 @@
   padding: $baseUnit*3;
 }
 
+.item-partners .block {
+  padding: $baseUnit 0 0 $baseUnit;
+}
+
 .block.entities {
   display: flex;
   flex-wrap: wrap;
@@ -64,8 +68,8 @@
 .item-about .hammer-about {
   position: relative;
   top: 2px;
-  left: 74%;
-  width: 26%;
+  left: 50%;
+  width: 50%;
   padding: $baseUnit*5 0 0 0;
   @media (min-width: $breakpoint-lg) {
     width: 65%;

@@ -73,7 +73,7 @@ entities:
 - name: LustLab
   description: 
   job: guest lecturer Coding the Humanities pilot
-- name: Sandberg
+- name: Sandberg Institute
   description: 
   job: partner Coding the Humanities I 
 - name: Lifely

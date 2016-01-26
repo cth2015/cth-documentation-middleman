@@ -1,5 +1,5 @@
 ---
-layout: article
+type: publications
 item: 2
 title: Blurred Lines
 authors: Jan Hein Hoogstad

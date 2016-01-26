@@ -12,11 +12,11 @@
 }
 
 // Specific block-lvl styling
-.item-header .block {
+.story .item-header .block {
   padding: $baseUnit;
 }
 
-.item-header .hammer-header {
+.story .item-header .hammer-header {
   position: relative;
   width: 50%;
   left: 60%;
@@ -28,7 +28,7 @@
   }
 }
 
-.item-video .block-video {
+.story .item-video .block-video {
   @include aspect-ratio(16, 9);
   width: 100%;
   background: black;
@@ -41,7 +41,7 @@
   }
 }
 
-.item-video .block-video .playbutton {
+.story .item-video .block-video .playbutton {
   position: absolute;
   left: 40%;
   top: 40%;
@@ -49,7 +49,7 @@
   height: 20%;
 }
 
-.item-body-image, .item-partners-image {
+.story .item-body-image, .item-partners-image {
   width: 100%;
   heigth: auto;
   background: $yellow;
@@ -59,7 +59,7 @@
   }
 }
 
-.item-partners .block {
+.story .item-partners .block {
   padding: $baseUnit 0 0 $baseUnit;
 }
 

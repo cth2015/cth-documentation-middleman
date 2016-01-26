@@ -4,7 +4,8 @@ layout: main
 type: publications
 ---
 <% blog('publications').articles.each do |block| %>
-<img class="item-body-image" src="" alt="">
+<%= partial("partials/navigation", :locals => { :which_is_link_active => 0 }) %>
+<img class="" src="" alt="">
 <div class="item-body">
   <h1>Hello</h1>
 </div>

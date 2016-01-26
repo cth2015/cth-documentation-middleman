@@ -1,6 +1,7 @@
 <%= partial "partials/head" %>
 <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
-<main class="main story">
+<main class="main <%= current_page.data.type %>">
   <%= yield %>
 </main>
+
 <%= partial "partials/footer" %>

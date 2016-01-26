@@ -1,4 +1,4 @@
-.nav-story {
+.nav-main {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -9,43 +9,43 @@
   border-top: $thirdUnit dashed black;
 }
 
-.main .nav-story {
+.main .nav-main {
   border-top: $thirdUnit dashed black;
   background: $yellow;
 }
 
-.nav-story li {
+.nav-main li {
   flex-shrink: 0;
   margin: 0 $thirdUnit 0 0;
 }
 
-.nav-story .hide-responsive {
+.nav-main .hide-responsive {
   @media (max-width: $breakpoint-md){
     display: none;
   }
 }
 
-.nav-story li:first-child {
+.nav-main li:first-child {
   flex-shrink: 1;
   @media (max-width: $breakpoint-md){
     display: block;
   }
 }
 
-.nav-story .cth-icon {
+.nav-main .cth-icon {
   height: $baseUnit;
 }
 
-.nav-story a {
+.nav-main a {
   color: $black;
   opacity: 0.1;
 }
 
-.nav-story a:hover {
+.nav-main a:hover {
   opacity: 1;
 }
 
-.nav-story a.is-link-active {
+.nav-main a.is-link-active {
   color: $black;
   opacity: 1;
 }

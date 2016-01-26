@@ -53,13 +53,13 @@ activate :blog do |blog|
 end
 
 activate :blog do |blog|
-  blog.name = "articles"
-  blog.sources = "content/article/{title}.html"
-  blog.permalink = "article/{title}.html"
+  blog.name = "publications"
+  blog.sources = "content/publications/{title}.html"
+  blog.permalink = "publications/{title}.html"
 end
 
 activate :blog do |blog|
-  blog.name = "pages"
-  blog.sources = "content/page/{title}.html"
-  blog.permalink = "page/{title}.html"
+  blog.name = "projects"
+  blog.sources = "content/projects/{title}.html"
+  blog.permalink = "projects/{title}.html"
 end

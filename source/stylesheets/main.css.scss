@@ -1,5 +1,5 @@
-@import 'global/functions.scss';
-@import 'global/mixins';
+@import 'functions.scss';
+@import 'mixins';
 
 $baseFont: NittiGrotesk;
 $titleFont: NittiGroteskBold;
@@ -15,23 +15,23 @@ $sidebarWidth: 14 * $baseUnit;
 $cardWidth: 14 * $baseUnit;
 $imageHeight: ($cardWidth / 12) * 7;
 
-@import 'global/colors';
-@import 'global/typography';
-@import 'global/base';
-@import 'global/mediaqueries';
-@import 'global/layout';
+@import 'colors';
+@import 'typography';
+@import 'base';
+@import 'mediaqueries';
+@import 'layout';
+@import 'pages';
 
-@import 'global/partials/textbar';
-@import 'global/partials/tags';
-@import 'global/partials/buttons';
+@import 'partials/textbar';
+@import 'partials/tags';
+@import 'partials/buttons';
 
 @import 'components/nav';
 @import 'components/footer';
-@import 'components/story/story';
-@import 'components/story/item';
-@import 'components/story/block';
-@import 'components/story/reference';
-@import 'components/story/entity';
-@import 'components/story/about';
-@import 'components/page';
-@import 'components/article';
+@import 'components/item';
+@import 'components/block';
+@import 'components/reference';
+@import 'components/entity';
+@import 'components/about';
+@import 'components/_single-publication';
+@import 'components/_single-project';

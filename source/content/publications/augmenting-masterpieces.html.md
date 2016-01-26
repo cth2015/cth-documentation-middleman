@@ -6,6 +6,8 @@ date: 2013-12-11 21:57:27 +0100
 authors:
 - Johanna Barnbeck
 images:
-- url: ./images/nails.jpg 
+- url: ./images/nails.jpg
+description: |
+  Augmenting Masterpieces explores the social dimensions of a visit to the Rijksmuseum. It creates an interface which lets the visitor interact with the physical and the digital collection. 
 ---
-Augmenting Masterpieces
+Augmenting Masterpieces explores the social dimensions of a visit to the Rijksmuseum. It creates an interface which lets the visitor interact with the physical and the digital collection. 

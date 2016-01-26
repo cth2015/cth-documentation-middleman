@@ -5,9 +5,9 @@ title: Sugar Coating Tools
 date: 2013-12-11 21:57:27 +0100
 authors: 
 - Marijn Koolen
+description: |
+  Many humanities researchers are unwilling to adopt a programmatic perspective to the use of digital tools. We shy away from our responsibility to understand our methods.
 ---
-# Sugar Coating Tools
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quasi enim voluptatum cupiditate, nesciunt iste adipisci ipsa consectetur natus, nulla, assumenda debitis quisquam! Rem explicabo, maiores quia fugiat vitae! Laudantium?
 
 Quo, fugiat magni ipsum quia modi libero repellat laudantium iusto nobis ducimus dolor rerum a saepe! Laboriosam a magnam id quas accusantium earum quae. Nostrum tempora eum voluptas excepturi magni.

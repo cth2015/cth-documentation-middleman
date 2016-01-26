@@ -7,5 +7,7 @@ authors:
 - Jan Hein Hoogstad
 images:
 - url: ./images/nails.jpg 
+description: | 
+  Technological developments alter our conception of things, the world, or even the universe. They change your perspective and filter your interpretation of the world around you.
 ---
 Saturns Ears

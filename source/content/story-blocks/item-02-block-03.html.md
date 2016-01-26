@@ -4,13 +4,13 @@ item: 2
 block: 4
 references: 
 - slug: when-all-we-have-is-a-hammer
-  type: article
+  type: publications
 - slug: blurred-lines 
-  type: article
+  type: publications
 - slug: sugar-coating-tools
-  type: article
+  type: publications
 - slug: art-science-and-technology-i
-  type: page
+  type: projects
 - slug: coding-the-humanities-pilot
-  type: page
+  type: projects
 ---

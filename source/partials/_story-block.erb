@@ -10,13 +10,13 @@
     <div class="reference-line"></div>
     <h3>Projects:</h3>
     <% for reference in block.data.references %>
-    <% if reference.type == "page" %>
+    <% if reference.type == "projects" %>
       <%= partial(:"partials/story-reference", :locals => { :reference => reference })  %>
     <% end %>
     <% end %>
     <h3>Publications:</h3>
     <% for reference in block.data.references %>
-    <% if reference.type == "article" %>
+    <% if reference.type == "publications" %>
       <%= partial(:"partials/story-reference", :locals => { :reference => reference })  %>
     <% end %>
     <% end %>

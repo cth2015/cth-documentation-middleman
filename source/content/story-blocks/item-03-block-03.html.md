@@ -4,25 +4,25 @@ item: 3
 block: 4
 references: 
 - slug: augmenting-masterpieces
-  type: article
+  type: publications
 - slug: the-brown-map
-  type: article
+  type: publications
 - slug: presentation
-  type: article
+  type: publications
 - slug: art-science-and-technology-ii
-  type: page
+  type: projects
 - slug: coding-the-Humanities-i
-  type: page
+  type: projects
 - slug: staff-crash-course
-  type: page
+  type: projects
 - slug: from-object-to-data-i-and-ii
-  type: page
+  type: projects
 - slug: internships
-  type: page
+  type: projects
 - slug: paper-prototype
-  type: page
+  type: projects
 - slug: desktop-prototype
-  type: page
+  type: projects
 - slug: usability-tests
-  type: page
+  type: projects
 ---

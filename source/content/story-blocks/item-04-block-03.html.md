@@ -4,17 +4,17 @@ item: 4
 block: 4
 references: 
 - slug: saturns-ears
-  type: article
+  type: publications
 - slug: constructing-criticism
-  type: article
+  type: publications
 - slug: coding-the-humanities-ii
-  type: page
+  type: projects
 - slug: user-research-study
-  type: page
+  type: projects
 - slug: desktop-prototype
-  type: page
+  type: projects
 - slug: mobile-prototype
-  type: page
+  type: projects
 - slug: usability-tests
-  type: page
+  type: projects
 ---

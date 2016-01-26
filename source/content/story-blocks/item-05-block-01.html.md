@@ -70,9 +70,15 @@ entities:
 - name: CastYourArt
   description:
   job: guest lecturer Coding the Humanities pilot
+- name: Dimitri Nieuwenhuizen
+  description: 
+  job: co-teacher Coding the Humanities I
 - name: LustLab
   description: 
   job: guest lecturer Coding the Humanities pilot
+- name: Sandberg
+  description: 
+  job: partner Coding the Humanities I 
 - name: Lifely
   description:
   job: consultancy and design UX mobile prototype

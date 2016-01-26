@@ -7,4 +7,4 @@ item: 3
 block: 1
 classes: block block-yellow
 ---
-Today, almost anything you want to learn is accessible online. Creating new online learning materials is a waste of time – use what’s already there instead.
+Today, almost anything you want to learn is accessible online. Anyone who wants to learn, can use what’s already there. Coding the Humanities creates a tool that helps people structure, track and share what they want to learn.

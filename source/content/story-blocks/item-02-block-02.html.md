@@ -6,12 +6,11 @@ blog_name: blocks
 item: 2
 block: 3
 classes: block block-orange
-references:
 ---
-In May 2013, Coding the Humanities created its first alternative classroom to create an environment to involve students in their own teaching practice. Students were encouraged to be: 
+In May 2013, Coding the Humanities organised a one-month coding boot camp for humanities students. We created a space where students were encouraged to shape their own learning paths. Students were encouraged adopt a programmer’s mindset, which meant: 
 
-- Lazy and steal the work of others
-- Impatient and make something before you know something
-- Bold and share every step they take
+- Be lazy. Steal the work of others
+- Be impatient. Make something before you know it 
+- Be bold. Boast and share every step take 
 
-Knowledge can come from everywhere, but as it turned out, most knowledge came from Google. Students found everything they needed to know in each other or the internet. There was no need for content. There was a need to organize what they found.
+Out of everyone and everything, from teachers, to students, to guest lecturers, most knowledge came from Google. Almost anything students needed to know, they found online. It turned out there was no need for information. There was a need to structure, track and share all the things that they found.

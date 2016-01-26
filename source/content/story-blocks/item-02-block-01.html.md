@@ -7,6 +7,6 @@ item: 2
 block: 2
 classes: block block-aquamarine
 ---
-Imagine two classrooms. In the first, you see a teacher who teaches a group of students. The students’ knowledge is wasted. In the second classroom, you see a group of people who share what they know. They are teaching each other. Yet, traditional education – and many online learning solutions – are still modelled after the first classroom. 
+Imagine two classrooms. In the first, you see a teacher who teaches a group of students. The student’s contribution is only minimal. In the second classroom, you see a group of people sharing what they know with each other. Yet, many traditional classrooms – and even many online learning spaces – are modelled after the first classroom. 
 
-While the educational system is wasting most of its in-house knowledge, degrees become more and more expensive. 
+The Coding the Humanities pilot set out to create an alternative classroom where knowledge is contributed and shared by everyone. 

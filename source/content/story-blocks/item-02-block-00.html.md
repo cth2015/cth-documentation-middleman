@@ -7,4 +7,4 @@ item: 2
 block: 1
 classes: block block-yellow
 ---
-Everybody possesses a piece of knowledge or a skill that is worthy to share with others, but in traditional education, what students know is left out. 
+Everybody possesses knowledge or a skill that they could share with others. But in too many classrooms – both online and offline – what students know is mostly left out. Coding the Humanities creates a classroom that offers context to everybody’s knowledge.

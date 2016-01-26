@@ -6,12 +6,13 @@ blog_name: blocks
 item: 4
 block: 3
 classes: block block-orange
-references:
 ---
-With the results of earlier prototypes and the research in mind, the current digital space co-designed by Lifely, is an environment that helps students and teachers to organise, track and share learning resources and exercises. The tool facilitates stealing, making in sharing. On the platform you can:
+Bringing together early prototypes, classroom experience and research, the environment – codesigned with Lifely – became an online space where the boundary between students and teachers is continually questioned and everybody can organise, track and share their learning efforts through curation. The tool embodies a coding mindset and helps you to steal, make and share over and over again.
+
+On the platform, people can: 
 
 - Create, curate and alter hand-picked collections of resources on a specific topic and create a personal learning trajectory
 - Gather specific feedback on early drafts of your work and the work of your peers
 - See what others are doing and have done before you – in your class, in parallel classes and classes of the years before you
 
-The tool isn’t just a tool. It is the development of a teaching practice that makes education accessible, shared and usable again. 
+But the tool isn’t just a tool – it embodies the further development of a teaching practice that leverages the knowledge and information that exists around us. We believe in a future of shared learning – inside and outside of universities – and knowledge institutions are here to further shape this future of learning. 

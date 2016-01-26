@@ -4,17 +4,26 @@
 }
 
 .reference-container h3 {
-  margin: 0 $baseUnit $halfUnit 0;
+  margin: 0 0 $halfUnit 0;
+}
+
+.reference-inner-container {
+  position: relative;
+  width: 100%;
+  @media (max-width: $breakpoint-lg) {
+    left: 40%;
+    width: 60%;
+  }
 }
 
 .reference {
   position: relative;
   left: $baseUnit;
   padding-right: $baseUnit - ($thirdUnit / 2);
-  
   border-right: $thirdUnit solid $black;
-
+  border-left: $thirdUnit solid $yellow;
   background: $yellow;
+  transition: all 0.2s ease-in-out;
 }
 
 .reference p {
@@ -23,4 +32,6 @@
 
 .reference:hover {
   border-right: $thirdUnit solid $yellow;
+  border-left: $thirdUnit solid $black;
+
 }

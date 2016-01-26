@@ -1,11 +1,8 @@
 ---
-layout: story
 title: Learn, Teach, Repeat
 date: 24-12-2015
-blog_name: blocks
 item: 3
 block: 3
-classes: block block-orange
 ---
 The first step towards this tool was a paper prototype that was made by the students. They designed a system using index cards that helped them structure series of learning resources into meaningful paths. 
 

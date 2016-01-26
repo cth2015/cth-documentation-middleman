@@ -1,11 +1,8 @@
 ---
-layout: story
 title: Steal + Make + Share = Curate
 date: 25-12-2015
-blog_name: blocks
 item: 3
 block: 2
-classes: block block-aquamarine
 ---
 Back in the day, when you wanted to learn linguistics from Umberto Eco, you had to travel to Bologna. Today, you can do this from behind a computer, anywhere you want, with an internet connection.
 

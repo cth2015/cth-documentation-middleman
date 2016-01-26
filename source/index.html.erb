@@ -6,7 +6,7 @@ type: story
 <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
 <div id="item-header" class="item item-header">
   <div class="column-left">
-    <div class="<%= blog('blocks').articles[0].data.classes %>">
+    <div class="block block-header-text">
       <h1 class="logo main-logo title textbar textbar-big">Coding_</h1>
       <br>
       <h1 class="logo main-logo title textbar textbar-big">the_</h1>
@@ -50,7 +50,7 @@ type: story
 <img class="item-partners-image" src="images/item-partners.svg" alt="">
 <div  class="item item-partners">
   <div class="column-left">
-    <div class="<%= blog('blocks').articles[13].data.classes %>">
+    <div class="block">
       <h1 class="title textbar"><%= blog('blocks').articles[13].data.title %></h1>
       <div class="block-small-typography"><%= blog('blocks').articles[13].body %></div>
     </div>
@@ -66,7 +66,7 @@ type: story
 <%= partial("partials/navigation", :locals => { :which_is_link_active => 6 }) %>
 <div class="item item-about">   
   <div class="column-left">
-    <div class="<%= blog('blocks').articles[14].data.classes %>">
+    <div class="block">
       <h1 class="title textbar"><%= blog('blocks').articles[14].data.title %></h1>
       <div class="block-small-typography"><%= blog('blocks').articles[14].body %></div>
     </div>

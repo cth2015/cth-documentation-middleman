@@ -1,11 +1,8 @@
 ---
-layout: story
 title: Organise, Track and Share the Learning Process
 date: 20-12-2015
-blog_name: blocks
 item: 4
 block: 3
-classes: block block-orange
 ---
 Bringing together early prototypes, classroom experience and research, the environment – codesigned with Lifely – became an online space where the boundary between students and teachers is continually questioned and everybody can organise, track and share their learning efforts through curation. The tool embodies a coding mindset and helps you to steal, make and share over and over again.
 

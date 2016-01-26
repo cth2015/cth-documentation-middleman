@@ -1,11 +1,8 @@
 ---
-layout: story
 title: Partners
 date: 18-12-2015
-blog_name: blocks
 item: item-people
 block: 1
-classes: block block-red
 entities: 
 - name: Angeliki Chalkia
   description:

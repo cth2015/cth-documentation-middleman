@@ -1,11 +1,8 @@
 ---
-layout: story
 title: About
 date: 17-12-2015
-blog_name: blocks
 item: item-about
 block: 1
-classes: block block-red
 ---
 In March 2013, the idea for Coding the Humanities was born in Wassenaar, The Netherlands, during a two-day workshop, organized by NIAS, on public and private initiatives in the Digital Humanities.
 

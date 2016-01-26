@@ -1,11 +1,8 @@
 ---
-layout: story
 title: Be Lazy, Impatient and Bold
 date: 28-12-2015
-blog_name: blocks
 item: 2
 block: 3
-classes: block block-orange
 ---
 In May 2013, Coding the Humanities organised a one-month coding boot camp for humanities students. We created a space where students were encouraged to shape their own learning paths. Students were encouraged adopt a programmer’s mindset, which meant: 
 

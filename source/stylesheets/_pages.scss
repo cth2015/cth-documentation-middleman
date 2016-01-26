@@ -1,11 +1,15 @@
-.story {
-
+.story-color {
+  background: $yellow;
 }
 
-.publications {
-  
+.publications-color {
+  background: $blue;
 }
 
-.projects {
-  
+.projects-color {
+  background: $red;
+}
+
+.single-page, .single-article {
+  padding: $baseUnit;
 }

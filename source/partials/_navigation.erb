@@ -2,49 +2,49 @@
   <ul class="nav-story">
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 1 %>
-    <li><% link_to(config.base_url + '/' + '/', {:class => 'nav-link is-link-active'}) do %> <img src="images/cth-icon.svg" class="cth-icon" alt=""> <% end %></li>
+    <li><% link_to(config.http_prefix + '/', {:class => 'nav-link is-link-active'}) do %> <img src="images/cth-icon.svg" class="cth-icon" alt=""> <% end %></li>
     <% else %>
-    <li><% link_to(config.base_url + '/' + '/', {:class => 'nav-link'}) do %><img src="images/cth-icon.svg" class="cth-icon" alt=""><% end %></li>
+    <li><% link_to(config.http_prefix + '/', {:class => 'nav-link'}) do %><img src="images/cth-icon.svg" class="cth-icon" alt=""><% end %></li>
     <% end %>
     <% end %>
     
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 2 %>
-    <li><% link_to(config.base_url + '/' + '#item-body-2', {:class => 'nav-link is-link-active'}) do %> <span class="hide-responsive">From Content to </span> Context <% end %></li>
+    <li><% link_to(config.http_prefix + '#item-body-2', {:class => 'nav-link is-link-active'}) do %> <span class="hide-responsive">From Content to </span> Context <% end %></li>
     <% else %>
-    <li><% link_to(config.base_url + '/' + '#item-body-2', {:class => 'nav-link'}) do %> <span class="hide-responsive">From Content to </span>Context <% end %></li>
+    <li><% link_to(config.http_prefix + '#item-body-2', {:class => 'nav-link'}) do %> <span class="hide-responsive">From Content to </span>Context <% end %></li>
     <% end %>
     <% end %>
 
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 3 %>
-    <li><% link_to(config.base_url + '/' + '#item-body-3', {:class => 'nav-link is-link-active'}) do %><span class="hide-responsive"> To </span>Curation <% end %></li>
+    <li><% link_to(config.http_prefix + '#item-body-3', {:class => 'nav-link is-link-active'}) do %><span class="hide-responsive"> To </span>Curation <% end %></li>
     <% else %>
-    <li><% link_to(config.base_url + '/' + '#item-body-3', {:class => 'nav-link'}) do %><span class="hide-responsive"> To </span>Curation <% end %></li>
+    <li><% link_to(config.http_prefix + '#item-body-3', {:class => 'nav-link'}) do %><span class="hide-responsive"> To </span>Curation <% end %></li>
     <% end %>
     <% end %>
 
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 4 %>
-    <li><% link_to(config.base_url + '/' + '#item-body-4', {:class => 'nav-link is-link-active'}) do %><span class="hide-responsive"> To </span>Faciliation <% end %></li>
+    <li><% link_to(config.http_prefix + '#item-body-4', {:class => 'nav-link is-link-active'}) do %><span class="hide-responsive"> To </span>Faciliation <% end %></li>
     <% else %>
-    <li><% link_to(config.base_url + '/' + '#item-body-4', {:class => 'nav-link'}) do %><span class="hide-responsive"> To </span>Faciliation <% end %></li>
+    <li><% link_to(config.http_prefix + '#item-body-4', {:class => 'nav-link'}) do %><span class="hide-responsive"> To </span>Faciliation <% end %></li>
     <% end %>
     <% end %>
 
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 5 %>
-    <li><% link_to(config.base_url + '/' + '#item-partners', {:class => 'nav-link is-link-active'}) do %> Partners <% end %></li>
+    <li><% link_to(config.http_prefix + '#item-partners', {:class => 'nav-link is-link-active'}) do %> Partners <% end %></li>
     <% else %>
-    <li><% link_to(config.base_url + '/' + '#item-partners', {:class => 'nav-link'}) do %> Partners <% end %></li>
+    <li><% link_to(config.http_prefix + '#item-partners', {:class => 'nav-link'}) do %> Partners <% end %></li>
     <% end %>
     <% end %>
 
     <% if defined?which_is_link_active %>
     <% if which_is_link_active == 6 %>
-    <li><% link_to(config.base_url + '/' + '#item-about', {:class => 'nav-link is-link-active'}) do %> About <% end %></li>
+    <li><% link_to(config.http_prefix + '#item-about', {:class => 'nav-link is-link-active'}) do %> About <% end %></li>
     <% else %>
-    <li><% link_to(config.base_url + '/' + '#item-about', {:class => 'nav-link'}) do %> About <% end %></li>
+    <li><% link_to(config.http_prefix + '#item-about', {:class => 'nav-link'}) do %> About <% end %></li>
     <% end %>
     <% end %>
   </ul>

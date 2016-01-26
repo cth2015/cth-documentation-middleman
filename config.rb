@@ -19,8 +19,6 @@ page '/*.txt', layout: false
 # General configuration
 
 configure :development do
-  set :relative_links, true
-  set :base_url, ''
   # Reload the browser automatically whenever files change
   activate :livereload
 end
@@ -43,9 +41,7 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
-  set :base_url, '/cth-documentation-middleman/'
   set :http_prefix, '/cth-documentation-middleman/'
-  set :relative_links, true
 end
 
 # Activate the blog gems for both the story and the articles

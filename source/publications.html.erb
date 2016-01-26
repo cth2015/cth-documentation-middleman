@@ -6,12 +6,16 @@ type: publications
 <% blog('publications').articles.each do |post| %>
 <%= partial("partials/navigation", :locals => { :which_is_link_active => post.data.item }) %>
 <img class="" src="" alt="">
-<div class="item item-body">
+<div class="item item-post">
   <div class="column-left">
     <div class="block">
-      <h1><%= post.title %></h1>
-      <h3><%= post.data.authors %></h3>
+      <h1 class="textbar title"><%= post.title %></h1>
       <p><%= post.body %></p>
+    </div>
+  </div>
+  <div class="column-right">
+    <div class="block block-authors">
+      <h3><%= post.data.authors %></h3>
     </div>
   </div>
 </div>

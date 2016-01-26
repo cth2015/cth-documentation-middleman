@@ -1,7 +1,7 @@
 // General block-lvl styling
 .block {
   width: 100%;
-  padding: $baseUnit  $baseUnit 0 $baseUnit;
+  padding: $baseUnit;
   @include clearfix;
 }
 
@@ -12,9 +12,6 @@
 }
 
 // Specific block-lvl styling
-.story .item-header .block {
-  padding: $baseUnit;
-}
 
 .story .item-header .hammer-header {
   position: relative;
@@ -63,12 +60,12 @@
   padding: $baseUnit 0 0 $baseUnit;
 }
 
-.block.entities {
+.story .block.entities {
   display: flex;
   flex-wrap: wrap;
 }
 
-.item-about .hammer-about {
+.story .item-about .hammer-about {
   position: relative;
   top: 2px;
   left: 50%;
@@ -78,4 +75,12 @@
     width: 65%;
     left: 35%;
   }
+}
+
+.publications .block-authors {
+  text-align: right;
+}
+
+.publications .block-authors h3 {
+  border-top: $thirdUnit solid $black;
 }

@@ -22,7 +22,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: $baseUnit;
+  margin: $baseUnit 1;
+  @media (min-width: 800px) {
+    margin: $baseUnit * 3;
+  }
 }
 
 .block-video .playbutton {
@@ -49,7 +52,7 @@
 .item-body-image {
   width: 100%;
   background: $yellow;
-  padding: $baseUnit*3 $baseUnit;
+  padding: $baseUnit*3;
 }
 
 .group-yellow-black {

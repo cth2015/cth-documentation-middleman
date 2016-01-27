@@ -49,11 +49,7 @@
 .item.item-post {
 	align-items: flex-start;
 	border-top: $thirdUnit dashed $black;
-}
-
-.item.item-post {
-	// flex-direction: row-reverse;
-  // text-align: right;
+	padding-bottom: $baseUnit *5;
 }
 
 .item.item-post.item-post-left {

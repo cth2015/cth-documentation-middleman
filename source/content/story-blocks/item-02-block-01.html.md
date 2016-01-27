@@ -1,9 +1,7 @@
 ---
-title: The Alternative Classroom
-date: 29-12-2015
+title: From Content to Context
+date: 30-12-2015
 item: 2
-block: 2
+block: 1
 ---
-Imagine two classrooms. In the first, you see a teacher who teaches a group of students. The student’s contribution is only minimal. In the second classroom, you see a group of people sharing what they know with each other. Yet, many traditional classrooms – and even many online learning spaces – are modelled after the first classroom. 
-
-The Coding the Humanities pilot set out to create an alternative classroom where knowledge is contributed and shared by everyone. 
+Everybody possesses knowledge or a skill that they could share with others. But in too many classrooms – both online and offline – what students know is mostly left out. Coding the Humanities creates a classroom that offers context to everybody’s knowledge.

@@ -1,13 +1,9 @@
 ---
-title: Be Lazy, Impatient and Bold
-date: 28-12-2015
+title: The Alternative Classroom
+date: 29-12-2015
 item: 2
-block: 3
+block: 2
 ---
-In May 2013, Coding the Humanities organised a one-month coding boot camp for humanities students. We created a space where students were encouraged to shape their own learning paths. Students were encouraged adopt a programmer’s mindset, which meant: 
+Imagine two classrooms. In the first, you see a teacher who teaches a group of students. The student’s contribution is only minimal. In the second classroom, you see a group of people sharing what they know with each other. Yet, many traditional classrooms – and even many online learning spaces – are modelled after the first classroom. 
 
-- Be lazy. Steal the work of others
-- Be impatient. Make something before you know it 
-- Be bold. Boast and share every step take 
-
-Out of everyone and everything, from teachers, to students, to guest lecturers, most knowledge came from Google. Almost anything students needed to know, they found online. It turned out there was no need for information. There was a need to structure, track and share all the things that they found.
+The Coding the Humanities pilot set out to create an alternative classroom where knowledge is contributed and shared by everyone. 

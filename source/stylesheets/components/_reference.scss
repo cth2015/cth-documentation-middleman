@@ -11,8 +11,8 @@
   position: relative;
   width: 100%;
   @media (max-width: $breakpoint-lg) {
-    left: 40%;
-    width: 60%;
+    left: 30%;
+    width: 70%;
   }
 }
 
@@ -26,26 +26,30 @@
   transition: all 0.5s linear;
 }
 
+.reference h4 {
+  display: inline-block;
+}
+
 .reference p {
   margin: 0;
 }
 
-.reference.projects:hover {
+.reference.projects:hover, .reference.projects:focus {
   background: $red;
 }
 
-.reference.publications:hover {
+.reference.publications:hover, .reference.publications:focus {
   background: $blue;
 }
 
-.reference-description.reference-description {
+.reference .reference-description {
   overflow: hidden;
   height: auto;
   max-height: 0;
   transition: all 0.5s linear;
 }
 
-.reference:hover .reference-description {
-  max-height: $baseUnit * 5;
+.reference:hover .reference-description, .reference:focus .reference-description {
+  max-height: $baseUnit * 6;
   transition: all 0.5s linear 0.5s;
 }

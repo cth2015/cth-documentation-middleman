@@ -3,18 +3,21 @@ title: Coding the Humanities
 layout: main
 type: projects
 ---
+
+
+
 <% for item in 2..4 %>
 <% post_num = 1 %>
 <div class="posts-grouper">
 <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
-<% blog('publications').articles.each do |post| %>
+<% blog('projects').articles.each do |post| %>
 <% if post.data.item == item %>
 <div class="item item-post <% if (post_num % 2) == 1 %>item-post-left <% end %>">
   <div class="column-left">
     <div class="block">
       <h1 class="textbar title"><%= post.title %></h1>
       <p><%= post.body %></p>
-      <h3>-- <%= post.data.authors[0] %></h3>
+      <h3>-- <%= post.data.teachers[0] %></h3>
     </div>
   </div>
 </div>

@@ -3,6 +3,24 @@ title: Coding the Humanities
 layout: main
 type: publications
 ---
+<%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
+<div class="item item-header item-posts-header">
+  <div class="column-left">
+    <img class="image-publications" src="images/publications.svg" alt="">
+  </div>
+  <div class="column-right">
+    <div>
+      <h1 class="title textbar">Publications</h1>
+      <p>This page shows all the publications</p>
+      <ul class="publications-nav">
+        <% blog('publications').articles.each do |post| %>
+          <li><%= post.title %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <% for item in 2..4 %>
 <% post_num = 1 %>
 <div class="posts-grouper">

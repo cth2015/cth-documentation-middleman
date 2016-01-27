@@ -21,7 +21,6 @@
   left: $baseUnit;
   padding: $thirdUnit $baseUnit - ($thirdUnit / 2) $thirdUnit $thirdUnit;
   border-right: $thirdUnit solid $black;
-  border-left: $thirdUnit solid $yellow;
   background: $yellow;
   margin: 0 0 $halfUnit 0;
   transition: all 0.5s linear;
@@ -31,10 +30,12 @@
   margin: 0;
 }
 
-.reference:hover {
-  border-right: $thirdUnit solid $red;
-  border-left: $thirdUnit solid $black;
+.reference.projects:hover {
   background: $red;
+}
+
+.reference.publications:hover {
+  background: $blue;
 }
 
 .reference-description.reference-description {

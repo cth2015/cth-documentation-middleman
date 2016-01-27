@@ -26,6 +26,38 @@ type: story
   </div>
 </div>
 
+<% for item in 2..4 %>
+<a id="item-body-<%= item %>"></a>
+<%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
+<img class="item-body-image" src="./images/item-body-<%= item %>.svg" alt="">
+<div class="item item-body item-num-<%= item %>">
+  <div class="column-left">
+    <% blog('blocks').articles.each do |block| %>
+    <% if block.data.item == item %>
+    <%= partial(:"partials/story-block", :locals => { :block => block })  %>
+    <% end %>
+    <% end %>
+  </div>
+  <div class="column-right">
+    <div class="block">
+      <div class="reference-container">
+        <h3>Projects:</h3>
+        <% blog('projects').articles.each do |post| %>
+        <% if post.data.item == item %>
+        <%= partial(:"partials/story-reference", :locals => { :reference => post })  %>
+        <% end %>
+        <% end %>
+        <h3>Publications:</h3>
+        <% blog('publications').articles.each do |post| %>
+        <% if post.data.item == item %>
+        <%= partial(:"partials/story-reference", :locals => { :reference => post })  %>
+        <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+<% end %>
 
 <a id="item-partners"></a>
 <%= partial("partials/navigation", :locals => { :which_is_link_active => 5 }) %>
@@ -33,12 +65,12 @@ type: story
 <div  class="item item-partners">
   <div class="column-left">
     <div class="block">
-      <h1 class="title textbar"><%= blog('blocks').articles[13].data.title %></h1>
-      <div class="block-small-typography"><%= blog('blocks').articles[13].body %></div>
+      <h1 class="title textbar"><%= blog('blocks').articles[10].data.title %></h1>
+      <div class="block-small-typography"><%= blog('blocks').articles[10].body %></div>
     </div>
   </div>
   <div class="block entities">
-    <% for entity in blog('blocks').articles[13].data.entities %>
+    <% for entity in blog('blocks').articles[10].data.entities %>
       <%= partial(:"partials/story-entity", :locals => { :entity => entity })  %>
     <% end %>
   </div>
@@ -49,8 +81,8 @@ type: story
 <div class="item item-about">   
   <div class="column-left">
     <div class="block">
-      <h1 class="title textbar"><%= blog('blocks').articles[14].data.title %></h1>
-      <div class="block-small-typography"><%= blog('blocks').articles[14].body %></div>
+      <h1 class="title textbar"><%= blog('blocks').articles[11].data.title %></h1>
+      <div class="block-small-typography"><%= blog('blocks').articles[11].body %></div>
     </div>
   </div>
   <div class="column-right">

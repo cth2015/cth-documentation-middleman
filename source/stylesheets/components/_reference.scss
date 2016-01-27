@@ -23,33 +23,37 @@
   border-right: $thirdUnit solid $black;
   background: $yellow;
   margin: 0 0 $halfUnit 0;
-  transition: all 0.5s linear;
-}
-
-.reference h4 {
-  display: inline-block;
+  transition: max-height 0.5s linear;
 }
 
 .reference p {
+  display: inline;
   margin: 0;
 }
 
-.reference.projects:hover, .reference.projects:focus {
-  background: $red;
+.reference.projects .reference-btn:hover {
+  color: $red;
 }
 
-.reference.publications:hover, .reference.publications:focus {
-  background: $blue;
+.reference.publications .reference-btn:hover {
+  color: $blue;
 }
 
 .reference .reference-description {
   overflow: hidden;
   height: auto;
   max-height: 0;
-  transition: all 0.5s linear;
+  transition: max-height 0.5s linear;
 }
 
 .reference:hover .reference-description, .reference:focus .reference-description {
   max-height: $baseUnit * 6;
-  transition: all 0.5s linear 0.5s;
+  transition: max-height 0.5s linear 0.5s;
+}
+
+.reference-btn {
+  padding: 0 $baseUnit;
+  display:inline-block;
+  background: black;
+  color: white;
 }

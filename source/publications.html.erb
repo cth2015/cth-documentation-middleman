@@ -5,6 +5,7 @@ type: publications
 ---
 <% for item in 2..4 %>
 <% post_num = 1 %>
+<div class="posts-grouper">
 <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
 <% blog('publications').articles.each do |post| %>
 <% if post.data.item == item %>
@@ -13,15 +14,12 @@ type: publications
     <div class="block">
       <h1 class="textbar title"><%= post.title %></h1>
       <p><%= post.body %></p>
-    </div>
-  </div>
-  <div class="column-right">
-    <div class="block block-authors">
-      <h3><%= post.data.authors[0] %></h3>
+      <h3>-- <%= post.data.authors[0] %></h3>
     </div>
   </div>
 </div>
 <% post_num = post_num + 1 %>
 <% end %>
 <% end %>
+</div>
 <% end %>

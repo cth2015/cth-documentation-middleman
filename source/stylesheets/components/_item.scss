@@ -52,7 +52,9 @@
 	padding-bottom: $baseUnit *5;
 }
 
-
+.posts-grouper div:first-of-type.item.item-post {
+	border-top: none;
+}
 
 .item.item-post.item-post-left {
 	flex-direction: row;

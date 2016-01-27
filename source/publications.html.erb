@@ -9,7 +9,6 @@ type: publications
 <% blog('publications').articles.each do |post| %>
 <% if post.data.item == item %>
 <div class="item item-post <% if (post_num % 2) == 1 %>item-post-left <% end %>">
-  <img class="item-post-image" src="post-image" alt="">
   <div class="column-left">
     <div class="block">
       <h1 class="textbar title"><%= post.title %></h1>
@@ -18,7 +17,7 @@ type: publications
   </div>
   <div class="column-right">
     <div class="block block-authors">
-      <h3><%= post.data.authors %></h3>
+      <h3><%= post.data.authors[0] %></h3>
     </div>
   </div>
 </div>

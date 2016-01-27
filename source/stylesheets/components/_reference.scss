@@ -19,19 +19,30 @@
 .reference {
   position: relative;
   left: $baseUnit;
-  padding-right: $baseUnit - ($thirdUnit / 2);
+  padding: $thirdUnit $baseUnit - ($thirdUnit / 2) $thirdUnit $thirdUnit;
   border-right: $thirdUnit solid $black;
   border-left: $thirdUnit solid $yellow;
   background: $yellow;
-  transition: all 0.2s ease-in-out;
+  margin: 0 0 $halfUnit 0;
 }
 
 .reference p {
-  padding: $thirdUnit 0;
+  margin: 0;
 }
 
 .reference:hover {
   border-right: $thirdUnit solid $yellow;
   border-left: $thirdUnit solid $black;
+}
 
+.reference-description.reference-description {
+  overflow: hidden;
+  height: auto;
+  max-height: 0;
+  transition: all 0.5s linear;
+}
+
+.reference:hover .reference-description {
+  max-height: $baseUnit * 5;
+  transition: all 0.5s linear 0.5s;
 }

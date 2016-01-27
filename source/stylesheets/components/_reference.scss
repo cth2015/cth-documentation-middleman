@@ -24,6 +24,7 @@
   border-left: $thirdUnit solid $yellow;
   background: $yellow;
   margin: 0 0 $halfUnit 0;
+  transition: all 0.5s linear;
 }
 
 .reference p {
@@ -31,8 +32,9 @@
 }
 
 .reference:hover {
-  border-right: $thirdUnit solid $yellow;
+  border-right: $thirdUnit solid $red;
   border-left: $thirdUnit solid $black;
+  background: $red;
 }
 
 .reference-description.reference-description {

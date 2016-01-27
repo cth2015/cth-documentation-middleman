@@ -1,5 +1,5 @@
 ---
-type: project
+type: projects
 item: 3
 title: From Objects to Data I
 date: 2013-12-11 21:57:27 +0100

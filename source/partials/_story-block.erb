@@ -5,21 +5,4 @@
   <h2><%= block.title %></h2>
   <% end %>
   <div><%= block.body %></div>
-  <div class="reference-container">
-    <% if block.data.references %>
-    <div class="reference-line"></div>
-    <h3>Projects:</h3>
-    <% for reference in block.data.references %>
-    <% if reference.type == "projects" %>
-      <%= partial(:"partials/story-reference", :locals => { :reference => reference })  %>
-    <% end %>
-    <% end %>
-    <h3>Publications:</h3>
-    <% for reference in block.data.references %>
-    <% if reference.type == "publications" %>
-      <%= partial(:"partials/story-reference", :locals => { :reference => reference })  %>
-    <% end %>
-    <% end %>
-    <% end %>
-  </div>
 </div>

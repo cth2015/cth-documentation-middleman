@@ -1,5 +1,5 @@
 ---
-type: project
+type: projects
 item: 3
 title: Art Science and Technology II
 date: 2013-12-11 21:57:27 +0100

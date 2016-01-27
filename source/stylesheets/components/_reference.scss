@@ -46,7 +46,7 @@
   transition: max-height 0.5s linear;
 }
 
-.reference:hover .reference-description, .reference:focus .reference-description {
+.reference:hover .reference-description, .reference:active .reference-description {
   max-height: $baseUnit * 6;
   transition: max-height 0.5s linear 0.5s;
 }

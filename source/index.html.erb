@@ -7,11 +7,11 @@ type: story
 <div id="item-header" class="item item-header">
   <div class="column-left">
     <div class="block block-header-text">
-      <h1 class="logo main-logo title textbar textbar-big">Coding_</h1>
+      <h1 class="title textbar textbar-big">Coding_</h1>
       <br>
-      <h1 class="logo main-logo title textbar textbar-big">the_</h1>
+      <h1 class="title textbar textbar-big">the_</h1>
       <br>
-      <h1 class="logo main-logo title textbar textbar-big">Humanities</h1>
+      <h1 class="title textbar textbar-big">Humanities</h1>
       <div><%= blog('blocks').articles[0].body %></div>
     </div>
   </div>
@@ -65,12 +65,12 @@ type: story
 <div  class="item item-partners">
   <div class="column-left">
     <div class="block">
-      <h1 class="title textbar"><%= blog('blocks').articles[10].data.title %></h1>
-      <div class="block-small-typography"><%= blog('blocks').articles[10].body %></div>
+      <h1 class="title textbar"><%= blog('blocks').articles[4].data.title %></h1>
+      <div class="block-small-typography"><%= blog('blocks').articles[4].body %></div>
     </div>
   </div>
   <div class="block entities">
-    <% for entity in blog('blocks').articles[10].data.entities %>
+    <% for entity in blog('blocks').articles[4].data.entities %>
       <%= partial(:"partials/story-entity", :locals => { :entity => entity })  %>
     <% end %>
   </div>
@@ -81,8 +81,8 @@ type: story
 <div class="item item-about">   
   <div class="column-left">
     <div class="block">
-      <h1 class="title textbar"><%= blog('blocks').articles[11].data.title %></h1>
-      <div class="block-small-typography"><%= blog('blocks').articles[11].body %></div>
+      <h1 class="title textbar"><%= blog('blocks').articles[5].data.title %></h1>
+      <div class="block-small-typography"><%= blog('blocks').articles[5].body %></div>
     </div>
   </div>
   <div class="column-right">

@@ -77,11 +77,12 @@
   }
 }
 
-.publications .block-authors, .projects .block-authors {
-  text-align: right;
-}
-
-.publications-nav {
+.projects .item-header-nav, .publications .item-header-nav {
   list-style: square;
   list-style-position: inside;
+}
+
+.projects a:hover,
+.publications a:hover {
+  text-decoration: underline;
 }

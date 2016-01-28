@@ -1,4 +1,5 @@
     <footer class="footer">
+
       <div class="footer-description">
         <div class="footer-logo-container">
           <h1 class="textbar textbar-inverse title">Coding_</h1><br>
@@ -12,41 +13,16 @@
 
       <div class="footer-nav">
         <div class="footer-nav-btn-container">
-          <% link_to(config.http_prefix + 'projects.html#', {:class => 'title textbar textbar-inverse footer-textbar-projects'}) do %> 
-          Projects
-          <% end %>
-          <% link_to(config.http_prefix + 'publications.html#', {:class => 'title textbar textbar-inverse footer-textbar-publications'}) do %> 
-          Publications
-          <% end %>
-          <% link_to(config.http_prefix + '#', {:class => 'title textbar textbar-inverse footer-textbar-proces'}) do %> 
-          Proces
-          <% end %>
+          <a href="<%= config.http_prefix + 'projects.html#' %>" class="title textbar textbar-inverse footer-textbar-projects">Projects</a>
+          <a href="<%= config.http_prefix + 'publications.html#' %>" class="title textbar textbar-inverse footer-textbar-publications">Publications</a>
+          <a href="<%= config.http_prefix + '#' %>" class="title textbar textbar-inverse footer-textbar-process">Process</a>
         </div>
         <ul class="footer-nav-list">
-          <li>
-            <% link_to(config.http_prefix + '#item-body-2', {:class => ''}) do %> From Content to Context 
-            <% end %>
-          </li>
-          <li>
-            <% link_to(config.http_prefix + '#item-body-3', {:class => ''}) do %>
-              To Curation
-            <% end %>
-          </li>
-          <li>
-            <% link_to(config.http_prefix + '#item-body-4', {:class => ''}) do %>
-              To Faciliation 
-            <% end %>
-          </li>
-          <li>
-            <% link_to(config.http_prefix + '#item-partners', {:class => ''}) do %> 
-              Partners 
-            <% end %>
-          </li>
-          <li>
-            <% link_to(config.http_prefix + '#item-about', {:class => ''}) do %> 
-              About 
-            <% end %>
-          </li>
+          <li><a class="footer-process-link" href="<%= config.http_prefix + '#item-body-2' %>">From Content to Context</a></li>
+          <li><a class="footer-process-link" href="<%= config.http_prefix + '#item-body-3' %>">To Curation</a></li>
+          <li><a class="footer-process-link" href="<%= config.http_prefix + '#item-body-4' %>">To Faciliation</a></li>
+          <li><a class="footer-process-link" href="<%= config.http_prefix + '#item-partners' %>">Partners</a></li>
+          <li><a class="footer-process-link" href="<%= config.http_prefix + '#item-about' %>">About</a></li>
         </ul>
       </div>
 

@@ -12,7 +12,7 @@ type: projects
     <div class="block">
       <h1 class="title textbar">Projects</h1>
       <p>This page shows all the projects</p>
-      <ul class="publications-nav">
+      <ul class="item-header-nav">
         <% for item in 2..4 %>
         <% blog('projects').articles.each do |post| %>
         <% if post.data.item == item %>

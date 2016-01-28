@@ -7,7 +7,7 @@ authors:
 - Jan Hein Hoogstad
 images:
 - url: ./images/nails.jpg
-description: |
+summery: |
   Software is a blind spot for the humanities. Our discipline is deeply invested in self-reflection, but we hardly ever think about the digital tools that we use.
 ---
 Coding the Humanities is not about technology or even programming. It is all about tools. Software is a blind spot for the humanities. While our discipline is deeply invested in self-reflection, we hardly ever think about the digital tools that we use to produce and disseminate these deep thoughts. As a result, we fail to see the obvious. The applications that facilitate our teaching and research, were not written for us, let alone developed by us. In fact, they are unfit for our needs.

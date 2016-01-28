@@ -51,11 +51,6 @@
   color: $red;
 }
 
-.footer-textbar-publications {
-  margin: $thirdUnit 0;
-  display: block;
-}
-
 .footer-textbar-publications:hover {
   color: $blue;
 }
@@ -76,14 +71,14 @@
 
 .footer-uva-container {
   width: 100%;
-  padding: $baseUnit *2 0;
+  padding: $baseUnit 0;
 }
 
 .footer-uva-logo {
   display: block;
   width: 100%;
   @media (min-width: $breakpoint-lg) {
-    width: 50%;
+    width: 30%;
   }
 }
 

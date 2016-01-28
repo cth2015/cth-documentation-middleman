@@ -7,7 +7,7 @@ authors:
 - Charlotte van Oostrum
 images:
 - url: ./images/nails.jpg 
-description: |
+summery: |
   Communication – machine or human – is never free of ambituity. As programming languages develop, ambiguity seems to be a prerequisite rather than an inconvenience. 
 ---
 I remember the day when I drew that first line on the screen of my computer using a command something like < line (x,y) >. I clicked "run" and indeed a line appeared. I had interacted with a machine that I'd formerly though of as both an enabled typewriter and a black box at the same time. I learned that my computer and I were capable of much more than text processing. 

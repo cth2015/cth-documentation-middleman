@@ -7,7 +7,7 @@ authors:
 - Ashley Williams
 images:
 - url: ./images/nails.jpg
-description: |
+summery: |
   - no summery -  
 ---
 How to Train Your Programmer

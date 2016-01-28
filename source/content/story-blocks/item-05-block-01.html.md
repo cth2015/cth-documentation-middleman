@@ -5,79 +5,79 @@ item: item-people
 block: 1
 entities: 
 - name: Angeliki Chalkia
-  description:
+  summery:
   job: student assistant, autumn ‘14
 - name: Taeke Keuning
-  description:
+  summery:
   job: student assistant, autumn ‘14
 - name: Roel van Bakkum
-  description:
+  summery:
   job: student assistant, autumn ‘14
 - name: Cameron Kelly 
-  description: 
+  summery: 
   job: student assistant, autumn ‘14
 - name: Erik van Zummeren
-  description:
+  summery:
   job: student assistant, autumn ‘14
 - name: Charlotte van Oostrum
-  description: 
+  summery: 
   job: researcher and editor 
 - name: Jan Hein Hoogstad
-  description:
+  summery:
   job: project founder, lead front end developer and course coordinator
 - name: Marijn Koolen
-  description:
+  summery:
   job: project founder, lead back end developer and course coordinator
 - name: Nynke Bos
-  description: 
+  summery: 
   job: researcher
 - name: Reika Egawa-Chavers
-  description:
+  summery:
   job: program manager and junior developer
 - name: Rens Bod
-  description:
+  summery:
   job: academic advisor
 - name: Robert-Jan Korteschiel
-  description:
+  summery:
   job: student assistant autumn ‘14 and ‘15 and junior developer
 - name: Robin Boast
-  description: 
+  summery: 
   job: academic advisor 
 - name: Sabrina Sauer
-  description:
+  summery:
   job: researcher and assistant professor Coding the Humanities pilot 
 - name: Unc Inc
-  description:
+  summery:
   job: design Augmenting Masterpieces
 - name: Tulp Interactive
-  description: 
+  summery: 
   job: guest lecturer Coding the Humanities pilot 
 - name: Nigel Hamlin
-  description:
+  summery:
   job: guest lecturer Coding the Humanities pilot and student mentor
 - name: Trasformatorio
-  description:  
+  summery:  
   job: guest lecturer Coding the Humanities pilot
 - name: Bocoup
-  description: 
+  summery: 
   job: guest lecturer Coding the Humanities pilot and consultancy
 - name: Open State Foundation
-  description: 
+  summery: 
   job: guest lecturer Coding the Humanities pilot
 - name: CastYourArt
-  description:
+  summery:
   job: guest lecturer Coding the Humanities pilot
 - name: Dimitri Nieuwenhuizen
-  description: 
+  summery: 
   job: co-teacher Coding the Humanities I
 - name: LustLab
-  description: 
+  summery: 
   job: guest lecturer Coding the Humanities pilot
 - name: Sandberg Institute
-  description: 
+  summery: 
   job: partner Coding the Humanities I 
 - name: Lifely
-  description:
+  summery:
   job: consultancy and design UX mobile prototype
 ---
 Coding the Humanities is a collective of researchers, students, developers and private partners who builds a set of teaching practices and tools that make education accessible, shared and usable again. Read more about who they are and what they do below: 

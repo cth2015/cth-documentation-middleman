@@ -12,6 +12,10 @@
   color: $lightgray;
 }
 
+.footer a {
+  color: $lightgray;
+}
+
 .footer-description {
   width: 100%;
   @media (min-width: $breakpoint-lg) {

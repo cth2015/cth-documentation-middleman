@@ -24,7 +24,6 @@ type: publications
 <% for item in 2..4 %>
 <% post_num = 1 %>
 <div class="posts-grouper">
-<%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
 <% blog('publications').articles.each do |post| %>
 <% if post.data.item == item %>
 <div class="item item-post <% if (post_num % 2) == 1 %>item-post-left <% end %>">

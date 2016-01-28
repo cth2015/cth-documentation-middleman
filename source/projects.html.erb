@@ -6,7 +6,7 @@ type: projects
 <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
 <div class="item item-header item-posts-header projects-color">
   <div class="column-left">
-    <img class="image-publications" src="images/publications.svg" alt="">
+    <img class="image-publications" src="images/projects.svg" alt="">
   </div>
   <div class="column-right">
     <div class="block">
@@ -24,15 +24,13 @@ type: projects
 <% for item in 2..4 %>
 <% post_num = 1 %>
 <div class="posts-grouper">
-<%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
 <% blog('projects').articles.each do |post| %>
 <% if post.data.item == item %>
-<div class="item item-post <% if (post_num % 2) == 1 %>item-post-left <% end %>">
+<div class="item item-project">
   <div class="column-left">
     <div class="block">
       <h1 class="textbar title"><%= post.title %></h1>
       <p><%= post.body %></p>
-      <h3>-- <%= post.data.teachers[0] %></h3>
     </div>
   </div>
 </div>

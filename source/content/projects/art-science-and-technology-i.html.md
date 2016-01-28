@@ -7,5 +7,6 @@ teachers:
 - Jan Hein Hoogstad
 summery: | 
   ASTI showed that humanities students really love to code. To create fruitful interactions, humanities topics should be intertwined with actual coding.
+link: 
 ---
 ASTI showed that humanities students really love to code. To create fruitful interactions, humanities topics should be intertwined with actual coding.

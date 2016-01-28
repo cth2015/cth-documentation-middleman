@@ -10,5 +10,6 @@ images:
 - url: ./images/nails.jpg
 summery: |
   In the 17th and 18th century thousands of Dutch ships sailed to Asia and vice versa. Historical Dutch-Asiatic Trading (HDAT) gathered various datasets and visualises those datasets on a world map.
+link: 
 ---
 In the 17th and 18th century thousands of Dutch ships sailed to Asia and vice versa. Over the last fourty years Dutch historians and institutes spent a considerable amount of time and resources on collecting and storing trade-related sources into databases. Historical Dutch-Asiatic Trading (HDAT), a student project by Robert-Jan Korteschiel and Erik van Zummeren, gathered various datasets and visualises those datasets on a world map.

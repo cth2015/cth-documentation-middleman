@@ -7,5 +7,6 @@ teachers:
 - Jan Hein Hoogstad
 summery: | 
   ASTII found that the more autonomy you give students, the more they enjoy learning. Too much structure, on the other hand, is detrimental.
+link: 
 ---
 ASTII found that the more autonomy you give students, the more they enjoy learning. Too much structure, on the other hand, is detrimental.

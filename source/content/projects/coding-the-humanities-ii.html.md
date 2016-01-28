@@ -7,5 +7,6 @@ teachers:
 - Jan Hein Hoogstad
 summery: | 
   In CtHII, students hand-picked the part of the learning materials that they needed. They choose the parts based on very specific and concrete goals.
+link: 
 ---
 In CtHII, students hand-picked the part of the learning materials that they needed. They choose the parts based on very specific and concrete goals.

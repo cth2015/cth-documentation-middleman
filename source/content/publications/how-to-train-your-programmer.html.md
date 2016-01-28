@@ -9,5 +9,6 @@ images:
 - url: ./images/nails.jpg
 summery: |
   - no summery -  
+link: 
 ---
 How to Train Your Programmer

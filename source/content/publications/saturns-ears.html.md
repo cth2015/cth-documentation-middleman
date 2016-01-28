@@ -9,6 +9,7 @@ images:
 - url: ./images/nails.jpg 
 summery: | 
   Technological developments alter our conception of things, the world, or even the universe. They change your perspective and filter your interpretation of the world around you.
+link: 
 ---
 In 1610, when Galileo Galilei was the first to look at the planet of Saturn through a telescope, [he discovered that it had ears](https://en.wikipedia.org/wiki/Rings_of_Saturn). But when he looked again a few months later, they were gone. It wasn’t until 1655, when Christiaan Huygens looked at Saturn again–with a better telescope this time–that Saturn’s ears were rediscovered and recognized as rings. Two centuries later, James Maxwell saw that those rings actually consisted of blocks of debris that only *looked* as rings due to their movement.
 

@@ -7,6 +7,7 @@ authors:
 - Marijn Koolen
 summery: |
   Many humanities researchers are unwilling to adopt a programmatic perspective to the use of digital tools. We shy away from our responsibility to understand our methods.
+link: 
 ---
 Workshops aimed at training humanities scholars in the use of digital tools are often focused on easy-to-use tools with intuitive, user-friendly interfaces. Some tools, such as [Prism](http://prism.scholarslab.org/) or the [Google Ngram Viewer](https://books.google.com/ngrams/), are very specific and relatively easy to understand. Others, like [Gephi](https://gephi.github.io/) and [Mallet](http://mallet.cs.umass.edu/index.php), are more generic and have extensive menus and lists of buttons or parameters and require weeks or even months of serious exploration to get to grips with. In these workshops, some simple examples are given of how these tools can be used for humanities research.
 

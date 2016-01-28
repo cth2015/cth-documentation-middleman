@@ -52,8 +52,10 @@
 }
 
 .reference-btn {
-  padding: 0 $baseUnit;
-  display:inline-block;
+  display: block;
+  width: $baseUnit * 3;
+  margin: 0 0 0 auto;
+  text-align: center;
   background: black;
   color: white;
 }

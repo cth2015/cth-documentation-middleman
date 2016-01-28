@@ -11,10 +11,14 @@ type: publications
   <div class="column-right">
     <div class="block">
       <h1 class="title textbar">Publications</h1>
-      <p>This page shows all the publications</p>
+      <p>This page shows all the publications</p>      
       <ul class="publications-nav">
+        <% for item in 2..4 %>
         <% blog('publications').articles.each do |post| %>
-          <li><%= post.title %></li>
+        <% if post.data.item == item %>
+          <a href="<%= config.http_prefix + post.data.type + '.html#' + post.slug %>"><li><%= post.title %></li></a>
+        <% end %>
+        <% end %>
         <% end %>
       </ul>
     </div>
@@ -22,11 +26,10 @@ type: publications
 </div>
 
 <% for item in 2..4 %>
-<% post_num = 1 %>
-<div class="posts-grouper">
 <% blog('publications').articles.each do |post| %>
 <% if post.data.item == item %>
-<div class="item item-post <% if (post_num % 2) == 1 %>item-post-left <% end %>">
+<a id="<%= post.slug %>"></a>
+<div class="item item-post">
   <div class="column-left">
     <div class="block">
       <h1 class="textbar title"><%= post.title %></h1>
@@ -35,8 +38,6 @@ type: publications
     </div>
   </div>
 </div>
-<% post_num = post_num + 1 %>
 <% end %>
 <% end %>
-</div>
 <% end %>

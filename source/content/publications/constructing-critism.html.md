@@ -1,7 +1,7 @@
 ---
 type: publications
 item: 4
-title: "Constructing Criticism:"
+title: "Constructing Criticism"
 date: 2013-12-11 21:57:27 +0100
 authors: 
 - Marijn Koolen

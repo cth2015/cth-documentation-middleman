@@ -105,6 +105,8 @@
 }
 
 .btn-student-project-container ul {
+  padding: 0 rem-calc(20);
+  list-style-position: inside;
   margin: 0;
   max-height: 0;
   overflow: hidden;

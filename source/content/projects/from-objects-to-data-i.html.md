@@ -10,5 +10,10 @@ summery: |
 reference:
   title: OTD Course Website
   url: http://objecttodata.meteor.com/overview.html
+studentProjects: 
+- title: Analysis of NY Times newspaper articles
+  url: http://objects-to-data-group.github.io/page/
+- title: Research tool to compare the representation of topics in newspaper photos
+  url: http://objectifieddata.codingthehumanities.com/
 ---
 FOtDI showed that students can learn to be more self-sufficient in finding online materials that help them progress. Focus on searching as a skill, rather than on transmitting knowledge. 

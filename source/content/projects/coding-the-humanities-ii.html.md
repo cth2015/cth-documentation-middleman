@@ -9,6 +9,11 @@ summery: |
   In CtHII, students hand-picked the part of the learning materials that they needed. They choose the parts based on very specific and concrete goals.
 reference:
   title: CTH II Course Website
-  url: http://humanities.uva.nl/~mkoolen1/teaching/#/CtH/2015/overview
+  url: "http://humanities.uva.nl/~mkoolen1/teaching/#/CtH/2015/overview"
+studentProjects: 
+- title: Social travel recommender
+  url: http://travel.tvanwilligen.nl/
+- title: Weather-based music recommendation
+  url: http://pvtwuyver.github.io/CTHproject/project.html
 ---
 In CtHII, students hand-picked the part of the learning materials that they needed. They choose the parts based on very specific and concrete goals.

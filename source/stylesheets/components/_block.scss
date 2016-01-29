@@ -91,8 +91,6 @@
   display: flex;
 }
 
-// Btn insides
-
 .btn-student-project-container {
   width: auto;
   height: auto;
@@ -110,20 +108,14 @@
   margin: 0;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 1s linear, margin 0.5s linear;
+  transition: all 1s linear;
 }
 
 .btn-student-project-container:hover ul {
-  margin-bottom: 30px;
   max-height: $baseUnit * 5;
-  transition: max-height 1s linear, margin 0.5s linear;
-}
+  transition: all 1s linear 0.5s;
 
-.btn-student-project-container a { 
-  color: white; 
 }
-
-// end buttoninsides
 
 .btn-site, .btn-back {
   width: auto;

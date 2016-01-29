@@ -10,8 +10,12 @@ summery: |
 reference:
   title: CTH Pilot Course Website
   url: http://yeehaa123.github.io/coding-the-humanities-public/
-studentProject: 
-  title: Housemouse
+studentProjects: 
+- title: Housemouse
+  url: http://housemouse.codingthehumanities.com/
+- title: Housemouse
+  url: http://housemouse.codingthehumanities.com/
+- title: Housemouse
   url: http://housemouse.codingthehumanities.com/
 ---
 The CtH pilot proved that so-called bootcamp model of teaching works in university. Next step: to integrate the model into the regular classroom.

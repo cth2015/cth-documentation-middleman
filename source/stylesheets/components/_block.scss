@@ -91,20 +91,42 @@
   display: flex;
 }
 
-.btn-pub-proj.btn-pub-proj.btn-pub-proj {
+// Btn insides
+
+.btn-student-project-container {
+  width: auto;
+  height: auto;
   margin: 0 $baseUnit 0 0;
+  padding: 0;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 .btn-student-project {
-  flex-grow: 1;
+  width: 100%;
 }
 
-.btn-site {
-  width: auto;
-  flex-shrink: 1;
+.btn-student-project-container ul {
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s linear, margin 0.5s linear;
 }
 
-.btn-back {
+.btn-student-project-container:hover ul {
+  margin-bottom: 30px;
+  max-height: $baseUnit * 5;
+  transition: max-height 1s linear, margin 0.5s linear;
+}
+
+.btn-student-project-container a { 
+  color: white; 
+}
+
+// end buttoninsides
+
+.btn-site, .btn-back {
   width: auto;
   flex-shrink: 1;
+  margin: 0 $baseUnit 0 0;
 }

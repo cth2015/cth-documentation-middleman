@@ -8,7 +8,7 @@ authors:
 images:
 - url: ./images/nails.jpg
 summery: |
-  - no summery -  
-link: 
+  "- no summery -"
+link: https://pixabay.com/static/uploads/photo/2015/10/16/01/14/support-990335_960_720.jpg
 ---
 How to Train Your Programmer

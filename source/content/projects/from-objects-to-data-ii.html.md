@@ -7,6 +7,6 @@ teachers:
 - Marijn Koolen
 summery: |
   FOtDII found that by giving students the freedom to develop their own projects, they take more initiative in developing their learning.
-link: 
+link: http://humanities.uva.nl/~mkoolen1/teaching/#/FOtD/2015/overview
 ---
 FOtDII found that by giving students the freedom to develop their own projects, they take more initiative in developing their learning.

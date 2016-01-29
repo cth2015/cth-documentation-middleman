@@ -34,6 +34,9 @@ type: projects
     <div class="block">
       <h1 class="textbar title"><%= post.title %></h1>
       <p><%= post.body %></p>
+      <% if post.data.link %>
+      <a href="<%= post.data.link %>" class="btn btn-inverse">  >> </a>
+      <% end %>
     </div>
   </div>
 </div>

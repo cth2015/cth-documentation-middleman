@@ -7,6 +7,6 @@ teachers:
 - Jan Hein Hoogstad
 summery: | 
   CtHI taught us that learning how to code takes time. It helps to make a clear link between specific tutoials and a (part of) a student's project.
-link: 
+link: http://coding-the-humanities.github.io/unacademic_static/
 ---
 CtHI taught us that learning how to code takes time. It helps to make a clear link between specific tutoials and a (part of) a student's project.

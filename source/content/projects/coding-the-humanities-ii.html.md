@@ -7,6 +7,8 @@ teachers:
 - Jan Hein Hoogstad
 summery: | 
   In CtHII, students hand-picked the part of the learning materials that they needed. They choose the parts based on very specific and concrete goals.
-link: http://humanities.uva.nl/~mkoolen1/teaching/#/CtH/2015/overview
+reference:
+  title: CTH II Course Website
+  url: http://humanities.uva.nl/~mkoolen1/teaching/#/CtH/2015/overview
 ---
 In CtHII, students hand-picked the part of the learning materials that they needed. They choose the parts based on very specific and concrete goals.

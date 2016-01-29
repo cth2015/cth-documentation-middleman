@@ -86,3 +86,25 @@
 .publications a:hover {
   text-decoration: underline;
 }
+
+.projects .links-btn-container, .publications .links-btn-container {
+  display: flex;
+}
+
+.btn-pub-proj.btn-pub-proj.btn-pub-proj {
+  margin: 0 $baseUnit 0 0;
+}
+
+.btn-student-project {
+  flex-grow: 1;
+}
+
+.btn-site {
+  width: auto;
+  flex-shrink: 1;
+}
+
+.btn-back {
+  width: auto;
+  flex-shrink: 1;
+}

@@ -7,6 +7,8 @@ teachers:
 - Marijn Koolen
 summery: |
   FOtDI showed that students can learn to be more self-sufficient in finding online materials that help them progress. Focus on searching as a skill, rather than on transmitting knowledge. 
-link: http://objecttodata.meteor.com/overview.html
+reference:
+  title: OTD Course Website
+  url: http://objecttodata.meteor.com/overview.html
 ---
 FOtDI showed that students can learn to be more self-sufficient in finding online materials that help them progress. Focus on searching as a skill, rather than on transmitting knowledge. 

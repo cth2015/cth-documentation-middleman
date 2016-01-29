@@ -34,9 +34,17 @@ type: projects
     <div class="block">
       <h1 class="textbar title"><%= post.title %></h1>
       <p><%= post.body %></p>
-      <% if post.data.link %>
-      <a href="<%= post.data.link %>" class="btn btn-inverse">  >> </a>
-      <% end %>
+      <div class="links-btn-container">
+        <a href="<%= '/#item-body-' + item.to_s %>" class="btn btn-inverse btn-pub-proj btn-back"> &lt;&lt;&nbsp;Back </a>
+        <% if post.data.studentProject %>
+        <a href="<%= post.data.studentProject.url %>" class="btn btn-inverse btn-pub-proj btn-student-project"> 
+          Student Projects</a>
+        <% end %>
+        <% if post.data.reference %>
+        <a href="<%= post.data.reference.url %>" class="btn btn-inverse btn-pub-proj btn-site"> 
+          Site&nbsp;&gt;&gt; </a>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>

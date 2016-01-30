@@ -48,13 +48,14 @@
   transition: max-height 0.5s linear 0.5s;
 }
 
+.reference:focus .reference-description {
+  max-height: $baseUnit * 6;
+  transition: max-height 0.5s linear 0.5s;
+}
+
 .reference-btn {
-  // display: block;
   width: $baseUnit * 3;
   margin: 0 0 0 auto;
-  // text-align: center;
-  // background: black;
-  // color: white;
 }
 
 .reference.projects .reference-btn:hover {

@@ -93,6 +93,7 @@
 
 .links-btn-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .btn-student-project-container {
@@ -102,6 +103,7 @@
   padding: 0;
   flex-grow: 1;
   flex-direction: column;
+  margin-bottom: $thirdUnit;
 }
 
 .btn-student-project {
@@ -111,9 +113,12 @@
 .btn-student-project-container ul {
   margin: 0;
   max-height: 0;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
   transition: all 1s linear;
+  @media (min-width: $breakpoint-md) {
+    text-align: center;
+  }
 }
 
 .btn-student-project-container:hover ul {
@@ -125,9 +130,11 @@
 .btn-site, .btn-back {
   width: auto;
   flex-shrink: 1;
-  margin: 0 $baseUnit 0 0;
+  margin: 0 $baseUnit $thirdUnit 0;
 }
 
+
+// Test for grid
 .test-box {
   background: blue;
   display: inline-block; 

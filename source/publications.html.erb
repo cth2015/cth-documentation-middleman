@@ -34,7 +34,24 @@ type: publications
     <div class="block">
       <h1 class="textbar title"><%= post.title %></h1>
       <p><%= post.body %></p>
-      <h3>-- <%= post.data.authors[0] %></h3>
+      <h3 class="publications-author">-- <%= post.data.authors[0] %></h3>
+      <div class="links-btn-container">
+        <a href="<%= '/#item-body-' + item.to_s %>" class="btn btn-inverse btn-back"> &lt;&lt;&nbsp;Back </a>
+        <% if post.data.studentProjects %>
+        <div class="btn-student-project-container">
+          <div class="btn btn-inverse btn-student-project">Student Projects</div>
+          <ul>
+            <% post.data.studentProjects.each do |project| %>
+            <li><a href="<%= project.url %>"> <%= project.title %></a></li>
+            <% end %>
+          </ul>
+        </div>
+        <% end %>
+        <% if post.data.reference %>
+        <a href="<%= post.data.reference.url %>" class="btn btn-inverse btn-site"> 
+          Site&nbsp;&gt;&gt; </a>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>

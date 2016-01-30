@@ -4,8 +4,7 @@ item: 3
 title: Historical Dutch Asiatic Trade
 date: 2013-12-11 21:57:27 +0100
 authors:
-- Robert-Jan Korteschiel
-- Erik van Zummeren
+- Robert-Jan Korteschiel & Erik van Zummeren
 images:
 summery: |
   In the 17th and 18th century thousands of Dutch ships sailed to Asia and vice versa. Historical Dutch-Asiatic Trading (HDAT) gathered various datasets and visualises those datasets on a world map.

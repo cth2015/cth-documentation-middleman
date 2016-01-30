@@ -48,7 +48,7 @@
 
 .story .item-body-image, .item-partners-image {
   width: 100%;
-  heigth: auto;
+  height: auto;
   background: $yellow;
   padding: $baseUnit;
   @media (min-width: $breakpoint-lg) {
@@ -87,7 +87,11 @@
   text-decoration: underline;
 }
 
-.projects .links-btn-container, .publications .links-btn-container {
+.publications-author {
+  margin-bottom: $baseUnit;
+}
+
+.links-btn-container {
   display: flex;
 }
 

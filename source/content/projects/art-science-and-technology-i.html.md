@@ -9,6 +9,6 @@ summery: |
   ASTI showed that humanities students really love to code. To create fruitful interactions, humanities topics should be intertwined with actual coding.
 reference:
   title: AST Course Manual
-  url: http://ast.codingthehumanities.com/
+  url: http://ast2014.herokuapp.com/
 ---
 ASTI showed that humanities students really love to code. To create fruitful interactions, humanities topics should be intertwined with actual coding.

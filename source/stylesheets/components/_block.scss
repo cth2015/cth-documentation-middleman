@@ -117,7 +117,7 @@
 }
 
 .btn-student-project-container:hover ul {
-  max-height: $baseUnit * 5;
+  max-height: $baseUnit * 8;
   transition: all 1s linear 0.5s;
 
 }
@@ -127,3 +127,14 @@
   flex-shrink: 1;
   margin: 0 $baseUnit 0 0;
 }
+
+.test-box {
+  background: blue;
+  display: inline-block; 
+  width: rem-calc(60);
+  height: auto;
+  font-size: rem-calc(30);
+  line-height: 1;
+  padding: 0;
+}
+

@@ -93,14 +93,11 @@
 
 .links-btn-container {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .btn-student-project-container {
-  width: auto;
-  height: auto;
+  min-width: $baseUnit * 5;
   margin: 0 $baseUnit 0 0;
-  padding: 0;
   flex-grow: 1;
   flex-direction: column;
   margin-bottom: $thirdUnit;

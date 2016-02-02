@@ -39,7 +39,7 @@ type: projects
         <% if post.data.studentProjects %>
         <!-- onclick is iphone hover hack -->
         <div onclick="" class="btn-student-project-container">
-          <div class="btn btn-inverse btn-student-project">Student Projects</div>
+          <div class="btn btn-inverse btn-student-project">Projects</div>
           <ul>
             <% post.data.studentProjects.each do |project| %>
             <li><a href="<%= project.url %>"> <%= project.title %></a></li>

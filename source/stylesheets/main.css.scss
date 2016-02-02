@@ -26,6 +26,8 @@ $imageHeight: ($cardWidth / 12) * 7;
 @import 'partials/tags';
 @import 'partials/buttons';
 
+@import 'components/story';
+@import 'components/page';
 @import 'components/nav';
 @import 'components/footer';
 @import 'components/item';

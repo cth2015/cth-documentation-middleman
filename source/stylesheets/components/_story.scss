@@ -2,14 +2,91 @@
   min-height: 100vh;
 }
 
+.item-header .hammer-header {
+  position: relative;
+  width: 50%;
+  left: 60%;
+  transform: rotate(45deg);
+  padding: $baseUnit 0;
+  @media (min-width: $breakpoint-lg) {
+    width: 65%;
+    left: 50%;
+  }
+}
+
 .item-video {
   min-height: 80vh;
+}
+
+.item-video .block-video {
+  @include aspect-ratio(16, 9);
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: $baseUnit * 1;
+  @media (min-width: $breakpoint-md) {
+    margin: $baseUnit * 3;
+  }
+}
+
+.item-video .block-video .playbutton {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  width: 20%;
+  height: 20%;
 }
 
 .item-body {
 
 }
 
-.item.item-about {
+.item-body-image, .item-partners-image {
+  width: 100%;
+  height: auto;
   background: $yellow;
+  padding: $baseUnit;
+  @media (min-width: $breakpoint-lg) {
+    padding: $baseUnit*3;
+  }
+}
+
+.item-partners .block {
+  padding: $baseUnit 0 0 $baseUnit;
+}
+
+.block.entities {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-about {
+  background: $yellow;
+}
+
+.item-about .hammer-about {
+  position: relative;
+  top: 2px;
+  left: 50%;
+  width: 50%;
+  padding: $baseUnit*5 0 0 0;
+  @media (min-width: $breakpoint-lg) {
+    width: 65%;
+    left: 35%;
+  }
+}
+
+// General block-lvl styling
+.block {
+  width: 100%;
+  padding: $baseUnit;
+  @include clearfix;
+}
+
+.block ul {
+  list-style: square;
+  list-style-position: inside;
+  margin-bottom: $halfUnit;
 }

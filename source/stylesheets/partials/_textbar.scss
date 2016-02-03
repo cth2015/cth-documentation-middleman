@@ -16,26 +16,13 @@
 }
 
 .textbar-big, .textbar-big:focus {
-  margin-bottom: rem-calc(15);
   font-size: rem-calc(73.3333);
   line-height: rem-calc(100);
   padding: 0 ($thirdUnit * 2);
-  @media (max-width: $breakpoint-sm) {
-    padding: 0 ($thirdUnit * 2);
-    font-size: rem-calc(45);
-    line-height: rem-calc(60);
-  }
+  margin-bottom: rem-calc(15);
 }
 
 .textbar-big.textbar-inverse {
   background-color: $inverseColor;
   color: $baseColor;
-}
-
-.app-is-learn .introduction, .app-is-learn .logo {
-  background-color: $learnColor;
-}
-
-.app-is-curate .introduction, .app-is-curate  .logo {
-  background-color: $curateColor;
 }

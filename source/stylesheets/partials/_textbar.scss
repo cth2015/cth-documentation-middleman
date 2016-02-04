@@ -26,3 +26,11 @@
   background-color: $inverseColor;
   color: $baseColor;
 }
+
+@media (max-width: $breakpoint-sm) {
+  .textbar-big, .textbar-big:focus {
+    font-size: rem-calc(45);
+    line-height: rem-calc(60);
+    padding: 0 ($thirdUnit * 2);
+  }
+}

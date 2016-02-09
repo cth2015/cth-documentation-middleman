@@ -1,0 +1,23 @@
+.textbar {
+  display: inline-block;
+  width: auto;
+  padding: 0 $gridUnit * 2 0 $gridUnit;
+  margin-bottom: $gridUnit;
+
+  background-color: $baseColor;
+
+  color: $inverseColor;
+  font-family: $buttonFont;
+  font-size: rem-calc(22);
+  line-height: rem-calc(30);
+}
+
+.textbar-inverse {
+  background-color: $lightBaseColor;
+  color: $baseColor;
+}
+
+.textbar-big, .textbar-big:focus {
+  font-size: rem-calc(75);
+  line-height: rem-calc(80);
+}

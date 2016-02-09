@@ -4,17 +4,13 @@ layout: main
 type: story
 ---
 <div id="item-header" class="item item-header story-color">
-  <div class="column-left">
-    <div class="block block-header-text">
-      <h1 class="title textbar textbar-big">Coding_</h1>
-      <br>
-      <h1 class="title textbar textbar-big">the_</h1>
-      <br>
-      <h1 class="title textbar textbar-big">Humanities</h1>
-      <div><%= blog('blocks').articles[0].body %></div>
-    </div>
+  <div class="text-column">
+    <h1 class="textbar textbar-big">Coding_</h1><br>
+    <h1 class="textbar textbar-big">the_</h1><br>
+    <h1 class="textbar textbar-big">Humanities</h1><br>
+    <div><%= blog('blocks').articles[0].body %></div>
   </div>
-  <div class="column-right">
+  <div class="attributes-column">
     <img class="hammer-header" src="./images/logo-short.svg" alt="">
   </div>
 </div>

@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+
   background: $lightgray;
 }
 
@@ -13,24 +14,13 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+
   overflow: hidden;
 }
 
 .item {
   display: flex;
   flex-wrap: wrap;
-}
+  padding: $baseUnit;
 
-.item .column-left {
-  width: $baseUnit * 15;
-  @media (min-width: $breakpoint-lg) {
-    width: $baseUnit * 15;
-  }
-}
-
-.item .column-right {
-  width: $baseUnit * 5;
-  @media (min-width: $breakpoint-lg) {
-    width: $baseUnit * 5;
-  }
 }

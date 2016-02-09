@@ -1,4 +1,4 @@
-@import 'functions.scss';
+@import 'functions';
 @import 'mixins';
 
 $baseFont: NittiGrotesk;
@@ -6,31 +6,27 @@ $titleFont: NittiGroteskBold;
 $buttonFont: NittiBold;
 $buttonFontLight: NittiNormal;
 
+$gridUnit: rem-calc(10);
+
 $baseUnit: rem-calc(30);
 $thirdUnit: rem-calc(10);
 $halfUnit: rem-calc(15);
 $twoThirdUnit: rem-calc(20);
 
-$sidebarWidth: 14 * $baseUnit;
-$cardWidth: 14 * $baseUnit;
-$imageHeight: ($cardWidth / 12) * 7;
-
-@import 'colors';
 @import 'typography';
+@import 'colors';
 @import 'base';
 @import 'mediaqueries';
 @import 'layout';
-@import 'pages';
 
-@import 'partials/textbar';
-@import 'partials/tags';
-@import 'partials/buttons';
+@import 'modules/textbar';
+@import 'modules/buttons';
 
-@import 'components/story';
-@import 'components/page';
-@import 'components/nav';
-@import 'components/footer';
-@import 'components/block';
-@import 'components/reference';
-@import 'components/entity';
-@import 'components/about';
+// @import 'components/story';
+// @import 'components/page';
+// @import 'components/nav';
+// @import 'components/footer';
+// @import 'components/block';
+// @import 'components/reference';
+// @import 'components/entity';
+// @import 'components/about';

@@ -1,35 +1,18 @@
 html {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 *, *:before, *:after {
-  font-family: $baseFont;
   box-sizing: inherit;
+  font-family: $baseFont;
   margin: 0;
   padding: 0;
-  user-select: none;
+  outline: 0;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
-h1, h2, h3, h4 ,h5, h6, .title {
+h1, h2, h3, h4 ,h5, h6 {
   font-family: $titleFont;
-}
-
-em {
-  font-family: $titleFont;
-  font-style: normal;
-}
-
-p, li, textarea {
-  font-size: rem-calc(16);
-  line-height: rem-calc(20);
-}
-
-p {
-  margin-bottom: 1rem;
 }
 
 a {
@@ -37,30 +20,6 @@ a {
   text-decoration: none;
 }
 
-button:focus {
-  outline: 0;
-}
-
 ul {
   list-style: none;
-}
-
-.title {
-  font-family: NittiBold;
-  font-weight: 500;
-  font-size: rem-calc(28);
-  line-height: rem-calc(30);
-}
-
-.sub-title {
-  font-size: rem-calc(18);
-  line-height: rem-calc(20);
-}
-
-input, textarea {
-  border: rem-calc(1px) solid $yellow;
-}
-
-textarea {
-  width: 100%;
 }

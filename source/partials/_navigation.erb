@@ -1,29 +1,25 @@
-<nav>
-  <ul class="nav-main <%= current_page.data.type %>-color">
-    <%  
-      $navigation_items = [
-        '<img src="images/cth-icon.svg" class="cth-icon">',
-        '<span class="hide-responsive">From Content to </span>Context',
-        '<span class="hide-responsive">To </span>Curation',
-        '<span class="hide-responsive"> To </span>Faciliation',
-        'Partners',
-        'About'
-      ]
-      $navigation_links = [
-        '',
-        'item-body-2',
-        'item-body-3',
-        'item-body-4',
-        'item-partners',
-        'item-about'
-      ]
-    %>
-    <% for item in 0..5 %>
-    <li>
-      <a href="<%= config.http_prefix + '#' + $navigation_links[item] %>" class="nav-link <% if which_is_link_active == item+1 %>is-link-active<% end %>">
-          <%= $navigation_items[item] %>
-      </a>
-    </li>
-    <% end %>
-  </ul>
+<nav class="nav">
+  <%  
+    $navigation_items = [
+      'Top',
+      '<span class="hide-responsive">From Content to </span>Context',
+      '<span class="hide-responsive">To </span>Curation',
+      '<span class="hide-responsive"> To </span>Faciliation',
+      'Partners',
+      'About'
+    ]
+    $navigation_links = [
+      '',
+      'item-body-2',
+      'item-body-3',
+      'item-body-4',
+      'item-partners',
+      'item-about'
+    ]
+  %>
+  <% for item in 0..5 %>
+  <a href="<%= config.http_prefix + '#' + $navigation_links[item] %>" class="nav__link <% if which_is_link_active == item+1 %>nav__link--is-active<% end %>">
+      <%= $navigation_items[item] %>
+  </a>
+  <% end %>
 </nav>

@@ -1,7 +1,6 @@
 .textbar {
   display: inline-block;
-  width: auto;
-  padding: 0 $gridUnit * 2 0 $gridUnit;
+  padding: 0 $gridUnit * 2 0 $gridUnit * 1.5;
   margin-bottom: $gridUnit;
 
   background-color: $baseColor;
@@ -12,12 +11,16 @@
   line-height: rem-calc(30);
 }
 
-.textbar-inverse {
+.textbar--inverse {
   background-color: $lightBaseColor;
   color: $baseColor;
 }
 
-.textbar-big, .textbar-big:focus {
-  font-size: rem-calc(75);
-  line-height: rem-calc(80);
+.textbar--big, .textbar--big:focus {
+  font-size: rem-calc(75*0.5);
+  line-height: rem-calc(80*0.5);
+  @media (min-width: $breakpoint-sm){
+    font-size: rem-calc(75);
+    line-height: rem-calc(80);
+  }
 }

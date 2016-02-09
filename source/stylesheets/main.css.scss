@@ -8,19 +8,17 @@ $buttonFontLight: NittiNormal;
 
 $gridUnit: rem-calc(10);
 
-$baseUnit: rem-calc(30);
-$thirdUnit: rem-calc(10);
-$halfUnit: rem-calc(15);
-$twoThirdUnit: rem-calc(20);
-
 @import 'typography';
 @import 'colors';
 @import 'base';
 @import 'mediaqueries';
 @import 'layout';
 
+@import 'modules/nav';
+@import 'modules/textbox';
 @import 'modules/textbar';
 @import 'modules/buttons';
+@import 'modules/hammer';
 
 // @import 'components/story';
 // @import 'components/page';

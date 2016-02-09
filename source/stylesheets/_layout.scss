@@ -1,26 +1,36 @@
-html {
-  height: 100%;
-}
-
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
-
   background: $lightgray;
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
 
   overflow: hidden;
 }
 
 .item {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding: $baseUnit;
+  min-height: 100vh;
+}
 
+.grid-content{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;  
+  width: 100%;
+  padding: $gridUnit * 3;
+  @media (min-width: $breakpoint-sm){
+    width: $gridUnit * 86;
+  }
+}
+
+.offgrid-content {
+  flex-grow: 1; 
+  width: auto;
 }

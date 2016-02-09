@@ -1,0 +1,16 @@
+.hammer {
+  position: relative;
+  overflow: hidden;
+}
+
+.hammer__image--header {
+  position: relative;
+  left: $gridUnit*10;
+  top: -$gridUnit*15;
+  transform: rotate(45deg);
+  width: 100%;
+}
+
+.hammer-about {
+  
+}

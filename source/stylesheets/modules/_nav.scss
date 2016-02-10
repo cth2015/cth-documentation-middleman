@@ -1,11 +1,22 @@
 .nav {
   width: 100%;
+  padding: $gridUnit * 3 $gridUnit * 3 0 $gridUnit * 3;
 }
 
 .nav__link {
-  padding-left: $gridUnit*3;
+  display: inline-block;
+  margin-right: $gridUnit * 3;
+  padding: 0 $gridUnit * 3;
+  
+  background: $baseColor;
+  
+  font-family: $buttonFont;
+  font-size: $gridUnit * 1.5;
+  line-height: $gridUnit * 4;
+  color: $inverseColor;
 }
 
 .nav__link--is-active {
-
+  background: $inverseColor;
+  color: $baseColor;
 }

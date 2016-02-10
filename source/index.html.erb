@@ -3,8 +3,8 @@ title: Coding the Humanities
 layout: main
 type: story
 ---
-<div id="item-header" class="item brand-primary">
-  <%= partial("partials/navigation", :locals => { :which_is_link_active => 0 }) %>
+<div id="item-header" class="item item--header brand-primary">
+  <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
   <div class="grid-content">
     <div>
       <h1 class="textbar textbar--big">Coding_</h1><br>
@@ -20,72 +20,75 @@ type: story
   </div>
 </div>
 
-<div id="item-video" class="item item-video">
-  <div class="block block__video">
-    <img class="playbutton" src="./images/playbutton.svg" alt="">
+<div id="item-video" class="item">
+  <div class="video">
+    <img class="video__play-button" src="./images/playbutton.svg" alt="">
   </div>
 </div>
 
 <% for item in 2..4 %>
-<a id="item-body-<%= item %>"></a>
-<%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
-<img class="item-body-image" src="./images/item-body-<%= item %>.svg" alt="">
-<div class="item item-body item-num-<%= item %>">
-  <div class="column-left">
+<div id="item-body-<%= item %>" class="item item-body item-num-<%= item %>">
+  <div class="item__header brand-primary">
+    <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
+    <img class="full-width-image" src="./images/item-body-<%= item %>.svg" alt="">
+  </div>
+  <div class="grid-content">
     <% blog('blocks').articles.each do |block| %>
     <% if block.data.item == item %>
     <%= partial(:"partials/story-block", :locals => { :block => block })  %>
     <% end %>
     <% end %>
   </div>
-  <div class="column-right">
-    <div class="block">
-      <div class="reference-container">
-        <h3>Projects:</h3>
-        <% blog('projects').articles.each do |post| %>
-        <% if post.data.item == item %>
-        <%= partial(:"partials/story-reference", :locals => { :reference => post })  %>
-        <% end %>
-        <% end %>
-        <h3>Publications:</h3>
-        <% blog('publications').articles.each do |post| %>
-        <% if post.data.item == item %>
-        <%= partial(:"partials/story-reference", :locals => { :reference => post })  %>
-        <% end %>
-        <% end %>
-      </div>
+  <div class="offgrid-content">
+    <div class="references-container">
+      <h3 class="references-container__header">Projects:</h3>
+      <% blog('projects').articles.each do |post| %>
+      <% if post.data.item == item %>
+      <%= partial(:"partials/reference", :locals => { :reference => post })  %>
+      <% end %>
+      <% end %>
+      <h3 class="references-container__header">Publications:</h3>
+      <% blog('publications').articles.each do |post| %>
+      <% if post.data.item == item %>
+      <%= partial(:"partials/reference", :locals => { :reference => post })  %>
+      <% end %>
+      <% end %>
     </div>
   </div>
 </div>
 <% end %>
 
-<a id="item-partners"></a>
-<%= partial("partials/navigation", :locals => { :which_is_link_active => 5 }) %>
-<img class="item-partners-image" src="images/item-partners.svg" alt="">
-<div  class="item item-partners">
-  <div class="column-left">
+<div id="item-partners" class="item">
+  <div class="item__header brand-primary">
+    <%= partial("partials/navigation", :locals => { :which_is_link_active => 5 }) %>
+    <img class="full-width-image" src="images/item-partners.svg" alt="">
+  </div>
+  <div class="grid-content">
     <div class="block">
       <h1 class="title textbar"><%= blog('blocks').articles[4].data.title %></h1>
       <div class="block-small-typography"><%= blog('blocks').articles[4].body %></div>
     </div>
   </div>
-  <div class="block entities">
+  <div class="partners-content">
     <% for entity in blog('blocks').articles[4].data.entities %>
       <%= partial(:"partials/story-entity", :locals => { :entity => entity })  %>
     <% end %>
   </div>
 </div>
 
-<a id="item-about"></a>
-<%= partial("partials/navigation", :locals => { :which_is_link_active => 6 }) %>
-<div class="item item-about">   
-  <div class="column-left">
+
+<div class="item brand-primary">
+  <div class="item__header brand-primary">
+    <a id="item-about"></a>
+    <%= partial("partials/navigation", :locals => { :which_is_link_active => 6 }) %>   
+  </div>
+  <div class="grid-content">
     <div class="block">
       <h1 class="title textbar"><%= blog('blocks').articles[5].data.title %></h1>
       <div class="block-small-typography"><%= blog('blocks').articles[5].body %></div>
     </div>
   </div>
-  <div class="column-right">
+  <div class="offgrid-content">
     <img class="hammer hammer--about" src="./images/logo-short.svg" alt="">
   </div> 
 </div>

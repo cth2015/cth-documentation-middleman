@@ -1,0 +1,5 @@
+.hidden-sm {
+  @media (max-width: $breakpoint-sm){
+    display: none;
+  }  
+}

@@ -5,7 +5,6 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-  font-family: $baseFont;
   margin: 0;
   padding: 0;
   outline: 0;
@@ -15,17 +14,19 @@ h1, h2, h3, h4 ,h5, h6 {
   font-family: $titleFont;
 }
 
-a {
-  color: $black;
-  text-decoration: none;
-}
-
 ul {
+  font-family: $baseFont;
   list-style: none;
 }
 
 p, a {
   // font-size: $gridUnit * 2 * 0.9375;
+  font-family: $baseFont;
   font-size: $gridUnit * 2;
   line-height: $gridUnit * 3;
+}
+
+a {
+  color: $black;
+  text-decoration: none;
 }

@@ -1,36 +1,47 @@
 body {
   display: flex;
   flex-direction: column;
-  background: $lightgray;
 }
 
 .main {
   display: flex;
   flex-direction: column;
-
-  overflow: hidden;
+  background: $lightgray;
 }
 
 .item {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
+}
+
+.item--header {
   min-height: 100vh;
+}
+
+.item__header {
+  width: 100%;
 }
 
 .grid-content{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   flex-shrink: 0;  
   width: 100%;
   padding: $gridUnit * 3;
-  @media (min-width: $breakpoint-sm){
+  @media (min-width: $breakpoint-md){
     width: $gridUnit * 86;
   }
 }
 
 .offgrid-content {
-  flex-grow: 1; 
-  width: auto;
+  // <<hack>>
+  width: 1px;
+  // <<hack>>
+  flex-shrink: 1;
+  flex-grow: 1;
+  padding: $gridUnit * 3 0;
+
 }

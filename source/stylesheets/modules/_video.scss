@@ -1,0 +1,15 @@
+.video {
+  @include aspect-ratio(16, 9);
+  width: 100%;
+  margin: $gridUnit*9 $gridUnit*9 $gridUnit*9 $gridUnit*3;
+
+  background: black;
+}
+
+.video__play-button {
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  width: 20%;
+  height: 20%;
+}

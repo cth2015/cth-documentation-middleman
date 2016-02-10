@@ -1,7 +1,6 @@
 ---
 title: Coding the Humanities
 layout: main
-type: story
 ---
 <div id="anchor-header" class="layout__item brand-primary">
   <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
@@ -15,15 +14,13 @@ type: story
   </div>
   <div class="layout__item-offgrid-content">
     <div class="hammer">
-      <!-- <img class="hammer__image hammer__image--header" src="./images/hammer-short.svg" alt=""> -->
+      <img class="hammer__image hammer__image--header" src="./images/hammer-short.svg" alt="">
     </div>
   </div>
 </div>
 
 <div id="anchor-video" class="layout__item">
-  <div class="video">
-    <img class="video__play-button" src="./images/playbutton.svg" alt="">
-  </div>
+  
 </div>
 
 <% for item in 2..4 %>
@@ -32,24 +29,22 @@ type: story
     <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
     <img class="full-width-image" src="./images/item-body-<%= item %>.svg" alt="">
   </div>
+  <% blog('blocks').articles.each do |block| %>
+  <% if block.data.item == item %>
+  <h1 class="textbar textbar--fullwidth"><%= block.title %></h1>
   <div class="layout__item-grid-content">
-    <% blog('blocks').articles.each do |block| %>
-    <% if block.data.item == item %>
-    <div>
-      <h1 class="textbar"><%= block.title %></h1>
-      <%= block.body %>
-    </div>
-    <% end %>
-    <% end %>
+    <div class="textbox"><%= block.body %></div>
   </div>
+  <% end %>
+  <% end %>
   <div class="layout__item-offgrid-content">
-    <h3 class="reference reference--header">Projects:</h3>
+    <h3 class="references-title">Projects:</h3>
     <% blog('projects').articles.each do |post| %>
     <% if post.data.item == item %>
     <%= partial(:"partials/reference", :locals => { :reference => post })  %>
     <% end %>
     <% end %>
-    <h3 class="reference reference--header">Publications:</h3>
+    <h3 class="references-title">Publications:</h3>
     <% blog('publications').articles.each do |post| %>
     <% if post.data.item == item %>
     <%= partial(:"partials/reference", :locals => { :reference => post })  %>
@@ -64,11 +59,9 @@ type: story
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 5 }) %>
     <img class="full-width-image" src="images/item-partners.svg" alt="">
   </div>
+  <h1 class="textbar textbar--fullwidth"><%= blog('blocks').articles[4].data.title %></h1>
   <div class="layout__item-grid-content">
-    <div class="block">
-      <h1 class="title textbar"><%= blog('blocks').articles[4].data.title %></h1>
-      <div class="block-small-typography"><%= blog('blocks').articles[4].body %></div>
-    </div>
+    <div class="textbox"><%= blog('blocks').articles[4].body %></div>
   </div>
   <div class="layout__item-partners">
     <% for entity in blog('blocks').articles[4].data.partners %>
@@ -85,10 +78,8 @@ type: story
 <div id="anchor-about"class="layout__item brand-primary">
   <%= partial("partials/navigation", :locals => { :which_is_link_active => 6 }) %>   
   <div class="layout__item-grid-content">
-    <div class="block">
-      <h1 class="title textbar"><%= blog('blocks').articles[5].data.title %></h1>
-      <div class="block-small-typography"><%= blog('blocks').articles[5].body %></div>
-    </div>
+    <h1 class="textbar "><%= blog('blocks').articles[5].data.title %></h1>
+    <div class="textbox"><%= blog('blocks').articles[5].body %></div>
   </div>
   <div class="layout__item-offgrid-content">
     <img class="hammer hammer--about" src="./images/logo-short.svg" alt="">

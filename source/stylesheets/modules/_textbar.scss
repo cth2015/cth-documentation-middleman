@@ -24,3 +24,12 @@
     line-height: rem-calc(80);
   }
 }
+
+.textbar--fullwidth {
+  width: 60%;
+  margin: $gridUnit * 9 0 0 0;
+  padding: $gridUnit * 3;
+  
+  font-size: $gridUnit * 3;
+  line-height: $gridUnit * 4;
+}

@@ -1,9 +1,18 @@
 .partner {
-  width: calc(1/4 * 100% - #{$gridUnit} * 4) ;
+  width: calc((1/2 * 100%) - (#{$gridUnit} * 3));
   border-bottom: $gridUnit solid $black;
 
   margin: 0 $gridUnit * 3 $gridUnit * 3 0;
   padding: $gridUnit * 1;
 
   background: rgba($yellow, 1);
+  @media (min-width: $breakpoint-sm){
+    width: calc((1/3 * 100%) - (#{$gridUnit} * 3));
+  }
+  @media (min-width: $breakpoint-md){
+    width: calc((1/4 * 100%) - (#{$gridUnit} * 3));
+  }
+  @media (min-width: $breakpoint-xl){
+    width: calc((1/5 * 100%) - (#{$gridUnit} * 3));
+  }
 }

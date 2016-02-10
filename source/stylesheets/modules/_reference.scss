@@ -1,15 +1,19 @@
+.references-title {
+  padding: $gridUnit * 1 $gridUnit * 3 $gridUnit * 1 0;
+}
+
 .reference {
-  padding: 0 0 $gridUnit * 2 0;
-}
-
-.reference--header {
-  
-}
-
-.reference__content {
+  width: 100%;
+  max-width: $gridUnit * 40;
+  margin: 0 0 $gridUnit * 1 0;
   padding: $gridUnit * 1 $gridUnit * 2 $gridUnit * 1 $gridUnit * 3;
-  background: $yellow;
   border-right: $gridUnit solid $black;
+  background: $yellow;
+  text-align: right;
+}
+
+div:last-of-type.reference {
+  margin: 0;
 }
 
 .reference__description {
@@ -20,8 +24,8 @@
   transition: max-height 0.5s linear;
 }
 
-.reference__content:hover > .reference__description,
-.reference__content:active > .reference__description {
+.reference:hover > .reference__description,
+.reference:active > .reference__description {
   max-height: $gridUnit * 18;
   transition: max-height 0.5s linear 0.5s;
 }

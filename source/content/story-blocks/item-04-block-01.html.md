@@ -3,11 +3,11 @@ title: From Curation to Facilitation
 date: 22-12-2015
 item: 4
 ---
-There are many tools out there that facilitate curation – such as Twitter or Evernote. And there are many tools that facilitate education – such as MOOCs. Coding the Humanities builds a tool that facilitates education through curation.
+There are many tools that exist to facilitate curation, such as Twitter or Evernote. And there are many tools that facilitate education, such as MOOCs. Coding the Humanities builds a tool that facilitates education through curation.
 
 ## Different Tools for Different Means
 
-Students use all kinds of different tools to store resources. Teachers use all kinds of different tools to share resources. Only a few of these tools are designed to facilitate learning. In the autumn of 2015, we interviewed nine Coding the Humanities students about the way they study and we could describe the following: 
+Students use all kinds of tools to store resources. Teachers use all kinds of tools to share resources. Only a few of these tools are designed to facilitate learning. In the autumn of 2015, we interviewed nine Coding the Humanities students about the way they study and we could describe the following: 
 
 - Learning is telling a story
 - You learn best with a clear and personal goal in mind
@@ -26,4 +26,4 @@ On the platform, people can:
 - Gather specific feedback on early drafts of your work and the work of your peers
 - See what others are doing and have done before you – in your class, in parallel classes and classes of the years before you
 
-But the tool isn’t just a tool – it embodies the further development of a teaching practice that leverages the knowledge and information that exists around us. We believe in a future of shared learning – inside and outside of universities – and knowledge institutions are here to further shape this future of learning. 
+But Coding the Humanities isn’t just a tool – it embodies the further development of a teaching practice that leverages the knowledge and information that exists around us. We believe in a future of shared learning – inside and outside of universities – and knowledge institutions are here to further shape this future of learning.  

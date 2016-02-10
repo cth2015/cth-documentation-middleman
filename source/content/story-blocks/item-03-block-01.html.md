@@ -5,13 +5,13 @@ item: 3
 ---
 Today, almost anything you want to learn is accessible online. Anyone who wants to learn, can use what’s already there. Coding the Humanities creates a tool that helps people structure, track and share what they want to learn.
 
-## Steal + Make + Share = Curate
+## Use + Make + Share = Curation
 
 Back in the day, when you wanted to learn linguistics from Umberto Eco, you had to travel to Bologna. Today, you can do this from behind a computer, anywhere you want, with an internet connection.
 
 Almost anything people may want to learn, exists online somewhere. Instead of creating every learning resource anew: 
 
-- Steal what’s already there
+- Use what’s already there
 - Make meaningful packets of information
 - And share them with people who want to learn
 

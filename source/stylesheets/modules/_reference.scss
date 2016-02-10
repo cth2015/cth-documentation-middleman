@@ -1,15 +1,18 @@
 .reference {
-  padding: 0 0 $gridUnit * 3 0;
+  padding: 0 0 $gridUnit * 2 0;
 }
 
 .reference__content {
-  display: inline-block;
-  padding: $gridUnit * 3 $gridUnit * 2 $gridUnit * 3 $gridUnit * 3;
+  display: inlin: ;e-block;
+  padding: $gridUnit * 2 $gridUnit * 2 $gridUnit * 2 $gridUnit * 3;
   background: $yellow;
   border-right: $gridUnit solid $black;
 }
 
 .reference__description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
   max-height: 0;
   height: auto;
 
@@ -21,6 +24,10 @@
 .reference__content:active > .reference__description {
   max-height: $gridUnit * 18;
   transition: max-height 0.5s linear 0.5s;
+}
+
+.reference__summery {
+  max-width: $gridUnit * 30;
 }
 
 // .reference-btn {

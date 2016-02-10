@@ -1,7 +1,6 @@
 .video {
   @include aspect-ratio(16, 9);
   width: 100%;
-  max-height: 80vh;
   margin: $gridUnit*9 $gridUnit*3 $gridUnit*9 $gridUnit*3;
 
   background: black;

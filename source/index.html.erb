@@ -3,9 +3,9 @@ title: Coding the Humanities
 layout: main
 type: story
 ---
-<div id="item-header" class="item item--header brand-primary">
+<div id="anchor-header" class="layout__item layout__item--header brand-primary">
   <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
-  <div class="grid-content">
+  <div class="layout__grid-content">
     <div>
       <h1 class="textbar textbar--big">Coding_</h1><br>
       <h1 class="textbar textbar--big">the_</h1><br>
@@ -13,34 +13,37 @@ type: story
       <%= blog('blocks').articles[0].body %>
     </div>
   </div>
-  <div class="offgrid-content">
+  <div class="layout__offgrid-content">
     <div class="hammer">
       <!-- <img class="hammer__image hammer__image--header" src="./images/hammer-short.svg" alt=""> -->
     </div>
   </div>
 </div>
 
-<div id="item-video" class="item">
+<div id="anchor-video" class="layout__item">
   <div class="video">
     <img class="video__play-button" src="./images/playbutton.svg" alt="">
   </div>
 </div>
 
 <% for item in 2..4 %>
-<div id="item-body-<%= item %>" class="item item-body item-num-<%= item %>">
-  <div class="item__header brand-primary">
+<div id="anchor-body-<%= item %>" class="layout__item">
+  <div class="layout__item-top brand-primary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
     <img class="full-width-image" src="./images/item-body-<%= item %>.svg" alt="">
   </div>
-  <div class="grid-content">
+  <div class="layout__grid-content">
     <% blog('blocks').articles.each do |block| %>
     <% if block.data.item == item %>
-    <%= partial(:"partials/story-block", :locals => { :block => block })  %>
+    <div>
+      <h1 class="textbar"><%= block.title %></h1>
+      <%= block.body %>
+    </div>
     <% end %>
     <% end %>
   </div>
-  <div class="offgrid-content">
-    <div class="references-container">
+  <div class="layout__offgrid-content">
+    <div class="layout__references">
       <h3 class="references-container__header">Projects:</h3>
       <% blog('projects').articles.each do |post| %>
       <% if post.data.item == item %>
@@ -58,37 +61,38 @@ type: story
 </div>
 <% end %>
 
-<div id="item-partners" class="item">
-  <div class="item__header brand-primary">
+<div id="anchor-partners" class="layout__item">
+  <div class="layout__item-top brand-primary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 5 }) %>
     <img class="full-width-image" src="images/item-partners.svg" alt="">
   </div>
-  <div class="grid-content">
+  <div class="layout__grid-content">
     <div class="block">
       <h1 class="title textbar"><%= blog('blocks').articles[4].data.title %></h1>
       <div class="block-small-typography"><%= blog('blocks').articles[4].body %></div>
     </div>
   </div>
-  <div class="partners-content">
-    <% for entity in blog('blocks').articles[4].data.entities %>
-      <%= partial(:"partials/story-entity", :locals => { :entity => entity })  %>
+  <div class="layout__partners">
+    <% for entity in blog('blocks').articles[4].data.partners %>
+    <div class="partner">
+      <a href="<%= entity.url || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + entity.name %>">
+        <h3 class="partner__name"><%= entity.name %></h3>
+        <p class="partner__job"><%= entity.job %></p>
+      </a>
+    </div> 
     <% end %>
   </div>
 </div>
 
-
-<div class="item brand-primary">
-  <div class="item__header brand-primary">
-    <a id="item-about"></a>
-    <%= partial("partials/navigation", :locals => { :which_is_link_active => 6 }) %>   
-  </div>
-  <div class="grid-content">
+<div id="anchor-about"class="layout__item brand-primary">
+  <%= partial("partials/navigation", :locals => { :which_is_link_active => 6 }) %>   
+  <div class="layout__grid-content">
     <div class="block">
       <h1 class="title textbar"><%= blog('blocks').articles[5].data.title %></h1>
       <div class="block-small-typography"><%= blog('blocks').articles[5].body %></div>
     </div>
   </div>
-  <div class="offgrid-content">
+  <div class="layout__offgrid-content">
     <img class="hammer hammer--about" src="./images/logo-short.svg" alt="">
   </div> 
 </div>

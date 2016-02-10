@@ -3,7 +3,7 @@
 }
 
 .reference__content {
-  padding: $gridUnit * 2 $gridUnit * 2 $gridUnit * 2 $gridUnit * 3;
+  padding: $gridUnit * 1 $gridUnit * 2 $gridUnit * 1 $gridUnit * 3;
   background: $yellow;
   border-right: $gridUnit solid $black;
 }
@@ -21,16 +21,3 @@
   max-height: $gridUnit * 18;
   transition: max-height 0.5s linear 0.5s;
 }
-
-// .reference-btn {
-//   width: $baseUnit * 3;
-//   margin: 0 0 0 auto;
-// }
-
-// .reference.projects .reference-btn:hover {
-//   color: $red;
-// }
-
-// .reference.publications .reference-btn:hover {
-//   color: $blue;
-// }

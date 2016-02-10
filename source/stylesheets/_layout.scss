@@ -1,30 +1,30 @@
-body {
+.layout__body {
   display: flex;
   flex-direction: column;
 }
 
-.main {
+.layout__main {
   display: flex;
   flex-direction: column;
   background: $lightgray;
 }
 
-.item {
+.layout__item {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
 }
 
-.item--header {
+.layout__item--header {
   min-height: 100vh;
 }
 
-.item__header {
+.layout__item-top {
   width: 100%;
 }
 
-.grid-content{
+.layout__grid-content{
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -36,12 +36,19 @@ body {
   }
 }
 
-.offgrid-content {
+.layout__offgrid-content {
   // <<hack>>
   width: 1px;
   // <<hack>>
   flex-shrink: 1;
   flex-grow: 1;
   padding: $gridUnit * 3 0;
+}
+
+.layout__partners {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 0 0 $gridUnit * 3; 
 
 }

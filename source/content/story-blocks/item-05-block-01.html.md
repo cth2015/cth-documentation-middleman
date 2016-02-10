@@ -1,8 +1,8 @@
 ---
 title: Partners
 date: 18-12-2015
-item: item-people
-entities: 
+anchor: anchor-people
+partners: 
 - name: Angeliki Chalkia
   summery:
   job: student assistant, autumn ‘14

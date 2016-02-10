@@ -1,0 +1,9 @@
+.partner {
+  width: calc(1/4 * 100% - #{$gridUnit} * 4) ;
+  border-bottom: $gridUnit solid $black;
+
+  margin: 0 $gridUnit * 3 $gridUnit * 3 0;
+  padding: $gridUnit * 1;
+
+  background: rgba($yellow, 1);
+}

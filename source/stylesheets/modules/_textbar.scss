@@ -16,7 +16,7 @@
   color: $baseColor;
 }
 
-.textbar--big, .textbar--big:focus {
+.textbar--big {
   font-size: rem-calc(75*0.5);
   line-height: rem-calc(80*0.5);
   @media (min-width: $breakpoint-sm){

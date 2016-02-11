@@ -24,8 +24,8 @@
   flex-shrink: 0;  
   width: 100%;
   padding: $gridUnit * 9 0 $gridUnit * 9 0;
-  @media (min-width: $breakpoint-md){
-    width: $gridUnit * 86;
+  @media (min-width: $breakpoint-lg){
+    width: $gridUnit * 80 ;
   }
 }
 
@@ -33,14 +33,16 @@
   align-self: flex-end;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: stretch;
   justify-content: flex-end;
-  // <<hack>>
-  width: 1px;
-  // <<hack>>
   flex-shrink: 1;
   flex-grow: 1;
+  width: auto;
   padding: $gridUnit * 9 0;
+}
+
+.layout__item-offgrid-content--no-padding {
+  padding: 0;
 }
 
 .layout__item-partners {

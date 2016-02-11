@@ -23,7 +23,7 @@
   flex-wrap: wrap;
   flex-shrink: 0;  
   width: 100%;
-  padding: $gridUnit * 6 $gridUnit * 3 $gridUnit * 6 $gridUnit * 3;
+  padding: $gridUnit * 9 0 $gridUnit * 9 0;
   @media (min-width: $breakpoint-md){
     width: $gridUnit * 86;
   }

@@ -1,5 +1,4 @@
 @import 'functions';
-@import 'mixins';
 
 $baseFont: NittiGrotesk;
 $titleFont: NittiGroteskBold;
@@ -8,6 +7,7 @@ $buttonFontLight: NittiNormal;
 
 $gridUnit: rem-calc(10);
 
+@import 'mixins';
 @import 'typography';
 @import 'colors';
 @import 'base';

@@ -1,13 +1,21 @@
+// element-selectors used because unknown HTML
+
 .textbox {
+  padding: 0 $gridUnit * 3;
 }
 
-.textbox > :first-child {
+.textbox > p:first-child{
   margin: 0 0 $gridUnit * 6 0;
 
   font-family: $titleFont;
   font-size: $gridUnit * 2.5;
   line-height: $gridUnit * 3.5;
 }
+
+.textbox > p:last-child{
+  margin: 0;
+}
+
 
 .textbox > h2:last-of-type {
   padding: $gridUnit * 6 0 $gridUnit * 1 0;

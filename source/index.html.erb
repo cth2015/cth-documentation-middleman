@@ -20,12 +20,6 @@ type: story
   </div>
 </div>
 
-<div id="item-video" class="item item-video">
-  <div class="block block-video">
-    <img class="playbutton" src="./images/playbutton.svg" alt="">
-  </div>
-</div>
-
 <% for item in 2..4 %>
 <a id="item-body-<%= item %>"></a>
 <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>

@@ -22,7 +22,7 @@ partners:
 - name: Erik van Zummeren
   summery:
   job: student assistant, autumn ‘14
-  url: https://www.linkedin.com/in/e-van-zummeren-68834683
+  url: https://www.linkedin.com/in/erik-van-zummeren-68834683/nl
 - name: Charlotte van Oostrum
   summery: 
   job: researcher and editor 

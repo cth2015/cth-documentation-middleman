@@ -29,7 +29,7 @@ layout: main
 <div id="anchor-body-<%= item %>" class="layout__item">
   <header class="layout__item-top brand-primary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
-    <img class="fullwidth-image fullwidth-image--with-padding" src="./images/item-body-<%= item %>.svg" alt="">
+    <img class="image image--fullwidth image--padding" src="./images/item-body-<%= item %>.svg" alt="">
   </header>
   <% blog('blocks').articles.each do |block| %>
   <% if block.data.item == item %>
@@ -59,7 +59,7 @@ layout: main
 <div id="anchor-partners" class="layout__item">
   <header class="layout__item-top brand-primary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 5 }) %>
-    <img class="fullwidth-image fullwidth-image--with-padding" src="images/item-partners.svg" alt="">
+    <img class="image image--fullwidth image--padding" src="images/item-partners.svg" alt="">
   </header>
   <article class="layout__item-grid-content">
     <h1 class="textbar textbar--fullwidth"><%= blog('blocks').articles[4].data.title %></h1>

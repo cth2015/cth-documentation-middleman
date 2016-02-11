@@ -19,9 +19,8 @@
     padding: 0 $gridUnit * 3;
   }
   @media (min-width: $breakpoint-xxl){
-    margin: 0 $gridUnit * 3 $gridUnit * 3 0;
-    font-size: $gridUnit * 2;
-    line-height: $gridUnit * 6;
+    font-size: $gridUnit * 1.5;
+    line-height: $gridUnit * 4.5;
   }
 }
 

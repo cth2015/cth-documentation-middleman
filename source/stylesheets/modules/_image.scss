@@ -1,0 +1,19 @@
+.image {
+  
+}
+
+.image--fullwidth {
+  width: 100%;
+  padding: $gridUnit * 9 0 0 0;
+}
+
+.image--halfwidth {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.image--padding {
+  padding: $gridUnit * 9;
+}
+
+

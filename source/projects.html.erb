@@ -3,58 +3,45 @@ title: Coding the Humanities
 layout: main
 type: projects
 ---
-<%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
-<div class="item item-header item-posts-header projects-color">
-  <div class="column-left">
-    <img class="image-publications" src="images/projects.svg" alt="">
-  </div>
-  <div class="column-right">
-    <div class="block">
-      <h1 class="title textbar">Projects</h1>
-      <p>This page shows all the projects</p>
-      <ul class="item-header-nav">
-        <% for item in 2..4 %>
-        <% blog('projects').articles.each do |post| %>
-        <% if post.data.item == item %>
-          <a href="<%= config.http_prefix + post.data.type + '.html#' + post.slug %>"><li><%= post.title %></li></a>
-        <% end %>
-        <% end %>
-        <% end %>
-      </ul>
-    </div>
-  </div>
+<div class="layout__item brand-tertiary">
+  <header class="layout__item-top">
+    <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
+  </header>
+  <img class="image image--halfwidth image--padding" src="images/projects.svg" alt="">
 </div>
-
-<% for item in 2..4 %>
-<% blog('projects').articles.each do |post| %>
-<% if post.data.item == item %>
-<a id="<%= post.slug %>"></a>
-<div class="item item-project">
-  <div class="column-left">
-    <div class="block">
-      <h1 class="textbar title"><%= post.title %></h1>
-      <p><%= post.body %></p>
-      <div class="links-btn-container">
-        <a href="<%= '/#item-body-' + item.to_s %>" class="btn btn-inverse btn-back"> &lt;&lt;&nbsp;Back </a>
-        <% if post.data.studentProjects %>
-        <!-- onclick is iphone hover hack -->
-        <div onclick="" class="btn-student-project-container">
-          <div class="btn btn-inverse btn-student-project">Projects</div>
-          <ul>
-            <% post.data.studentProjects.each do |project| %>
-            <li><a href="<%= project.url %>"> <%= project.title %></a></li>
-            <% end %>
-          </ul>
+<main class="layout__item">
+  <h1 class="textbar textbar--fullwidth">Projects</h1>
+  <% for item in 2..4 %>
+  <% blog('projects').articles.each do |post| %>
+  <% if post.data.item == item %>
+  <a id="<%= post.slug %>"></a>
+  <div class="item item-project">
+    <div class="column-left">
+      <div class="block">
+        <h1 class="textbar title"><%= post.title %></h1>
+        <p><%= post.body %></p>
+        <div class="links-btn-container">
+          <a href="<%= '/#item-body-' + item.to_s %>" class="btn btn-inverse btn-back"> &lt;&lt;&nbsp;Back </a>
+          <% if post.data.studentProjects %>
+          <!-- onclick is iphone hover hack -->
+          <div onclick="" class="btn-student-project-container">
+            <div class="btn btn-inverse btn-student-project">Projects</div>
+            <ul>
+              <% post.data.studentProjects.each do |project| %>
+              <li><a href="<%= project.url %>"> <%= project.title %></a></li>
+              <% end %>
+            </ul>
+          </div>
+          <% end %>
+          <% if post.data.reference %>
+          <a href="<%= post.data.reference.url %>" class="btn btn-inverse btn-site"> 
+            Site&nbsp;&gt;&gt; </a>
+          <% end %>
         </div>
-        <% end %>
-        <% if post.data.reference %>
-        <a href="<%= post.data.reference.url %>" class="btn btn-inverse btn-site"> 
-          Site&nbsp;&gt;&gt; </a>
-        <% end %>
       </div>
     </div>
   </div>
-</div>
-<% end %>
-<% end %>
-<% end %>
+  <% end %>
+  <% end %>
+  <% end %>
+</main>

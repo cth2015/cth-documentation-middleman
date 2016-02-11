@@ -47,6 +47,10 @@
   }
 }
 
+.layout__item-offgrid-content--no-padding {
+  padding: 0;
+}
+
 .layout__item-partners {
   display: flex;
   flex-wrap: wrap;

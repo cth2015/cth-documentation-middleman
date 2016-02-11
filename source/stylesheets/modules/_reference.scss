@@ -19,6 +19,12 @@ div:last-of-type.reference {
   margin: 0;
 }
 
+
+.reference__title {
+  font-size: $gridUnit * 2;
+  line-height: $gridUnit * 2.5;
+}
+
 .reference__description {
   max-height: 0;
   height: auto;
@@ -34,7 +40,6 @@ div:last-of-type.reference {
 }
 
 .reference__summery {
-  padding: $gridUnit 0 0 0;
   font-size: $gridUnit * 2;
   line-height: $gridUnit * 2.5;
 }

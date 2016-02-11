@@ -3,38 +3,22 @@ title: Coding the Humanities
 layout: main
 type: publications
 ---
-<%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
-<div class="item item-header item-posts-header publications-color">
-  <div class="column-left">
-    <img class="image-publications" src="images/publications.svg" alt="">
-  </div>
-  <div class="column-right">
-    <div class="block">
-      <h1 class="title textbar">Publications</h1>
-      <p>This page shows all the publications</p>      
-      <ul class="item-header-nav">
-        <% for item in 2..4 %>
-        <% blog('publications').articles.each do |post| %>
-        <% if post.data.item == item %>
-          <a href="<%= config.http_prefix + post.data.type + '.html#' + post.slug %>"><li><%= post.title %></li></a>
-        <% end %>
-        <% end %>
-        <% end %>
-      </ul>
-    </div>
-  </div>
+<div class="layout__item brand-secundary">
+  <header class="layout__item-top">
+    <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
+  </header>
+  <img class="image image--halfwidth image--padding" src="images/publications.svg" alt="">
 </div>
 
-<% for item in 2..4 %>
-<% blog('publications').articles.each do |post| %>
-<% if post.data.item == item %>
-<a id="<%= post.slug %>"></a>
-<div class="item item-post">
-  <div class="column-left">
-    <div class="block">
-      <h1 class="textbar title"><%= post.title %></h1>
-      <p><%= post.body %></p>
-      <h3 class="publications-author">-- <%= post.data.authors[0] %></h3>
+<main class="layout__item">
+  <div class="layout__item-grid-content">
+    <h1 class="textbar textbar--fullwidth textbar--fullwidth--small">Projects</h1>
+    <% for item in 2..4 %>
+    <% blog('publications').articles.each do |post| %>
+    <% if post.data.item == item %>
+    <h1 id="<%= post.slug %>" class="textbar textbar--fullwidth-small"><%= post.title %></h1>
+    <div class="textbox textbox--padding-bottom">
+      <%= post.body %>
       <div class="links-btn-container">
         <a href="<%= '/#item-body-' + item.to_s %>" class="btn btn-inverse btn-back"> &lt;&lt;&nbsp;Back </a>
         <% if post.data.reference %>
@@ -43,8 +27,8 @@ type: publications
         <% end %>
       </div>
     </div>
+    <% end %>
+    <% end %>
+    <% end %>
   </div>
-</div>
-<% end %>
-<% end %>
-<% end %>
+</main>

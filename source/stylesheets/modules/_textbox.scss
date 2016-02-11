@@ -4,12 +4,16 @@
   padding: 0 $gridUnit * 3;
 }
 
+.textbox--padding-bottom {
+  padding: 0 $gridUnit * 3 $gridUnit * 3 $gridUnit * 3;
+}
+
 .textbox > p, .textbox > a, .textbox > ul > li {
   font-size: $gridUnit * 2;
   line-height: $gridUnit * 3;
 }
 
-.textbox > p:first-child{
+.textbox--accent > p:first-child{
   margin: 0 0 $gridUnit * 6 0;
 
   font-family: $titleFont;

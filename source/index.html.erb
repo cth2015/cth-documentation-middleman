@@ -35,7 +35,7 @@ layout: main
   <% if block.data.item == item %>
   <article class="layout__item-grid-content">
     <h1 class="textbar textbar--fullwidth"><%= block.title %></h1>
-    <div class="textbox"><%= block.body %></div>
+    <div class="textbox textbox--accent"><%= block.body %></div>
   </article>
   <% end %>
   <% end %>
@@ -63,7 +63,7 @@ layout: main
   </header>
   <article class="layout__item-grid-content">
     <h1 class="textbar textbar--fullwidth"><%= blog('blocks').articles[4].data.title %></h1>
-    <div class="textbox"><%= blog('blocks').articles[4].body %></div>
+    <div class="textbox textbox--accent"><%= blog('blocks').articles[4].body %></div>
   </article>
   <div class="layout__item-partners">
     <% for entity in blog('blocks').articles[4].data.partners %>

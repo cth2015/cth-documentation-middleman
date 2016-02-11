@@ -9,39 +9,37 @@ type: projects
   </header>
   <img class="image image--halfwidth image--padding" src="images/projects.svg" alt="">
 </div>
+
 <main class="layout__item">
-  <h1 class="textbar textbar--fullwidth">Projects</h1>
-  <% for item in 2..4 %>
-  <% blog('projects').articles.each do |post| %>
-  <% if post.data.item == item %>
-  <a id="<%= post.slug %>"></a>
-  <div class="item item-project">
-    <div class="column-left">
-      <div class="block">
-        <h1 class="textbar title"><%= post.title %></h1>
-        <p><%= post.body %></p>
-        <div class="links-btn-container">
-          <a href="<%= '/#item-body-' + item.to_s %>" class="btn btn-inverse btn-back"> &lt;&lt;&nbsp;Back </a>
-          <% if post.data.studentProjects %>
-          <!-- onclick is iphone hover hack -->
-          <div onclick="" class="btn-student-project-container">
-            <div class="btn btn-inverse btn-student-project">Projects</div>
-            <ul>
-              <% post.data.studentProjects.each do |project| %>
-              <li><a href="<%= project.url %>"> <%= project.title %></a></li>
-              <% end %>
-            </ul>
-          </div>
-          <% end %>
-          <% if post.data.reference %>
-          <a href="<%= post.data.reference.url %>" class="btn btn-inverse btn-site"> 
-            Site&nbsp;&gt;&gt; </a>
-          <% end %>
+  <div class="layout__item-grid-content">
+    <h1 class="textbar textbar--fullwidth textbar--fullwidth--small">Projects</h1>
+    <% for item in 2..4 %>
+    <% blog('projects').articles.each do |post| %>
+    <% if post.data.item == item %>
+    <h1 id="<%= post.slug %>" class="textbar textbar--fullwidth-small"><%= post.title %></h1>
+    <div class="textbox textbox--padding-bottom">
+      <%= post.body %>
+      <div class="links-btn-container">
+        <a href="<%= '/#item-body-' + item.to_s %>" class="btn btn-inverse btn-back"> &lt;&lt;&nbsp;Back </a>
+        <% if post.data.studentProjects %>
+        <!-- onclick is iphone hover hack -->
+        <div onclick="" class="btn-student-project-container">
+          <div class="btn btn-inverse btn-student-project">Projects</div>
+          <ul>
+            <% post.data.studentProjects.each do |project| %>
+            <li><a href="<%= project.url %>"> <%= project.title %></a></li>
+            <% end %>
+          </ul>
         </div>
+        <% end %>
+        <% if post.data.reference %>
+        <a href="<%= post.data.reference.url %>" class="btn btn-inverse btn-site"> 
+          Site&nbsp;&gt;&gt; </a>
+        <% end %>
       </div>
     </div>
+    <% end %>
+    <% end %>
+    <% end %>
   </div>
-  <% end %>
-  <% end %>
-  <% end %>
 </main>

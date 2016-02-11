@@ -35,3 +35,9 @@
   font-size: $gridUnit * 3;
   line-height: $gridUnit * 4;
 }
+
+.textbar--fullwidth-small {
+  width: 100%;
+  padding: 0 $gridUnit * 2 0 $gridUnit * 3;
+
+}

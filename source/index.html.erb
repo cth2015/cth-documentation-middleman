@@ -70,7 +70,7 @@ type: story
     </div>
   </div>
   <div class="block entities">
-    <% for entity in blog('blocks').articles[4].data.entities %>
+    <% for entity in blog('blocks').articles[4].data.partners %>
       <%= partial(:"partials/story-entity", :locals => { :entity => entity })  %>
     <% end %>
   </div>

@@ -7,7 +7,7 @@ authors:
 - Ashley Williams
 images:
 summery: |
-  "- no summery -"
+  no summery
 url: https://pixabay.com/static/uploads/photo/2015/10/16/01/14/support-990335_960_720.jpg
 ---
 How to Train Your Programmer

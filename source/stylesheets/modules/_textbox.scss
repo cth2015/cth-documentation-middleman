@@ -30,7 +30,7 @@
   padding-bottom: $gridUnit * 1;
 }
 
-.textbox ul {
+.textbox > ul {
   padding-bottom: $gridUnit * 1;
 
   list-style: square;

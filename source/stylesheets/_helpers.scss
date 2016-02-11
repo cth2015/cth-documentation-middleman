@@ -4,6 +4,12 @@
   }  
 }
 
+.hidden-md {
+  @media (max-width: $breakpoint-md){
+    display: none;
+  } 
+}
+
 .brand-primary {
   background: $yellow;
 }

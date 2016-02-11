@@ -1,12 +1,12 @@
 .nav {
   width: 100%;
-  padding: $gridUnit * 3 $gridUnit * 3 0 $gridUnit * 3;
+  padding: $gridUnit * 3 $gridUnit * 3 0 0;
 }
 
 .nav__link {
   display: inline-block;
   padding: 0 $gridUnit * 1;
-  margin: 0 $gridUnit * 2 $gridUnit * 1 0;
+  margin: 0 0 $gridUnit * 1 $gridUnit * 2;
   
   background: $baseColor;
   
@@ -24,6 +24,8 @@
     line-height: $gridUnit * 6;
   }
 }
+
+
 
 .nav__link--is-active {
   background: $inverseColor;

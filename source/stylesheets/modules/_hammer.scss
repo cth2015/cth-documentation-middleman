@@ -1,20 +1,18 @@
 .hammer {
   overflow: hidden;
   width: 100%;
+  align-self: flex-start;
 }
 
 .hammer__image {
-  position: relative;
-  left: 60%;
-  width: 100%;
-  max-width: 25vw;
-
-  @media (min-width: $breakpoint-lg){
-    left: 70%;
-  }
+  display: block;
+  width: 80%;
+  margin: 0 0 0 auto;
 }
 
 .hammer__image--header {
+  position: relative;
+  left: 20%;
   transform: rotate(45deg);
 }
 

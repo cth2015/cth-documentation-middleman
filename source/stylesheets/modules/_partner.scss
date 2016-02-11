@@ -7,12 +7,24 @@
 
   background: $yellow;
   @media (min-width: $breakpoint-sm){
-    width: calc((1/3 * 100%) - (#{$gridUnit} * 3));
+    width: calc((1/2 * 100%) - (#{$gridUnit} * 3));
   }
   @media (min-width: $breakpoint-md){
-    width: calc((1/4 * 100%) - (#{$gridUnit} * 3));
+    width: calc((1/3 * 100%) - (#{$gridUnit} * 3));
   }
   @media (min-width: $breakpoint-xl){
-    width: calc((1/5 * 100%) - (#{$gridUnit} * 3));
+    width: calc((1/4 * 100%) - (#{$gridUnit} * 3));
   }
+}
+
+.partner__name {
+  font-family: $titleFont;
+  font-size: $gridUnit * 2.0;
+  line-height: $gridUnit * 3;
+}
+
+.partner__job {
+  font-family: $baseFont;
+  font-size: $gridUnit * 1.5;
+  line-height: $gridUnit * 2;
 }

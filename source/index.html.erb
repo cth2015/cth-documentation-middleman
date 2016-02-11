@@ -3,7 +3,9 @@ title: Coding the Humanities
 layout: main
 ---
 <div id="anchor-header" class="layout__item brand-primary">
-  <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
+  <div class="layout__item-top brand-primary">
+    <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
+  </div>
   <div class="layout__item-grid-content">
     <div class="textbox">
       <h1 class="textbar textbar--big">Coding_</h1><br>
@@ -76,7 +78,9 @@ layout: main
 </div>
 
 <div id="anchor-about"class="layout__item brand-primary">
-  <%= partial("partials/navigation", :locals => { :which_is_link_active => 6 }) %>   
+  <div class="layout__item-top brand-primary">
+    <%= partial("partials/navigation", :locals => { :which_is_link_active => 6 }) %>
+  </div>
   <div class="layout__item-grid-content">
     <div class="textbox">
       <h1 class="textbar "><%= blog('blocks').articles[5].data.title %></h1>

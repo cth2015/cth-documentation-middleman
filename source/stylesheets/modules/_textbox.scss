@@ -4,6 +4,11 @@
   padding: 0 $gridUnit * 3;
 }
 
+.textbox > p, .textbox > a, .textbox > ul > li {
+  font-size: $gridUnit * 2;
+  line-height: $gridUnit * 3;
+}
+
 .textbox > p:first-child{
   margin: 0 0 $gridUnit * 6 0;
 
@@ -30,4 +35,8 @@
 
   list-style: square;
   list-style-position: inside;
+}
+
+.textbox--align-right {
+  text-align: right;
 }

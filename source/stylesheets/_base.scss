@@ -14,15 +14,12 @@ h1, h2, h3, h4 ,h5, h6 {
   font-family: $titleFont;
 }
 
-ul {
+p, a, li, ul {
   font-family: $baseFont;
-  list-style: none;
 }
 
-p, a, li {
-  font-family: $baseFont;
-  font-size: $gridUnit * 2;
-  line-height: $gridUnit * 3;
+ul {
+  list-style: none;
 }
 
 a {

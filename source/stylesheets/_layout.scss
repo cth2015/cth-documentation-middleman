@@ -13,11 +13,15 @@
   min-height: 100vh;
 }
 
+.layout__item--footer {
+  min-height: unset;
+}
+
 .layout__item-top {
   width: 100%;
 }
 
-.layout__item-grid-content{
+.layout__item-grid-content {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -25,7 +29,7 @@
   width: 100%;
   padding: $gridUnit * 9 0 $gridUnit * 9 0;
   @media (min-width: $breakpoint-sm){
-    width: $gridUnit * 55;
+    width: $gridUnit * 60;
   }
 }
 

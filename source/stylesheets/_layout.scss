@@ -24,8 +24,8 @@
   flex-shrink: 0;  
   width: 100%;
   padding: $gridUnit * 9 0 $gridUnit * 9 0;
-  @media (min-width: $breakpoint-lg){
-    width: $gridUnit * 80 ;
+  @media (min-width: $breakpoint-sm){
+    width: $gridUnit * 55;
   }
 }
 
@@ -33,16 +33,15 @@
   align-self: flex-end;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: flex-end;
   justify-content: flex-end;
   flex-shrink: 1;
   flex-grow: 1;
   width: auto;
-  padding: $gridUnit * 9 0;
-}
-
-.layout__item-offgrid-content--no-padding {
-  padding: 0;
+  padding: 0 0 $gridUnit * 9 0;
+  @media (min-width: $breakpoint-lg){
+    padding: $gridUnit * 9 0;
+  }
 }
 
 .layout__item-partners {

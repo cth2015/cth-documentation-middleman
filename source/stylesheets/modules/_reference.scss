@@ -4,11 +4,14 @@
 
 .reference {
   width: 100%;
-  max-width: $gridUnit * 40;
+  max-width: $gridUnit * 32;
   margin: 0 0 $gridUnit * 1 0;
   padding: $gridUnit * 1 $gridUnit * 2 $gridUnit * 1 $gridUnit * 3;
+  
   border-right: $gridUnit solid $black;
+  
   background: $yellow;
+
   text-align: right;
 }
 
@@ -28,4 +31,10 @@ div:last-of-type.reference {
 .reference:active > .reference__description {
   max-height: $gridUnit * 18;
   transition: max-height 0.5s linear 0.5s;
+}
+
+.reference__summery {
+  padding: $gridUnit 0 0 0;
+  font-size: $gridUnit * 2;
+  line-height: $gridUnit * 2.5;
 }

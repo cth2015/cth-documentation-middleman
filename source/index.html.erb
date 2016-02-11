@@ -12,7 +12,7 @@ layout: main
       <%= blog('blocks').articles[0].body %>
     </div>
   </div>
-  <div class="layout__item-offgrid-content layout__item-offgrid-content--no-padding">
+  <div class="layout__item-offgrid-content">
     <div class="hammer">
       <img class="hammer__image hammer__image--header" src="./images/hammer-short.svg" alt="">
     </div>
@@ -27,7 +27,7 @@ layout: main
 <div id="anchor-body-<%= item %>" class="layout__item">
   <div class="layout__item-top brand-primary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
-    <img class="full-width-image" src="./images/item-body-<%= item %>.svg" alt="">
+    <img class="fullwidth-image" src="./images/item-body-<%= item %>.svg" alt="">
   </div>
   <% blog('blocks').articles.each do |block| %>
   <% if block.data.item == item %>
@@ -57,7 +57,7 @@ layout: main
 <div id="anchor-partners" class="layout__item">
   <div class="layout__item-top brand-primary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 5 }) %>
-    <img class="full-width-image" src="images/item-partners.svg" alt="">
+    <img class="fullwidth-image" src="images/item-partners.svg" alt="">
   </div>
   <div class="layout__item-grid-content">
     <h1 class="textbar textbar--fullwidth"><%= blog('blocks').articles[4].data.title %></h1>
@@ -84,6 +84,8 @@ layout: main
     </div>
   </div>
   <div class="layout__item-offgrid-content">
-    <img class="hammer hammer--about" src="./images/hammer-short.svg" alt="">
+    <div class="hammer">
+      <img class="hammer__image hammer__image--about" src="./images/hammer-short.svg" alt="">
+    </div>
   </div> 
 </div>

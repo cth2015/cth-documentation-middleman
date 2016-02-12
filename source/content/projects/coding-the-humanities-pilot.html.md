@@ -13,5 +13,7 @@ reference:
 studentProjects: 
 - title: Housemouse
   url: http://housemouse.codingthehumanities.com/
+- title: Blogposts
+  url: http://codingthehumanities.com.s3-website-us-east-1.amazonaws.com/essays
 ---
 The CtH pilot proved that so-called bootcamp model of teaching works in university. Next step: to integrate the model into the regular classroom.

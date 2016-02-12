@@ -19,21 +19,19 @@ type: projects
     <h1 id="<%= post.slug %>" class="textbar textbar--fullwidth-small"><%= post.title %></h1>
     <div class="textbox textbox--padding-bottom">
       <%= post.body %>
-      <div class="links-btn-container">
-        <a href="<%= config.http_prefix + '#' + 'item-body-' + item.to_s %>" class="btn btn-inverse btn-back"> &lt;&lt;&nbsp;Back </a>
-        <% if post.data.studentProjects %>
-        <!-- onclick is iphone hover hack -->
-        <div onclick="" class="btn-student-project-container">
-          <div class="btn btn-inverse btn-student-project">Projects</div>
-          <ul>
-            <% post.data.studentProjects.each do |project| %>
-            <li><a href="<%= project.url %>"> <%= project.title %></a></li>
-            <% end %>
-          </ul>
-        </div>
+      <% if post.data.studentProjects %>
+      <h3>Student Projects</h3>
+      <ul>
+        <% post.data.studentProjects.each do |project| %>
+        <li><a href="<%= project.url %>"> <%= project.title %></a></li>
         <% end %>
+      </ul>
+      <% end %>
+      <div>
+        <a href="<%= config.http_prefix + '#' + 'item-body-' + item.to_s %>" class="btn btn--small"> &lt;&lt;&nbsp;Back </a>
+        <!-- onclick is iphone hover hack -->
         <% if post.data.reference %>
-        <a href="<%= post.data.reference.url %>" class="btn btn-inverse btn-site"> 
+        <a href="<%= post.data.reference.url %>" class="btn btn--small"> 
           Site&nbsp;&gt;&gt; </a>
         <% end %>
       </div>

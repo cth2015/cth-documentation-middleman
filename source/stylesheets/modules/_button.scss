@@ -8,8 +8,11 @@
   font-size: $gridUnit * 2;
   line-height: $gridUnit * 4;
   color: $inverseColor;
-  
+}
 
+.btn--small {
+  font-size: $gridUnit * 1;
+  line-height: $gridUnit * 3;
 }
 
 .btn--nav {

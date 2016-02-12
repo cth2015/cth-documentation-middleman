@@ -4,9 +4,6 @@
 
 .image--fullwidth {
   width: 100%;
-  // should be on the nav and layout unit
-  padding: $gridUnit * 9 0 0 0;  
-  // should be on the nav and layout unit
 }
 
 .image--halfwidth {
@@ -15,8 +12,7 @@
 }
 
 .image--padding {
-  // should be on the nav and layout unit
-  padding: $gridUnit * 9 $gridUnit * 3 $gridUnit * 9 $gridUnit * 3;  
+  padding: $gridUnit * 9 $gridUnit * 3;  
   @media (min-width: $breakpoint-sm){
     padding: $gridUnit * 9;
   }

@@ -17,9 +17,5 @@
       'anchor-about'
     ]
   %>
-  <% for item in 0..5 %>
-  <a href="<%= config.http_prefix + '#' + $navigation_links[item] %>" class="nav__link <% if which_is_link_active == item+1 %>nav__link--is-active<% end %>">
-      <%= $navigation_items[item] %>
-  </a>
-  <% end %>
+  <% for item in 0..5 %><a href="<%= config.http_prefix + '#' + $navigation_links[item] %>" class="btn btn--margin <% if which_is_link_active == item+1 %>btn--is-active<% end %>"><%= $navigation_items[item] %></a><% end %>
 </nav>

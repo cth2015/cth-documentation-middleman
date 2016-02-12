@@ -1,32 +1,4 @@
 .nav {
   width: 100%;
-  padding: $gridUnit * 3 $gridUnit * 3 0 $gridUnit * 1;
-}
-
-.nav__link {
-  display: inline-block;
-  padding: 0 $gridUnit * 1;
-  margin: 0 0 $gridUnit * 1 $gridUnit * 2;
-  
-  background: $baseColor;
-  
-  font-family: $buttonFont;
-  font-size: $gridUnit * 1;
-  line-height: $gridUnit * 3;
-  color: $inverseColor;
-
-  @media (min-width: $breakpoint-md){
-    padding: 0 $gridUnit * 3;
-  }
-  @media (min-width: $breakpoint-xxl){
-    font-size: $gridUnit * 1.5;
-    line-height: $gridUnit * 4.5;
-  }
-}
-
-
-
-.nav__link--is-active {
-  background: $inverseColor;
-  color: $baseColor;
+  padding: $gridUnit * 3 $gridUnit * 3 0 $gridUnit * 3;
 }

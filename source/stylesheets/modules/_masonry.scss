@@ -1,0 +1,19 @@
+.masonry {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: $gridUnit * 9 $gridUnit * 3;
+}
+
+.masonry__image {
+  display: block;
+  width: 23%;
+  height: 200px;
+  border: $gridUnit solid $baseColor;
+  margin: 1%;
+  -webkit-filter: grayscale(100%) brightness(150%) url(#yellow-filter);
+}
+
+.masonry__image:hover {
+  -webkit-filter: none;
+}

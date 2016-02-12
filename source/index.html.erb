@@ -22,14 +22,16 @@ layout: main
 </div>
 
 <div id="anchor-video" class="layout__item">
-  
+  <div class="masonry">
+    <% for img in 1..21 %><img class="masonry__image"src="./images/masonry/<%= img %>.jpg"><% end %>
+  </div>
 </div>
 
 <% for item in 2..4 %>
 <div id="anchor-body-<%= item %>" class="layout__item">
   <header class="layout__item-top brand-primary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
-    <img class="image image--fullwidth image--padding" src="./images/item-body-<%= item %>.svg" alt="">
+    <img class="image image--fullwidth image--padding" src="./images/item-body-<%= item %>.svg">
   </header>
   <% blog('blocks').articles.each do |block| %>
   <% if block.data.item == item %>

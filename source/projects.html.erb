@@ -20,7 +20,7 @@ type: projects
     <div class="textbox textbox--padding-bottom">
       <%= post.body %>
       <div class="links-btn-container">
-        <a href="<%= '/#item-body-' + item.to_s %>" class="btn btn-inverse btn-back"> &lt;&lt;&nbsp;Back </a>
+        <a href="<%= config.http_prefix + '#' + 'item-body-' + item.to_s %>" class="btn btn-inverse btn-back"> &lt;&lt;&nbsp;Back </a>
         <% if post.data.studentProjects %>
         <!-- onclick is iphone hover hack -->
         <div onclick="" class="btn-student-project-container">

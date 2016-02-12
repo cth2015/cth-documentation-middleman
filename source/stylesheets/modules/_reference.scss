@@ -35,7 +35,7 @@ div:last-of-type.reference {
 
 .reference:hover > .reference__description,
 .reference:active > .reference__description {
-  max-height: $gridUnit * 18;
+  max-height: $gridUnit * 22;
   transition: max-height 0.5s linear 0.5s;
 }
 

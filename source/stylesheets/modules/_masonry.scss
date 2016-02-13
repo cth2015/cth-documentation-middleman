@@ -3,17 +3,30 @@
   flex-wrap: wrap;
   width: 100%;
   padding: $gridUnit * 9 $gridUnit * 3;
+  -webkit-filter: grayscale(100%) url(#yellow-filter) ;
 }
 
-.masonry__image {
-  display: block;
+.masonry__image-container {
   width: 23%;
   height: 200px;
-  border: $gridUnit solid $baseColor;
   margin: 1%;
-  -webkit-filter: grayscale(100%) brightness(150%) url(#yellow-filter);
+  border: $gridUnit solid $baseColor;
+  overflow: hidden;
+  transition: all 0.4s linear 0.4s;
+  transition-delay: 0.4s;
+  background: black;
 }
 
-.masonry__image:hover {
+.masonry:active, .masonry:active .masonry__image {
   -webkit-filter: none;
+}
+
+
+.masonry__image {
+  position: relative;
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: auto;
+  -webkit-filter: brightness(200%) blur(2px) contrast(800%) ;
 }

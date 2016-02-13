@@ -7,8 +7,8 @@
 
   color: $inverseColor;
   font-family: $buttonFont;
-  font-size: rem-calc(22);
-  line-height: rem-calc(30);
+  font-size: $gridUnit * 2;
+  line-height: $gridUnit * 3;
 }
 
 .textbar--inverse {
@@ -28,14 +28,15 @@
 .textbar--fullwidth {
   width: 100%;
   margin: 0 0 $gridUnit * 3 0;
-  padding: $gridUnit * 3;
+  padding: 0 $gridUnit * 3;
   
-  font-size: $gridUnit * 3;
-  line-height: $gridUnit * 4;
+  font-size: $gridUnit * 5;
+  line-height: $gridUnit * 14;
 }
 
 .textbar--fullwidth-small {
   width: 100%;
-  padding: $gridUnit * 1 $gridUnit * 3;
-
+  padding: 0 $gridUnit * 3;
+  font-size: $gridUnit * 4;
+  line-height: $gridUnit * 8;
 }

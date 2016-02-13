@@ -12,15 +12,52 @@ html {
 
 h1, h2, h3, h4 ,h5, h6 {
   font-family: $titleFont;
+  margin-bottom: $gridUnit * 1;
+}
+
+h1 {
+  font-size: $gridUnit * 4;
+  line-height: $gridUnit * 5;
+}
+
+h2 {
+  font-size: $gridUnit * 3.5;
+  line-height: $gridUnit * 5;
+}
+
+h3 {
+  font-size: $gridUnit * 3; 
+  line-height: $gridUnit * 4;
+}
+
+h4 {
+  font-size: $gridUnit * 2.5; 
+  line-height: $gridUnit * 4;
+}
+h5 {
+  font-size: $gridUnit * 2; 
+  line-height: $gridUnit * 3;
+}
+
+h6 {
+  font-size: $gridUnit * 1.5; 
+  line-height: $gridUnit * 3;
 }
 
 p, a, li, ul {
   font-family: $baseFont;
+  font-size: $gridUnit * 2; 
+  line-height: $gridUnit * 3;
+}
+
+ul, ol {
+  list-style-position: inside;
 }
 
 ul {
   list-style: none;
 }
+
 
 a {
   color: $black;

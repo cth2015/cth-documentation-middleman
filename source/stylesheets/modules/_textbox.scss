@@ -13,14 +13,14 @@
   line-height: $gridUnit * 3;
 }
 
-.textbox--accent > p:first-child{
-  margin: 0 0 $gridUnit * 6 0;
+// < these classes break styling >
+.textbox--accent > p:first-of-type{
   font-family: $titleFont;
+  margin: 0 0 $gridUnit * 6 0;
 }
 
-.textbox > p:last-child{
-  margin: 0;
-}
+// </ these classes break styling >
+
 
 
 .textbox > h2:last-of-type {

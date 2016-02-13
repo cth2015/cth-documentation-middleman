@@ -23,7 +23,8 @@ layout: main
 
 <div id="anchor-video" class="layout__item">
   <div class="masonry">
-    <% for img in 1..21 %><img class="masonry__image"src="./images/masonry/<%= img %>.jpg"><% end %>
+    <% for img in 1..21 %>
+      <div class="masonry__image-container"><img class="masonry__image"src="./images/masonry/<%= img %>.jpg"></div><% end %>
   </div>
 </div>
 

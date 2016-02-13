@@ -37,6 +37,8 @@
 .textbar--fullwidth-small {
   width: 100%;
   padding: 0 $gridUnit * 3;
+  margin: 0 0 $gridUnit * 3 0;
+
   font-size: $gridUnit * 4;
   line-height: $gridUnit * 8;
 }
@@ -44,6 +46,8 @@
 .textbar--fullwidth-smallest {
   width: 100%;
   padding: 0 $gridUnit * 3;
+  margin: 0 0 $gridUnit * 3 0;
+  
   font-size: $gridUnit * 3;
   line-height: $gridUnit * 6;
 }

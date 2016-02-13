@@ -1,32 +1,24 @@
 .masonry {
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
   padding: $gridUnit * 9 $gridUnit * 3;
-  -webkit-filter: grayscale(100%) url(#yellow-filter) ;
+  -webkit-columns: 4;
+  -webkit-column-gap: $gridUnit * 3;
+  -webkit-filter: grayscale(100%) url(#yellow-filter);
 }
 
 .masonry__image-container {
-  width: 23%;
-  height: 200px;
-  margin: 1%;
+  display: inline-block;
   border: $gridUnit solid $baseColor;
-  overflow: hidden;
-  transition: all 0.4s linear 0.4s;
-  transition-delay: 0.4s;
-  background: black;
+  margin: 0 0 $gridUnit * 3 0;
+  background: $black;
+}
+
+.masonry__image {
+  width: 100%;
+  height: auto;
+  -webkit-filter: brightness(200%) blur(2px) contrast(800%) ;
 }
 
 .masonry:active, .masonry:active .masonry__image {
   -webkit-filter: none;
-}
-
-
-.masonry__image {
-  position: relative;
-  top: -10%;
-  left: -10%;
-  width: 120%;
-  height: auto;
-  -webkit-filter: brightness(200%) blur(2px) contrast(800%) ;
 }

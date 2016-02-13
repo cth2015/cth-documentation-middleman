@@ -8,6 +8,13 @@
   padding: 0 $gridUnit * 3 $gridUnit * 12 $gridUnit * 3;
 }
 
+.textbox--heading-container {
+  display: flex; 
+  justify-content: space-between;
+  padding-bottom: $gridUnit * 3;
+}
+
+
 .textbox--with-emph-links a {
   display: inline-block;
   padding: 0 $gridUnit;

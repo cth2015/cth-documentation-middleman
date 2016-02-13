@@ -1,9 +1,12 @@
 .masonry {
   width: 100%;
   padding: $gridUnit * 9 $gridUnit * 3;
-  -webkit-columns: 4;
+  -webkit-columns: 2;
   -webkit-column-gap: $gridUnit * 3;
   -webkit-filter: grayscale(100%) url(#yellow-filter);
+  @media (min-width: $breakpoint-sm){
+    -webkit-columns: 4;
+  }
 }
 
 .masonry__image-container {

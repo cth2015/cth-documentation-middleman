@@ -4,6 +4,12 @@
   }  
 }
 
+.show-sm {
+  @media (min-width: $breakpoint-sm){
+    display: none;
+  }  
+}
+
 .hidden-md {
   @media (max-width: $breakpoint-md){
     display: none;

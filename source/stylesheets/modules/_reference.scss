@@ -19,12 +19,6 @@ div:last-of-type.reference {
   margin: 0;
 }
 
-
-.reference__title {
-  font-size: $gridUnit * 2;
-  line-height: $gridUnit * 2.5;
-}
-
 .reference__description {
   max-height: 0;
   height: auto;

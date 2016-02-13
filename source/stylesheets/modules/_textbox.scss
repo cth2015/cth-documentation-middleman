@@ -5,27 +5,24 @@
 }
 
 .textbox--padding-bottom {
-  padding: 0 $gridUnit * 3 $gridUnit * 3 $gridUnit * 3;
-}
-
-.textbox > p, .textbox > a, .textbox > ul > li {
-  font-size: $gridUnit * 2;
-  line-height: $gridUnit * 3;
+  padding: 0 $gridUnit * 3 $gridUnit * 12 $gridUnit * 3;
 }
 
 // < these classes break styling >
 .textbox--accent > p:first-of-type{
   font-family: $titleFont;
-  margin: 0 0 $gridUnit * 6 0;
+  // margin: 0 0 $gridUnit * 6 0;
 }
 
-// </ these classes break styling >
-
-
+.textbox--accent > p:last-child{
+  // margin: 0;
+}
 
 .textbox > h2:last-of-type {
-  padding-top: $gridUnit * 6;
+  // padding-top: $gridUnit * 6;
 }
+// </ these classes break styling >
+
 
 .textbox > p {
   padding-bottom: $gridUnit * 1;
@@ -33,7 +30,6 @@
 
 .textbox > ul {
   padding-bottom: $gridUnit * 1;
-
   list-style: square;
   list-style-position: inside;
 }
@@ -42,6 +38,14 @@
   text-align: right;
 }
 
-.textbox__link {
+.textbox__inverse-link {
   color: white;
+}
+
+.textbox--with-emph-links a {
+  display: inline-block;
+  padding: 0 $gridUnit;
+
+  background: $baseColor;
+  color: $inverseColor;
 }

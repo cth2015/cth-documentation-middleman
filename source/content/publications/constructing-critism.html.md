@@ -18,7 +18,7 @@ I recently tried out a new claim on a group of students: Critiquing is a form of
 There is a discussion in the digital humanities community about the role of *building* in the humanities and to what extent [digital tool building](http://stephenramsay.us/text/2011/01/11/on-building/) should be considered part of scholarly work, on the same level as for instance criticism of such tools.
 According to [Adam Kirsch](http://www.newrepublic.com/article/117428/limits-digital-humanities-adam-kirsch) “[a] humanities culture that prizes thinking and writing will tend to look down on making and building as banausic—the kind of labor that can be outsourced to non-specialists.”
 
-Stephen Ramsay [argued that digital humanists need to have coding skills](http://stephenramsay.us/text/2011/01/08/whos-in-and-whos-out/), since digital humanities is all about making things.
+[Stephen Ramsay](http://stephenramsay.us/text/2011/01/08/whos-in-and-whos-out/) argued that digital humanists need to have coding skills, since digital humanities is all about making things.
 
 Kirsch replied: “But are they humanistic skills? Was it necessary for a humanist in the past five hundred years to know how to set type and publish a book? Moreover, is it practical for a humanities curriculum that can already stretch for ten years or more, from freshman year to Ph.D., to be expanded to include programming skills?”
 

@@ -32,12 +32,12 @@ layout: main
 <div id="anchor-body-<%= item %>" class="layout__item">
   <header class="layout__item-top brand-primary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
-    <img class="image image--fullwidth image--padding" src="./images/item-body-<%= item %>.svg">
+    <img class="image textbar--fullwidth-smallest image--padding" src="./images/item-body-<%= item %>.svg">
   </header>
   <% blog('blocks').articles.each do |block| %>
   <% if block.data.item == item %>
   <article class="layout__item-grid-content">
-    <h1 class="textbar textbar--fullwidth"><%= block.title %></h1>
+    <h1 class="textbar textbar--fullwidth-smallest"><%= block.title %></h1>
     <div class="textbox textbox--accent"><%= block.body %></div>
   </article>
   <% end %>
@@ -65,7 +65,7 @@ layout: main
     <img class="image image--fullwidth image--padding" src="images/item-partners.svg" alt="">
   </header>
   <article class="layout__item-grid-content">
-    <h1 class="textbar textbar--fullwidth"><%= blog('blocks').articles[4].data.title %></h1>
+    <h1 class="textbar textbar--fullwidth-smallest"><%= blog('blocks').articles[4].data.title %></h1>
     <div class="textbox textbox--accent"><%= blog('blocks').articles[4].body %></div>
   </article>
   <div class="layout__item-partners">
@@ -86,7 +86,7 @@ layout: main
   </header>
   <article class="layout__item-grid-content">
     <div class="textbox">
-      <h1 class="textbar "><%= blog('blocks').articles[5].data.title %></h1>
+      <h1 class="textbar"><%= blog('blocks').articles[5].data.title %></h1>
       <%= blog('blocks').articles[5].body %>
     </div>
   </article>

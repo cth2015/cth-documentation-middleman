@@ -12,7 +12,6 @@ html {
 
 h1, h2, h3, h4 ,h5, h6 {
   font-family: $titleFont;
-  margin-bottom: $gridUnit * 1;
 }
 
 h1 {
@@ -44,22 +43,21 @@ h6 {
   line-height: $gridUnit * 3;
 }
 
-p, a, li, ul {
+p, a, li, ul, ol {
   font-family: $baseFont;
   font-size: $gridUnit * 2; 
   line-height: $gridUnit * 3;
-}
-
-ul, ol {
-  list-style-position: inside;
 }
 
 ul {
   list-style: none;
 }
 
+ul, ol {
+  list-style-position: inside;
+}
 
 a {
-  color: $black;
+  color: $baseColor;
   text-decoration: none;
 }

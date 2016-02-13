@@ -17,11 +17,11 @@
 }
 
 .textbar--big {
-  font-size: rem-calc(75*0.5);
-  line-height: rem-calc(80*0.5);
+  font-size: $gridUnit * 4;
+  line-height: $gridUnit * 6;
   @media (min-width: $breakpoint-sm){
-    font-size: rem-calc(75);
-    line-height: rem-calc(80);
+    font-size: $gridUnit * 6;
+    line-height: $gridUnit * 8;
   }
 }
 
@@ -30,8 +30,8 @@
   margin: 0 0 $gridUnit * 3 0;
   padding: 0 $gridUnit * 3;
   
-  font-size: $gridUnit * 5;
-  line-height: $gridUnit * 14;
+  font-size: $gridUnit * 4;
+  line-height: $gridUnit * 12;
 }
 
 .textbar--fullwidth-small {
@@ -39,4 +39,11 @@
   padding: 0 $gridUnit * 3;
   font-size: $gridUnit * 4;
   line-height: $gridUnit * 8;
+}
+
+.textbar--fullwidth-smallest {
+  width: 100%;
+  padding: 0 $gridUnit * 3;
+  font-size: $gridUnit * 3;
+  line-height: $gridUnit * 6;
 }

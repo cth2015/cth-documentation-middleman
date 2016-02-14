@@ -32,8 +32,7 @@ layout: main
 <div id="anchor-body-<%= item %>" class="layout__item">
   <header class="layout__item-top brand-primary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
-    <img class="image textbar--fullwidth-smallest image--padding" src="./images/item-body-<%= item %>.svg">
-  </header>
+    <img class="image image--fullwidth" src="./images/item-body-<%= item %>.svg"></header>
   <% blog('blocks').articles.each do |block| %>
   <% if block.data.item == item %>
   <article class="layout__item-grid-content">

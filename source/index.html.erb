@@ -30,7 +30,7 @@ layout: main
 
 <% for item in 2..4 %>
 <div id="anchor-body-<%= item %>" class="layout__item">
-  <header class="layout__item-top brand-primary image--background-<%= item %>">
+  <header class="layout__item-top brand-primary image-background-<%= item %>">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
     <img style="opacity: 0" class="image image--fullwidth" src="./images/item-body-<%= item %>.svg"></header>
   <% blog('blocks').articles.each do |block| %>

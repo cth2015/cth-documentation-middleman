@@ -22,7 +22,7 @@ layout: main
 </div>
 
 <div id="anchor-video" class="layout__item">
-  <div class="masonry">
+  <div onclick="" class="masonry">
     <% for img in 1..21 %>
       <div class="masonry__image-container"><img class="masonry__image"src="./images/masonry/<%= img %>.jpg"></div><% end %>
   </div>
@@ -32,7 +32,7 @@ layout: main
 <div id="anchor-body-<%= item %>" class="layout__item">
   <header class="layout__item-top brand-primary image-background-<%= item %>">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
-    <img style="opacity: 0" class="image image--fullwidth" src="./images/item-body-<%= item %>.svg"></header>
+    <img style="opacity: 0;" class="image image--fullwidth" src="./images/item-body-<%= item %>.svg"></header>
   <% blog('blocks').articles.each do |block| %>
   <% if block.data.item == item %>
   <article class="layout__item-grid-content">

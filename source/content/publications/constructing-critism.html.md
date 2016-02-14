@@ -1,7 +1,7 @@
 ---
 type: publications
 item: 4
-title: "Constructing Criticism"
+title: "Constructing Criticism: making versus thinking in digital humanities"
 date: 2013-12-11 21:57:27 +0100
 authors: 
 - Marijn Koolen
@@ -9,9 +9,7 @@ images:
 summery: |
   Technological developments alter our conception of things, the world, or even the universe. They change your perspective and filter your interpretation of the world around you. 
 url: 
----
-# making versus thinking in digital humanities 
-
+--- 
 I recently tried out a new claim on a group of students: Critiquing is a form of making. That was met with a lot of criticism. Clearly, few students liked my idea that, similar to using and building digital tools, critiquing is a form of making, which is often expressed in terms of ‘making’, e.g. ‘constructive criticism’, ‘shaping an argument’, and ‘a critique resting on solid foundations.’
 
 ## Building: A Humanistic Skill or Mundane Task?

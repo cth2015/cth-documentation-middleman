@@ -16,14 +16,14 @@ type: publications
     <% for item in 2..4 %>
     <% blog('publications').articles.each do |post| %>
     <% if post.data.item == item %>
-    <h1 id="<%= post.slug %>" class="textbar textbar--fullwidth-small"><%= post.title %></h1>
+    <h1 id="<%= post.slug %>" class="textbar textbar--fullwidth-smallest"><%= post.title %></h1>
     <div class="textbox textbox--padding-bottom textbox--with-emph-links">
       <%= post.body %>
       <div>
-        <a href="<%= config.http_prefix + '#' + 'item-body-' + item.to_s %>" class="btn btn--small"> &lt;&lt;&nbsp;Back </a>
+        <a href="<%= config.http_prefix + '#' + 'item-body-' + item.to_s %>" class="btn btn--small btn--top-margin"> &lt;&lt;&nbsp;Back </a>
         <!-- onclick is iphone hover hack -->
         <% if post.data.reference %>
-        <a href="<%= post.data.reference.url %>" class="btn btn--small"> 
+        <a href="<%= post.data.reference.url %>" class="btn btn--small btn--top-margin"> 
           Site&nbsp;&gt;&gt; </a>
         <% end %>
       </div>

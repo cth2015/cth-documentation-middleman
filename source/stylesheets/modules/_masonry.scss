@@ -5,6 +5,9 @@
   -webkit-column-gap: $gridUnit * 3;
   -webkit-filter: grayscale(100%) url(#yellow-filter);
   @media (min-width: $breakpoint-sm){
+    -webkit-columns: 3;
+  }
+  @media (min-width: $breakpoint-xl){
     -webkit-columns: 4;
   }
 }

@@ -1,4 +1,5 @@
 bundle exec middleman build
+cp CNAME build/CNAME
 cd build
 git init
 git remote add origin git@github.com:cth2015/cth-documentation-middleman.git

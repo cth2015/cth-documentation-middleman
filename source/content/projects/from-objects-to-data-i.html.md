@@ -16,4 +16,4 @@ studentProjects:
 - title: Research tool to compare the representation of topics in newspaper photos
   url: http://objectifieddata.codingthehumanities.com/
 ---
-FOtDI showed that students can learn to be more self-sufficient in finding online materials that help them progress. Focus on searching as a skill, rather than on transmitting knowledge. 
+From Objects to Data I showed that students can learn to be more self-sufficient in finding online materials that help them progress. Focus on searching as a skill, rather than on transmitting knowledge. 

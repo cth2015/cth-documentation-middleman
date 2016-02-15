@@ -16,4 +16,4 @@ studentProjects:
 - title: Weather-based music recommendation
   url: http://pvtwuyver.github.io/CTHproject/project.html
 ---
-In CtHII, students hand-picked the part of the learning materials that they needed. They choose the parts based on very specific and concrete goals.
+In Coding the Humanities II, students hand-picked the part of the learning materials that they needed. They choose the parts based on very specific and concrete goals.

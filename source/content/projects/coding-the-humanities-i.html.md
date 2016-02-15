@@ -11,4 +11,4 @@ reference:
   title: CTH I Course Website
   url: http://coding-the-humanities.github.io/unacademic_static/
 ---
-CtHI taught us that learning how to code takes time. It helps to make a clear link between specific tutoials and a (part of) a student's project.
+Coding the Humanities I taught us that learning how to code takes time. It helps to make a clear link between specific tutoials and a (part of) a student's project.

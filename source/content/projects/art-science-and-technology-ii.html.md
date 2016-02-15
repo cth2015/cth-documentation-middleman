@@ -26,4 +26,4 @@ studentProjects:
 - title: Plastic Waste Battleship
   url: https://github.com/CarlFuzz/Plastic-Waste-Battleship
 ---
-ASTII found that the more autonomy you give students, the more they enjoy learning. Too much structure, on the other hand, is detrimental.
+Art, Science and Technology II found that the more autonomy you give students, the more they enjoy learning. Too much structure, on the other hand, is detrimental.

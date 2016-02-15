@@ -1,6 +1,7 @@
 .masonry {
   width: 100%;
   padding: $gridUnit * 9 $gridUnit * 3;
+  // cursor: ;
 
   -webkit-columns: 2;
   -moz-columns: 2;
@@ -13,11 +14,8 @@
   -ms-column-gap: $gridUnit * 3;
   -o-column-gap: $gridUnit * 3;
   column-gap: $gridUnit * 3;
-  
-  -webkit-filter: grayscale(100%) url(#yellow-filter);
-  -moz-filter: grayscale(100%) url(#yellow-filter);
-  -o-filter: grayscale(100%) url(#yellow-filter);
-  filter: grayscale(100%) url(#yellow-filter);
+
+  -webkit-filter: url(#yellow-filter);
 
   @media (min-width: $breakpoint-sm){
     -webkit-columns: 3;
@@ -40,6 +38,11 @@
   border: $gridUnit solid $baseColor;
   margin: 0 0 $gridUnit * 3 0;
   background: $black;
+
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .masonry__image {
@@ -54,9 +57,9 @@
 
 }
 
-.masonry:active, .masonry:active .masonry__image {
-  -webkit-filter: none;
-  -moz-filter: none;
-  -o-filter: none;
-  filter: none;
+.masonry:active, .masonry:active .masonry__image-container, .masonry:active .masonry__image {
+  -webkit-filter: unset;
+  -moz-filter: unset;
+  -o-filter: unset;
+  filter: unset;
 }

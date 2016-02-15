@@ -3,11 +3,11 @@
   padding: $gridUnit * 9 $gridUnit * 3;
   // cursor: ;
 
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  -ms-columns: 2;
-  -o-columns: 2;
-  columns: 2;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  -ms-columns: 3;
+  -o-columns: 3;
+  columns: 3;
 
   -webkit-column-gap: $gridUnit * 3;
   -moz-column-gap: $gridUnit * 3;
@@ -18,18 +18,18 @@
   -webkit-filter: url(#yellow-filter);
 
   @media (min-width: $breakpoint-sm){
-    -webkit-columns: 3;
-    -moz-columns: 3;
-    -ms-columns: 3;
-    -o-columns: 3;
-    columns: 3;
-  }
-  @media (min-width: $breakpoint-xl){
     -webkit-columns: 4;
     -moz-columns: 4;
     -ms-columns: 4;
     -o-columns: 4;
     columns: 4;
+  }
+  @media (min-width: $breakpoint-xl){
+    -webkit-columns: 5;
+    -moz-columns: 5;
+    -ms-columns: 5;
+    -o-columns: 5;
+    columns: 5;
   }
 }
 

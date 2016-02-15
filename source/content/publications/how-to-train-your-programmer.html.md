@@ -7,7 +7,7 @@ authors:
 - Ashley Williams
 images:
 summery: |
-  no summery
-url: https://pixabay.com/static/uploads/photo/2015/10/16/01/14/support-990335_960_720.jpg
+  When you train programmers, teach programming concepts, not language features.
+url: http://ashleygwilliams.github.io/how-to-train-your-programmer/#1
 ---
-How to Train Your Programmer
+When you train programmers, teach programming concepts, not language features.

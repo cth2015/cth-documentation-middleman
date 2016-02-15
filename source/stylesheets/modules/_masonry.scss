@@ -58,19 +58,22 @@
   filter: brightness(160%) blur(2px) contrast(2000%);
 }
 
-.masonry__image-outer-container:hover,
-.masonry__image-outer-container:hover .masonry__image-container,
-.masonry__image-outer-container:hover .masonry__image {
+.masonry:active, 
+.masonry:active .masonry__image-outer-container, 
+.masonry:active .masonry__image-container, 
+.masonry:active .masonry__image {
   -webkit-filter: unset;
   -moz-filter: unset;
   -o-filter: unset;
   filter: unset;
 }
 
-.masonry:active, 
-.masonry:active .masonry__image-outer-container, 
-.masonry:active .masonry__image-container, 
-.masonry:active .masonry__image {
+.masonry__image-outer-container:hover,
+.masonry__image-outer-container:hover .masonry__image-container,
+.masonry__image-outer-container:hover .masonry__image,
+.masonry__image-outer-container:active,
+.masonry__image-outer-container:active .masonry__image-container,
+.masonry__image-outer-container:active .masonry__image {
   -webkit-filter: unset;
   -moz-filter: unset;
   -o-filter: unset;

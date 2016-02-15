@@ -1,6 +1,5 @@
 .masonry {
   width: 100%;
-  max-width: 50vw;
   padding: $gridUnit * 9 $gridUnit * 3;
 
   -webkit-columns: 2;
@@ -14,8 +13,12 @@
   -ms-column-gap: $gridUnit * 3;
   -o-column-gap: $gridUnit * 3;
   column-gap: $gridUnit * 3;
-
+  
   -webkit-filter: grayscale(100%) url(#yellow-filter);
+  -moz-filter: grayscale(100%) url(#yellow-filter);
+  -o-filter: grayscale(100%) url(#yellow-filter);
+  filter: grayscale(100%) url(#yellow-filter);
+
   @media (min-width: $breakpoint-sm){
     -webkit-columns: 3;
     -moz-columns: 3;
@@ -41,10 +44,19 @@
 
 .masonry__image {
   width: 100%;
+  max-width: 50vw;
   height: auto;
-  -webkit-filter:  brightness(160%) blur(2px) contrast(2000%) ;
+
+  -webkit-filter:  brightness(160%) blur(2px) contrast(2000%);
+  -moz-filter: brightness(160%) blur(2px) contrast(2000%);
+  -o-filter: brightness(160%) blur(2px) contrast(2000%);
+  filter: brightness(160%) blur(2px) contrast(2000%);
+
 }
 
 .masonry:active, .masonry:active .masonry__image {
   -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  filter: none;
 }

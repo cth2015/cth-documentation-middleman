@@ -9,12 +9,12 @@
       'About'
     ]
     $navigation_links = [
-      'anchor-header',
-      'anchor-body-2',
-      'anchor-body-3',
-      'anchor-body-4',
-      'anchor-partners',
-      'anchor-about'
+      'top',
+      'context',
+      'curation',
+      'facilitation',
+      'partners',
+      'about'
     ]
   %>
   <% for item in 0..5 %><a href="<%= config.http_prefix + '#' + $navigation_links[item] %>" class="btn btn--margin btn--nav <% if which_is_link_active == item+1 %>btn--is-active<% end %>"><%= $navigation_items[item] %></a><% end %>

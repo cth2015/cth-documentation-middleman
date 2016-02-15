@@ -1,7 +1,6 @@
 ---
 title: Partners
 date: 18-12-2015
-anchor: anchor-people
 partners: 
 - name: Angeliki Chalkia
   summery:

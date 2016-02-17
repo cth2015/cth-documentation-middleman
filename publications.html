@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Coding the Humanities">
+    <meta name="application-name" content="Coding the Humanities">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- end favicons -->
+
+    <!-- inline SVG filter -->
+    <svg style="display: none;">
+      <filter  id="yellow-filter" color-interpolation-filters="sRGB"
+              x="0" y="0" height="100%" width="100%">
+        <feColorMatrix type="matrix"
+          values="0.8980392156862745 0 0 0  0 
+                  0.8117647058823529 0 0 0  0  
+                  0.2235294117647059 0 0 0  0 
+                    0  0 0 1  0" />
+      </filter>
+      <filter id="sharpen">
+        <feConvolveMatrix order="3 3" preserveAlpha="true" kernelMatrix="0 -1 0 -1 5 -1 0 -1 0"/>
+      </filter>
+    </svg>
+    <!-- end filter -->
+
+    <title>Coding the Humanities</title>
+
+    <link href="/stylesheets/main.css" rel="stylesheet" />
+  </head>
+  <body class="layout__body" ontouchstart="">
+<div class="layout__item brand-secundary">
+  <header class="layout__item-top">
+    <nav class="nav">
+  <a href="/#top" class="btn btn--margin btn--nav btn--is-active">Top</a><a href="/#context" class="btn btn--margin btn--nav "><span class="hidden-sm">From Content to </span>Context</a><a href="/#curation" class="btn btn--margin btn--nav "><span class="hidden-sm">To </span>Curation</a><a href="/#facilitation" class="btn btn--margin btn--nav "><span class="hidden-sm"> To </span>Faciliation</a><a href="/#partners" class="btn btn--margin btn--nav ">Partners</a><a href="/#about" class="btn btn--margin btn--nav ">About</a>
+</nav>
+  </header>
+  <img class="image image--halfwidth image--padding" src="images/publications.svg" alt="">
+</div>
+
+<main class="layout__item">
+  <div class="layout__item-grid-content">
+    <h1 class="textbar textbar--fullwidth textbar--fullwidth--small">Projects</h1>
+    <h1 id="sugar-coating-tools" class="textbar textbar--fullwidth-smallest">Sugar Coating Tools</h1>
+    <div class="textbox textbox--padding-bottom textbox--with-emph-links">
+      <p>Workshops aimed at training humanities scholars in the use of digital tools are often focused on easy-to-use tools with intuitive, user-friendly interfaces. Some tools, such as <a href="http://prism.scholarslab.org/">Prism</a> or the <a href="https://books.google.com/ngrams/">Google Ngram Viewer</a>, are very specific and relatively easy to understand. Others, like <a href="https://gephi.github.io/">Gephi</a> and <a href="http://mallet.cs.umass.edu/index.php">Mallet</a>, are more generic and have extensive menus and lists of buttons or parameters and require weeks or even months of serious exploration to get to grips with. In these workshops, some simple examples are given of how these tools can be used for humanities research.</p>
+
+<h2 id="shying-away-from-critical-thinking">Shying away from critical thinking</h2>
+<p>Scholars make little progress in understanding how digital tools work under the hood, and when asked if that's important often reply they don't want to know about the details. After all, they're humanities scholars, not computer scientists or software developers. But is that a good enough reason? Would you trust a librarian to read and summarise some scholarly publications for you?</p>
+
+<p>These tools call for a programmatic approach. By tinkering with the nuts and bolts of the system, and controlling which modules and plugins are used, or how parameters are set, a user will get to understand what’s going on inside a tool. Every step inside the tool that transforms the data conveys a decision by the programmer about how to interpret the data. Remaining ignorant of such decisions on purpose is shying away from our responsibility as scholars to understand the methods we use, why we use them, and what their consequences are.</p>
+
+<h2 id="code-is-language-too">Code Is Language Too</h2>
+
+<p>Why are so many humanities researchers unwilling to adopt a programmatic perspective to the use of digital tools? Or why do so many workshop organisers think humanities scholars are not willing or able to learn to program and modify their own tools?</p>
+
+<p>Programming doesn't have to be approached from a computer science perspective, which is focused almost purely on processes and abstractions. Coding has a strong relationship with humanities too. It is <a href="http://codingthehumanities.com/essays/blurred-lines">conveyed through language</a>, makes use of metaphors, involves composition and gives us the freedom to do things in many different ways. Programming requires critical reflection on the possibilities and impossibilities of coding, and allows multiple perspectives on how something could or should be programmed.</p>
+
+<h2 id="into-the-nitty-gritty">Into the Nitty Gritty</h2>
+<p>Digital Humanities needs workshops and tutorials that discuss the gritty details of tool building and use. Scholars and students can be shown not only that programming is not too difficult to learn–especially if learned early in the curriculum–but also that digital research without such knowledge is at odds with the critical thinking that is rightly praised within the humanities. There are enough workshops that gently introduce digital tools with lots of sugar coating. Let’s have more workshops that teach technical detail and the skills to reflect on it critically.</p>
+
+      <div>
+        <a href="/#item-body-2" class="btn btn--small btn--top-margin"> &lt;&lt;&nbsp;Back </a>
+        <!-- onclick is iphone hover hack -->
+      </div>
+    </div>
+    <h1 id="when-all-we-have-is-a-hammer" class="textbar textbar--fullwidth-smallest">When All We Have Is A Hammer</h1>
+    <div class="textbox textbox--padding-bottom textbox--with-emph-links">
+      <p>Coding the Humanities is not about technology or even programming. It is all about tools. Software is a blind spot for the humanities. While our discipline is deeply invested in self-reflection, we hardly ever think about the digital tools that we use to produce and disseminate these deep thoughts. As a result, we fail to see the obvious. The applications that facilitate our teaching and research, were not written for us, let alone developed by us. In fact, they are unfit for our needs.</p>
+
+<p>In our research, we use a wordprocessor for almost everything. This factotum is part of a larger suite of proprietary enterprise applications, which is appropriately named after its intended use context. In an office setting this swiss army knife may be highly effective, but for research purposes it is rather blunt. Our pimped up typewriter does not offer any form of semantic mark up, has no citation management, and discourages collaboration.</p>
+
+<p>In teaching, the situation is possibly even more dire. While the omnipresent word processor is a mismatch with our research practice, most online teaching platfforms go to the other extreme: they are indistinguishable from it. Or at least its appearance. Their user interfaces exactly mimics the classroom setting. Its conceptual metaphors are sessions, discussions, assignments, etc. This also means, however, that they make little to no effort to actually enhance our practice. Digital tools have the potential to radically change the way scholars teach and students learn. Unfortunately, this promise remains unfulfilled.</p>
+
+<p>Even worse than the inadequacy of the individual research and teaching tools we use, may be the fact that they keep research and teaching completely separated. Of course, it is possible to embed text documents, hyperlinks and presentations in our teaching platforms, but that is about as far as the integration goes. We complain about the ever-increasing disconnect between our teaching and research, but do not realise that our current tools do nothing to help us bridge that gap.</p>
+
+<p>No matter how bad our workflow is, we do not talk about tools. Humanities' scholar have more important things to discuss. We are interested in content, not in the structures that create it. We thereby selectively ignore most twentieth century theory which should have taught us to focus on the structures that produce knowledge rather than on their results.</p>
+
+<p>How different is the situation in software development. Programmers shape their work environment until it fits their individual needs. However, this shaping and tweaking does not happen in isolation. It is done in a constant dialogue with the community. Developers fight entire wars over text editors and IDE's (Integrated Development Environments). If they do not like a certain framework or library, they write their own, add missing features, or fork the project. And this process of discussion and deliberation is not limited to the virtual environment. Standing desks, shoes, and dietary regimes are very much part of it.</p>
+
+<p>Deliberate use of tools marks the difference between craftmanship and dumb labor. By solving all problems with their hammers, humanities' scholars reduce all problems to nails. Appropriate tools not only increase efficiency, they also enhance the ability to differentiate between different problems, and enable solutions to problems that have not even been discovered. Practice, not content, drives a field forwards. It is this very insight that motivates Coding the Humanities.</p>
+
+      <div>
+        <a href="/#item-body-2" class="btn btn--small btn--top-margin"> &lt;&lt;&nbsp;Back </a>
+        <!-- onclick is iphone hover hack -->
+      </div>
+    </div>
+    <h1 id="blurred-lines" class="textbar textbar--fullwidth-smallest">Blurred Lines</h1>
+    <div class="textbox textbox--padding-bottom textbox--with-emph-links">
+      <p>I remember the day when I drew that first line on the screen of my computer using a command something like &lt; line (x,y) &gt;. I clicked "run" and indeed a line appeared. I had interacted with a machine that I'd formerly though of as both an enabled typewriter and a black box at the same time. I learned that my computer and I were capable of much more than text processing.</p>
+
+<p>When I clicked run that day, something clicked within me too: I realised that programming and markup languages are just another type of language, only slightly different from those I'd been using my entire life. Treating programming languages as languages made them accessible to me. Yet, computer languages seemed much more able to eliminate ambiguity and appeared to be always performative.</p>
+
+<h2 id="the-story-world-of-programming-languages">The Story World of Programming Languages</h2>
+<p>Performatives, and its counterpart constatives, is a distinction made by John Austin in his 1962 work <em>How to Do Things with Words</em>. Constatives, Austin argues, are locutions (utterances) that say something about a state of affairs and can be either true or false. Performatives are locutions that accomplish something.</p>
+
+<p>Literature (neglected by Austin) can be considered a prime example of performative language: it brings into being a new reality–characters, places, actions. Programming languages do the same. Javascript creates a space (a world) where <em>var a = 5</em> changes the meaning of <em>a</em> from nothing or something else to <em>5</em> and Ruby allows for a space in which objects are made of text. These variables and objects (actors) play a role in the further development (actions) of the program (the story).</p>
+
+<p>Of interest here specifically is a certain type of performatives: the explicit performative. The explicit performative is an act of speech (the overarching theory of performatives, constatives, locutions, and so on is called speech-act theory) that brings about a change in the state of reality. For example the sentence "I hereby pronounce you husband and wife." It needs to be pronounced by a certain institution and under certain conditions. Yet, if the context is right, a set of words changes reality. Methods–a programming procedure that accesses an object in object oriented programming languages–can utter the programming equivalent of "I hereby pronounce you to …" and change the state or function of the object altogether.</p>
+
+<p>A closer look turns out that not every locution in programming languages is a performative. Booleans–formulas that are return either a true or false–are a great example of a constative (a locution that says something about a state of affairs and can be either true or false). The story world of programming languages turns out to be as much a linguistic treasure as literature and human language are.</p>
+
+<h2 id="the-humanness-of-speech">The Humanness of Speech</h2>
+
+<p>In literary criticism, ever since William Epson published his <em>Seven Types of Ambiguity</em> in 1930, ambiguity is considered a poetic device. If used properly, ambiguity adds to the complexity of the text as well as the experience of the reader. Poetry and literature turn ambiguity into a sign of quality rather than an flaw, as it was and is still often regarded in human communication.</p>
+
+<p>In programming languages, as in human language, ambiguity appears as something that should be avoided–a typo or simply omitting a semi-colon at the end of a sentence quickly results in an error message. It seems that if you want a software program to run properly, everything to the tiniest detail has to be in control. However, second look at programming languages reveals that ambiguity is inherent in programming languages as in human language. While the so-called <a href="http://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem">diamond problem</a>, causes programmers to seek ways to solve or avoid its ambiguity, game programmers are utterly comfortable with evoking spaces where ambiguity runs rampant.</p>
+
+<p>Where computer programs become more and more complex and try to build increasingly complex forms of artificial intelligence, ambiguity seems to be more and more a prerequisite rather than an inconvenience. Human communication, despite how much we’d want it to, is never free of ambiguity. As literature has taught us, this is its beauty rather than fault. Subsequently, for a program to approach humanness as closely as possible, it has to embrace ambiguity and embrace its possibilities.</p>
+
+<h3 id="to-a-shared-language">To a Shared Language</h3>
+<p>Allowing for ambiguity, however, entails opening up your artificial universe for unexpectedness, uncertainty and the potential of failure. Or as Nishant writes, this act diminishes the amount of control we can exert over these worlds:</p>
+
+<blockquote>
+  <p>A software program is really a rudimentary representation of reality with many axes of complexity reduced or entirely collapsed. The ability of programming languages to cut through ambiguity is actually a symptom of our own rudimentary understanding of the universe. We think that the ability of programming languages to eliminate ambiguity is a desirable feature (rather than a bug) because as humans we need to tell ourselves that we have some control of our environment.</p>
+</blockquote>
+
+<p>Yet, the simple and deterministic programming culture of today is being replaced by more organic systems. Newer programming languages more closely resemble the way in which natural language works. The more natural the programs running our machines become, the less artificial they’ll feel. And the more room programming languages bear for ambiguity and complexity, the more they’re and our vocabulary to represent reality increases.</p>
+
+<p>At first, human interaction had to be stripped down to its bare essentials in order for artificial intelligence and computer science to enact humanity in machines. Yet, today we’ve mastered the essentials and can add the complexities to it that make it human. We are ready to step away from software programs as the ideal and controlled versions of reality to machines that allow for complexity and the inevitability of uncertainty. The lines are blurred already. We should get ready for them to disappear.</p>
+
+<p>— Charlotte van Oostrum (<a href="https://www.linkedin.com/in/cevoostrum">@cevoostrum</a>)</p>
+
+<p><em>With thanks to Nishant "<a href="http://rainypixels.com/">@Rainypixels</a>" Kothary, for filling in the gaps in my knowledge of programming languages and being an inspiring and insighful writing partner</em></p>
+
+      <div>
+        <a href="/#item-body-2" class="btn btn--small btn--top-margin"> &lt;&lt;&nbsp;Back </a>
+        <!-- onclick is iphone hover hack -->
+      </div>
+    </div>
+    <h1 id="the-brown-map" class="textbar textbar--fullwidth-smallest">Historical Dutch Asiatic Trade</h1>
+    <div class="textbox textbox--padding-bottom textbox--with-emph-links">
+      <p>In the 17th and 18th century thousands of Dutch ships sailed to Asia and vice versa. Over the last fourty years Dutch historians and institutes spent a considerable amount of time and resources on collecting and storing trade-related sources into databases. Historical Dutch-Asiatic Trading (HDAT), a student project by Robert-Jan Korteschiel and Erik van Zummeren, gathered various datasets and visualises those datasets on a world map.</p>
+
+      <div>
+        <a href="/#item-body-3" class="btn btn--small btn--top-margin"> &lt;&lt;&nbsp;Back </a>
+        <!-- onclick is iphone hover hack -->
+        <a href="http://hdat.nl/" class="btn btn--small btn--top-margin"> 
+          Site&nbsp;&gt;&gt; </a>
+      </div>
+    </div>
+    <h1 id="how-to-train-your-programmer" class="textbar textbar--fullwidth-smallest">How to Train Your Programmer</h1>
+    <div class="textbox textbox--padding-bottom textbox--with-emph-links">
+      <p>When you train programmers, teach programming concepts, not language features.</p>
+
+      <div>
+        <a href="/#item-body-3" class="btn btn--small btn--top-margin"> &lt;&lt;&nbsp;Back </a>
+        <!-- onclick is iphone hover hack -->
+      </div>
+    </div>
+    <h1 id="augmenting-masterpieces" class="textbar textbar--fullwidth-smallest">Augmenting Masterpieces</h1>
+    <div class="textbox textbox--padding-bottom textbox--with-emph-links">
+      <p>Augmenting Masterpieces explores visitors' experiences and the social dimensions of a visit to the Rijksmuseum. It translates the findings into an interface which lets the visitor interact with both the physical and the digital collection. Through embedded and artistic research methods the project reduces the gap between academic research and creative production. Its results manifest in a prototype, academic articles and this multi-medial presentation.</p>
+
+      <div>
+        <a href="/#item-body-3" class="btn btn--small btn--top-margin"> &lt;&lt;&nbsp;Back </a>
+        <!-- onclick is iphone hover hack -->
+        <a href="http://augmentingmasterpieces.eu/" class="btn btn--small btn--top-margin"> 
+          Site&nbsp;&gt;&gt; </a>
+      </div>
+    </div>
+    <h1 id="saturns-ears" class="textbar textbar--fullwidth-smallest">Saturns Ears</h1>
+    <div class="textbox textbox--padding-bottom textbox--with-emph-links">
+      <p>In 1610, when Galileo Galilei was the first to look at the planet of Saturn through a telescope, <a href="https://en.wikipedia.org/wiki/Rings_of_Saturn">he discovered that it had ears</a>. But when he looked again a few months later, they were gone. It wasn’t until 1655, when Christiaan Huygens looked at Saturn again–with a better telescope this time–that Saturn’s ears were rediscovered and recognized as rings. Two centuries later, James Maxwell saw that those rings actually consisted of blocks of debris that only <em>looked</em> as rings due to their movement.</p>
+
+<p>Later, it was found out that when Galileo failed to see the ears, he’d seen the rings edge-on. His telescope didn’t have enough power to sufficiently enlarge the edge, which made it invisible at the time. Finally, in 2004, NASA’s Cassini Orbiter arrived at Saturn. It’s still in orbit, and sends back new information and images every day. It’s as if we’re there: “[g]azing upon one of our images, we are instantly there, hovering above the rings or climbing the cliffs of Iapetus,” the <a href="http://www.ciclops.org/">Cassini Imaging Laboratory</a> writes.</p>
+
+<h2 id="the-relation-between-nature-and-man">The Relation Between Nature and Man</h2>
+
+<p>From Galileo’s early telescope to NASA’s space shuttle, every technological development altered our conception of Saturn and consequently our universe. Walter Benjamin once wrote: “Technology is not the mastery of nature but of the relation between nature and man.” Technology is a mediator. In the case of Saturn, this means that an object looks different dependent on the tool you use to visualise it.</p>
+
+<p>For Galileo, seeing things differently had very real consequences. He saw many more things through his telescope besides Saturn’s ears, and he discovered that the universe revolves around the sun and not the earth. This change in perspective threatened to change the world–the Catholic world especially. To stall the seismic shift that was about to shatter their belief system, Galileo was given house arrest for the rest of his days.</p>
+
+<h2 id="your-world-my-world">Your World, My World</h2>
+
+<p>Today, many people are fortunate enough to live in a world where it’s encouraged to develop a perspective of your own. When perspectives live alongside one another, they often remain just that: different views on things. Yet, a perspective is more than just a view. A perspective is a filter for your interpretation of the world around you, just as Galilei’s telescope created the context for his interpretation of Saturn’s rings.</p>
+
+<p>Depending upon the context, my interpretation of the world may differ from yours. 
+Most of the time, that’s OK. Yet, seeing an object in a different light (for example at a different time or place, or mediated by a new technology) can change its perception. Consequently, every new device, tool, app, or argument can change a person’s perceptive of something, and therefore has the potential power to alter someone’s world as they know it. It’s something to keep in mind when we make things.</p>
+
+
+      <div>
+        <a href="/#item-body-4" class="btn btn--small btn--top-margin"> &lt;&lt;&nbsp;Back </a>
+        <!-- onclick is iphone hover hack -->
+      </div>
+    </div>
+    <h1 id="constructing-critism" class="textbar textbar--fullwidth-smallest">Constructing Criticism: making versus thinking in digital humanities</h1>
+    <div class="textbox textbox--padding-bottom textbox--with-emph-links">
+      <p>I recently tried out a new claim on a group of students: Critiquing is a form of making. That was met with a lot of criticism. Clearly, few students liked my idea that, similar to using and building digital tools, critiquing is a form of making, which is often expressed in terms of ‘making’, e.g. ‘constructive criticism’, ‘shaping an argument’, and ‘a critique resting on solid foundations.’</p>
+
+<h2 id="building-a-humanistic-skill-or-mundane-task">Building: A Humanistic Skill or Mundane Task?</h2>
+<p>There is a discussion in the digital humanities community about the role of <em>building</em> in the humanities and to what extent <a href="http://stephenramsay.us/text/2011/01/11/on-building/">digital tool building</a> should be considered part of scholarly work, on the same level as for instance criticism of such tools.
+According to <a href="http://www.newrepublic.com/article/117428/limits-digital-humanities-adam-kirsch">Adam Kirsch</a> “[a] humanities culture that prizes thinking and writing will tend to look down on making and building as banausic—the kind of labor that can be outsourced to non-specialists.”</p>
+
+<p><a href="http://stephenramsay.us/text/2011/01/08/whos-in-and-whos-out/">Stephen Ramsay</a> argued that digital humanists need to have coding skills, since digital humanities is all about making things.</p>
+
+<p>Kirsch replied: “But are they humanistic skills? Was it necessary for a humanist in the past five hundred years to know how to set type and publish a book? Moreover, is it practical for a humanities curriculum that can already stretch for ten years or more, from freshman year to Ph.D., to be expanded to include programming skills?”</p>
+
+<p>Reading and writing are necessary skills to understand the content of a book. Why would that be any different for digital tools? In both cases, the output is the outcome of the input and the transformations made on that input. Understanding the computational steps that shape a digital tool is a skill similar to knowing how to read and write.</p>
+
+<h2 id="criticism-rests-on-a-pile-of-knowledge">Criticism Rests on a Pile of Knowledge</h2>
+<p>What makes critiquing different from building a digital tool? Both require thinking, both require careful structuring of thinking steps. It seems that these two things are both on a single spectrum of making: while implementing the computational steps of an algorithm is more concrete, it very much requires critical thinking. Thinking seems an essential part of making.</p>
+
+<p>Another connection between critiquing and more concrete forms of making is that critiquing something, be it an idea, an object or a method, requires knowledge of the <em>inner workings</em> of that idea, object or method.</p>
+
+<p>Anyone can criticize an English novel, but people can <em>construct</em> better critiques when they understand English better and make them even better when they have some theoretical background on literary criticism and have read other books. Criticism <em>rests</em> on a huge pile of relevant and irrelevant knowledge.</p>
+
+<p>Critiquing is not just the tip of the iceberg, but permeates the entire knowledge <em>structure</em>.</p>
+
+<h2 id="the-power-of-critique">The Power of Critique</h2>
+<p>Critiquing a digital approach to humanities research is no different in that sense from reviewing a paper on theoretical physics. One needs to be intimately familiar with the topic and the methods involved. Should you know how to code to be able to criticize a digital tool or some research based on it? To distinguish valid criticism from invalid criticism, yes, you should.</p>
+
+<p>Erez Aiden and Jean-Baptiste Michel have made some bold interpretations based on the Google Books Ngram Viewer, which <a href="http://www.culturomics.org/Resources/faq">received a lot of criticism</a>, including from Adam Kirsch. Many such critiques rest on a lack of understanding of the underlying technologies and the underlying data, which <em>undermine</em> the value of the critique. The power of critique comes from understanding both the material and the methodology and tools used.</p>
+
+<h2 id="do-not-force-a-distinction-between-making-and-critiquing">Do Not Force a Distinction Between Making and Critiquing</h2>
+<p>This is the core of the Coding the Humanities project. Tools should fit the questions for which their use can provide an answer. Knowing how to choose the appropriate tools requires knowing how they (should) work. Useful criticism builds on understanding <em>foundations</em>, <em>inner workings</em> and external influences.</p>
+
+<p>There is no need to force a distinction between 'making' and 'critiquing'. Daniel Dennett speaks about methods of critical analysis as thinking tools. He views computers as thinking tools par excellence, because they help us think through very complex ideas in very small, <em>concrete</em> steps.</p>
+
+<p>Some of the students maintained their resistance against my claim that critiquing is a form of making. Yet, they admitted that a thorough comparison of several digital research tools makes it easier to identify common <em>building blocks</em> of tools and use that knowledge to better <em>construct</em> and <em>reinforce</em> any criticism. I think their choice of terms speaks volumes.</p>
+
+      <div>
+        <a href="/#item-body-4" class="btn btn--small btn--top-margin"> &lt;&lt;&nbsp;Back </a>
+        <!-- onclick is iphone hover hack -->
+      </div>
+    </div>
+  </div>
+</main>
+    <footer class="layout__item layout__item--footer brand-base">
+      <div class="layout__item-grid-content">
+        <summery class="textbox">
+          <h1 class="textbar textbar--inverse">Coding_</h1>
+          <a href="/projects.html#" class="textbar textbar--inverse textbox--float-right show-sm">Projects</a>
+          <br>
+          <h1 class="textbar textbar--inverse">the_</h1>
+          <a href="/publications.html#" class="textbar textbar--inverse textbox--float-right show-sm">Publications</a>
+          <br>
+          <h1 class="textbar textbar--inverse textbar--margin-bottom">Humanities</h1>
+          <a href="/#" class="textbar textbar--inverse textbox--float-right show-sm">Process</a>
+          <p>Coding the Humanities is a collective of teachers, students and researchers who build a set of teaching practices and tools that leverages existing knowledge and resources.</p>
+          <p>Contact: <a class="textbox__inverse-link" href="mailto:yeehaa@codingthehumanities.com">Jan Hein Hoogstad</a></p>
+          <img class="image image--fullwidth image--margin-top" src="images/uva-logo.svg" alt="">
+        </summery>
+      </div>
+      <div class="layout__item-offgrid-content hidden-md">
+        <div class="textbox textbox--align-right">
+          <a href="/projects.html#" class="textbar textbar--inverse textbox--float-right">Projects</a><br>
+          <a href="/publications.html#" class="textbar textbar--inverse textbox--float-right">Publications</a><br>
+          <a href="/#" class="textbar textbar--inverse textbox--float-right">Process</a>
+        </div>
+      </div>
+    </footer>
+    <script src="/javascripts/all.js"></script>
+  </body>
+</html>

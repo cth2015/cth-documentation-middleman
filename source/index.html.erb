@@ -23,20 +23,23 @@ layout: main
 
 <div class="layout__item">
   <div onclick="" class="masonry">
-    <% for img in 1..34 %><div onclick="" class="masonry__image-outer-container"><div onclick="" class="masonry__image-container"><img onclick="" class="masonry__image" src="./images/masonry/<%= img %>.jpg"></div></div><% end %>
+    <% for img in 1..34 %>
+    <img onclick="" class="masonry__image" src="./images/masonry/<%= img %>.jpg">
+    <% end %>
   </div>
 </div>
 
 <% for item in 2..4 %>
   <% blog('blocks').articles.each do |block| %>
   <% if block.data.item == item %>
-<div id="<%= block.data.anchor %>" class="layout__item">
-  <header class="layout__item-top brand-primary image-background-<%= item %>">
+  <header id="<%= block.data.anchor %>" class="layout__item-top brand-primary image-background-<%= item %>">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
     <img style="opacity: 0;" class="image image--fullwidth" src="./images/item-body-<%= item %>.svg"></header>
   <article class="layout__item-grid-content">
-    <h1 class="textbar textbar--fullwidth-smallest"><%= block.title %></h1>
-    <div class="textbox textbox--accent"><%= block.body %></div>
+    <div class="textbox textbox--accent">
+      <h1 class="textbar"><%= block.title %></h1>
+      <%= block.body %>
+    </div>
   </article>
   <% end %>
   <% end %>
@@ -63,8 +66,10 @@ layout: main
     <img class="image image--fullwidth image--padding" src="images/item-partners.svg" alt="">
   </header>
   <article class="layout__item-grid-content">
-    <h1 class="textbar textbar--fullwidth-smallest"><%= blog('blocks').articles[4].data.title %></h1>
-    <div class="textbox"><%= blog('blocks').articles[4].body %></div>
+    <div class="textbox">
+      <h1 class="textbar"><%= blog('blocks').articles[4].data.title %></h1>
+      <%= blog('blocks').articles[4].body %>
+    </div>
   </article>
   <div class="layout__item-partners">
     <% for entity in blog('blocks').articles[4].data.partners %>
